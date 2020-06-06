@@ -79,21 +79,16 @@ profile:
     + First
     + Second
 
-
 education:
   display: true
   title: Education
   items:
     - university: "HEB-ESI"
-      mdlogo: '![Haute Ecole de Bruxelles Ecole Superieure d Informatique](/assets/images/education/HE2B-ESI.jpg)'
-      logo: HE2B-ESI.jpg
       time: 2013 - 2016
       major: Informatique des Réseaux
       degree: Bachelor's degree (not graduated, completed years 1 & 2)
 
     - university: "International School of Brussels"
-      mdlogo: '![International School of Brussels](/assets/images/education/ISB.png)'
-      logo: ISB.png
       time: 2007 - 2010
       major: Physics, Economics and Litterature majors, standard Math
       degree: International Baccalaureate
@@ -104,7 +99,6 @@ experiences:
   items:
     - role: Backend Developer
       time: 2018.03 - present
-      logo: philips-hsdp.png
       company: Philips N.V
       tag: full-time
       location: Eindhoven, The Netherlands
@@ -118,7 +112,6 @@ experiences:
 
     - role: Full-stack Developer
       time: 2017.03 - 2018.06
-      logo: engie_fas.png
       company: Engie Fabricom Airport Systems
       tag: full-time
       location: Brussels, Belgium
@@ -131,14 +124,12 @@ experiences:
 
     - role: Backend Developer
       time: 2016.06 - 2016.12
-      logo: keemotion.jpg
       company: Keemotion
       tag: full-time
       location: Louvain-la-Neuve, Belgium
       details: |
         - Swift - iOS application UI Testing.
         - On-Promise based PHP micro-services migration into AWS Lambda, CloudFormation and APIGateway.
-
 
 projects:
   display: true
@@ -173,7 +164,6 @@ projects:
       details: |
         Goalie training application in VR
     
-
 publications:
   display: false
   title: Publications
@@ -199,7 +189,7 @@ skills:
     + JavaScript
     - TypeScript
     + AWS (Lambda, DynamoDB, CloudFormation)
-    - something1 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+    - something1 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png " Title Text 1")
 
     ...
 

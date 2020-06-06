@@ -1,40 +1,51 @@
 intro:
-  name: Foo Bar
-  title: Backend Developer
+  name: Romain Lussier
+  title: Full Stack Developer
   avatar:
     display: true
     path: profile.png
 
 contact:
-  email: me@example.com
-  phone: +86-111-2222-3333
-  whatsapp:
-  telegram:
-  website: example.com
-  medium:
-  linkedin:
-  github: github
-  gitlab:
-  bitbucket:
-  twitter: twitter
-  stackoverflow:
-  quora:
-  goodreads:
+  email: lussier.romain@gmail.com
+  phone: (+32)-491-59-81-81
+  whatsapp: (+32)-491-59-81-81
+  website: romdj.xyz(under construction)
+  linkedin: romainlussier
+  github: romdj
+  gitlab: romdj
+  bitbucket: romdj
+  stackoverflow: romdj
 
 languages:
   display: true
   title: Languages
   items:
-    - idiom: Chinese
+    - idiom: French
       level: Native
     - idiom: English
-      level: Professional
+      level: Native
+    - idiom: Spanish
+      level: B2
+    - idiom: German
+      level: Notions (A2)
+    - idiom: Dutch
+      level: Notions (A2)
 
 interests:
   display: true
   title: Interests
   items:
-    - item: Reading
+    - item: Hackathons/Startup weekends
+      link:
+    - item: Cycling
+      link:
+    - item: Ice Hockey
+      link:
+    - item: Tennis
+      link:
+    - item: Cooking
+      link:
+    - item: Investing
       link:
     - item: Cooking
       link:

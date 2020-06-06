@@ -83,14 +83,14 @@ education:
   display: true
   title: Education
   items:
-    - university: HEB-ESI
+    - university: "HEB-ESI"
       mdlogo: '![Haute Ecole de Bruxelles - Ecole Superieure d'Informatique](/assets/images/education/HE2B-ESI.jpg) "Haute Ecole de Bruxelles - Ecole Superieure d'Informatique"'
       logo: HE2B-ESI.jpg
       time: 2013 - 2016
       major: Informatique des Réseaux
       degree: Bachelor's degree (not graduated, completed years 1 & 2)
 
-    - university: International School of Brussels
+    - university: "International School of Brussels"
       mdlogo: '![International School of Brussels](/assets/images/education/ISB.png) "International School of Brussels"'
       logo: ISB.png
       time: 2007 - 2010

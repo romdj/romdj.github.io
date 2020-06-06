@@ -39,40 +39,31 @@ interests:
   title: Interests
   items:
     - item: Hackathons/Startup weekends
-      icon:
+      link:
+    - item: AR/VR
       link:
     - item: Triathlon
-      icon:
       link:
     - item: Ski
-      icon:
       link:
     - item: Cycling
-      icon:
       link:
     - item: Ice Hockey
-      icon:
       link:
     - item: Tennis
-      icon:
       link:
     - item: Cooking
-      icon:
       link:
     - item: Investment
-      icon:
       link:
     - item: Cooking
-      icon:
       link:
 
 profile:
   display: true
   title: Profile
   details: |
-    It's your career profile, you can write markdown format text.
-    + First
-    + Second
+    Full stack software developer with an extreme passion for new businesses and opportunities arising from new technologies.
 
 education:
   display: true
@@ -158,6 +149,14 @@ projects:
         - Oculus Quest
       details: |
         Goalie training application in VR
+
+    - name: Eindhoven Technology Meetup group
+      link: https://www.meetup.com/Eindhoven-Technology-Meetup-Group/
+      tags: 
+        - Meetup
+      details: |
+        - Community Founder
+        - event Co-organizer and host
     
 publications:
   display: false
@@ -178,18 +177,25 @@ publications:
 skills:
   display: true
   title: Skillset
+  techs:
+    - name: Node.JS
+      level: 4
+    - name: JavaScript 
+      level: 4
+    - name: TypeScript
+      level: 4
+    - name: AWS (Lambda, DynamoDB, CloudFormation ...)
+      level: 4
+    - name: Flutter / Dart (couple of smaller projects)
+      level: 2
+    - name: Kotlin (few projects)
+      level: 1
+    - name: GoLang (few projects)
+      level: 1
+    - name: Ruby (few projects)
+      level: 1
   details: |
     Here are my skills:
-    - Node.JS
-    - JavaScript 
-    - TypeScript
-    - AWS (Lambda, DynamoDB, CloudFormation ...) (strong)
-    - Flutter (couple of smaller projects)
-    | Tables        | Are           | Cool  |
-    | ------------- |:-------------:| -----:|
-    | col 3 is      | right-aligned | $1600 |
-    | col 2 is      | centered      |   $12 |
-    | zebra stripes | are neat      |    $1 |
 
   comment: Albeit my experience is strongly oriented around the Javascript, I believe that a language serves a purpose, and learning something new has to be always be a part of the software engineer's journey
 

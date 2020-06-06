@@ -180,12 +180,11 @@ skills:
   title: Skillset
   details: |
     Here are my skills:
-    - Node.JS ![alt text](/assets/images/tech/nodejs.svg "Node.Js")
+    - Node.JS
     - JavaScript 
     - TypeScript
     - AWS (Lambda, DynamoDB, CloudFormation ...) (strong)
     - Flutter (couple of smaller projects)
-    - something1 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png " Title Text 1")
 \
 \ | Tables        | Are           | Cool  |
 \ | ------------- |:-------------:| -----:|

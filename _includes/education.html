@@ -6,22 +6,23 @@
         {{ education.title }}
     </div>
 
-    {% for graduation in education.items %}
+    {% for educationexperience in education.items %}
     <div class="item">
 
         <div class="upper-row">
-            <div class="university">{{ graduation.university }}</div>
-            <div class="time">{{ graduation.time }}</div>
+            ![My helpful screenshot]({{ site.baseurl }}/assets/images/education/{{ educationexperience.logo }})
+            <div class="university">{{ educationexperience.university }}</div>
+            <div class="time">{{ educationexperience.time }}</div>
         </div>
 
         <div class="upper-row">
-            <div class="major">{{ graduation.major }}</div>
-            <div class="degree">{{ graduation.degree }}</div>
+            <div class="major">{{ educationexperience.major }}</div>
+            <div class="degree">{{ educationexperience.degree }}</div>
         </div>
 
-        {% if graduation.details %}
+        {% if educationexperience.details %}
         <div class="details">
-            {{ graduation.details | markdownify }}
+            {{ educationexperience.details | markdownify }}
         </div>
         {% endif %}
 

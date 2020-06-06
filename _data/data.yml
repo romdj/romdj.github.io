@@ -84,7 +84,7 @@ education:
   title: Education
   items:
     - university: "HEB-ESI"
-      mdlogo: '![Haute Ecole de Bruxelles - Ecole Superieure d'Informatique](/assets/images/education/HE2B-ESI.jpg) "Haute Ecole de Bruxelles - Ecole Superieure d'Informatique"'
+      mdlogo: '![Haute Ecole de Bruxelles Ecole Superieure d Informatique](/assets/images/education/HE2B-ESI.jpg) "Haute Ecole de Bruxelles - Ecole Superieure d Informatique"'
       logo: HE2B-ESI.jpg
       time: 2013 - 2016
       major: Informatique des Réseaux

@@ -44,7 +44,7 @@ If you want to print your resume, just press shortcut of print. Also it can be s
 
 #### Locally
 
-If you want to use it locally, you shoule clone this repo then just like deploying a regular jekyll website.
+If you want to use it locally, you should clone this repo then just like deploying a regular jekyll website.
 
 ### Customization
 

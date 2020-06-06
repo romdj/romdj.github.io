@@ -10,8 +10,10 @@
 
         <div class="upper-row">
             <div class="company">
-                <img class="avatar" src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}" alt="avatar">
-                {{ experience.company }}
+                <p>
+                    {{ experience.company }}
+                    <img src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}" alt="alt text" title="{{ experience.company }}">
+                </p>
                 {% if experience.tag %}
                 <small>[{{ experience.tag }}]</small>
                 {% endif %}

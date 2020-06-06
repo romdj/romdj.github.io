@@ -13,13 +13,14 @@
                     <th colspan="2">The table header</th>
                 </tr>
             </thead>
-               {% for tech in skills.techs %}
+            {% for tech in skills.techs %}
             <tbody>
                 <tr>
                     <td>{{ tech.name }}</td>
                     <td>{{ tech.level }}</td>
                 </tr>
             </tbody>
+            {% endfor %}
         </table>
         {{ skills.details | markdownify }}
     </div>

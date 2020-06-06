@@ -9,11 +9,12 @@
     <div class="item">
 
         <div class="upper-row">
+            
+            
             <div class="company">
-                ![My helpful screenshot]({{ site.baseurl }}/assets/images/companies/{{ experience.logo }})
-                {{ experience.company }}
+                {{ experience.mdlogo | markdownify}} {{ experience.company }}
                 {% if experience.tag %}
-                <small>[{{ experience.tag }}]</small>
+                    <small>[{{ experience.tag }}]</small>
                 {% endif %}
             </div>
             <div class="time">{{ experience.time }}</div>

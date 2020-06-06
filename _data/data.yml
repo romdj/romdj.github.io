@@ -104,7 +104,8 @@ experiences:
     - role: Backend Developer
       time: 2018.03 - present
       logo: philips-hsdp.png
-      company: Second Company
+      mdlogo: '![Philips HSDP](/assets/images/companies/philips-hsdp.png)'
+      company: Philips N.V
       tag: full-time
       location: Eindhoven, The Netherlands
       details: |
@@ -118,6 +119,7 @@ experiences:
     - role: Full-stack Developer
       time: 2017.03 - 2018.06
       logo: engie_fas.png
+      mdlogo: '![Engie Fabricom Airport Systems](/assets/images/companies/engie_fas.png)'
       company: Engie Fabricom Airport Systems
       tag: full-time
       location: Brussels, Belgium
@@ -131,6 +133,7 @@ experiences:
     - role: Backend Developer
       time: 2016.06 - 2016.12
       logo: keemotion.jpg
+      mdlogo: '![Keemotion](/assets/images/companies/keemotion.jpg)'
       company: Keemotion
       tag: full-time
       location: Louvain-la-Neuve, Belgium

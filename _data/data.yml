@@ -96,6 +96,8 @@ experiences:
           - Unity/VR showcase application to promote Use case in a VR environment 
           - Walkthrough Web application to simulate and ease customer integration 
 
+          ...
+
     - role: Full-stack Developer
       time: 2017.03 - 2018.06
       company: Engie Fabricom Airport Systems
@@ -108,6 +110,8 @@ experiences:
         - A few projects were done in Python and Kibana with Elastic stack.
         - Marginal software maintenance done in Java and C#
 
+        ...
+
     - role: Backend Developer
       time: 2016.06 - 2016.12
       company: Keemotion
@@ -116,6 +120,8 @@ experiences:
       details: |
         - Swift - iOS application UI Testing.
         - On-Promise based PHP micro-services migration into AWS Lambda, CloudFormation and APIGateway.
+
+        ...
 
 projects:
   display: true

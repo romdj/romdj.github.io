@@ -68,11 +68,13 @@ education:
   title: Education
   items:
     - university: HEB-ESI
+      logo: HE2B-ESI.jpg
       time: 2013 - 2016
       major: Informatique des Réseaux
       degree: Bachelor's degree (not graduated)
 
     - university: International School of Brussels
+      logo: ISB.png
       time: 2007 - 2010
       major: Physics, Economics and Litterature majors
       degree: International Baccalaureate

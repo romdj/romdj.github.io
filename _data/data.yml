@@ -12,7 +12,7 @@ contact:
   email: lussier.romain@gmail.com
   phone: (+32)-491-59-81-81
   whatsapp: (+32)-491-59-81-81
-  website: romdj.xyz(under construction)
+  website: romdj.xyz
   linkedin: romainlussier
   github: romdj
   gitlab: romdj
@@ -24,19 +24,14 @@ languages:
   title: Languages
   items:
     - idiom: French
-      flagicon: ':flag-fr:'
       level: Native
     - idiom: English
-      flagicon: ':flag-uk:'
       level: Native
     - idiom: Spanish
-      flagicon: ':flag-es:'
       level: B2
     - idiom: German
-      flagicon: ':flag-de:'
       level: Notions (A2)
     - idiom: Dutch
-      flagicon: ':flag-nl:'
       level: Notions (A2)
 
 interests:
@@ -185,16 +180,16 @@ skills:
   title: Skillset
   details: |
     Here are my skills:
-    + Node.JS
-    + JavaScript
+    - Node.JS ![alt text](/assets/images/tech/nodejs.svg "Node.Js")
+    - JavaScript :+1:
     - TypeScript
-    + AWS (Lambda, DynamoDB, CloudFormation)
+    - AWS (Lambda, DynamoDB, CloudFormation ...) (strong)
+    - Flutter (couple of smaller projects)
     - something1 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png " Title Text 1")
-
-    ...
+  comment: Albeit my experience is strongly oriented around the Javascript, I believe that a language serves a purpose, and learning something new has to be always be a part of the software engineer's journey
 
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.
@@ -206,5 +201,5 @@ evaluation:
 footer:
   display: true
 
-close: >
-  Sorry, my resume has been hidden.
+close: 
+  Thank you for reading! If you enjoyed, Please give me a Thumbs Up!.

@@ -14,7 +14,7 @@ contact:
   github: romdj
   gitlab: romdj
   bitbucket: romdj
-  stackoverflow: romdj
+  stackoverflow: 2996025/romdj
 
 languages:
   display: true
@@ -37,6 +37,10 @@ interests:
   items:
     - item: Hackathons/Startup weekends
       link:
+    - item: Triathlon
+      link:
+    - item: Ski
+      link:
     - item: Cycling
       link:
     - item: Ice Hockey
@@ -45,7 +49,7 @@ interests:
       link:
     - item: Cooking
       link:
-    - item: Investing
+    - item: Investment
       link:
     - item: Cooking
       link:
@@ -64,54 +68,56 @@ education:
   display: true
   title: Education
   items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      details: |
-        Experience in this university:
-        + First
-        + Second
+    - university: HEB-ESI
+      time: 2013 - 2016
+      major: Informatique des Réseaux
+      degree: Bachelor's degree (not graduated)
 
-        ...
-
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
-
+    - university: International School of Brussels
+      time: 2007 - 2010
+      major: Physics, Economics and Litterature majors
+      degree: International Baccalaureate
+      
 experiences:
   display: true
-  title: Experiences
+  title: AWS IoT Node.js Developer
   items:
     - role: Backend Developer
-      time: 2018.03 - 2019.03
+      time: 2018.03 - present
       company: Second Company
-      tag:
-      location: Beijing
+      tag: full-time
+      location: Eindhoven, The Netherlands
       details: |
         Experience in this company:
-        + First
+        - Took over work from remote team, analysis and sanytization of codebase
         + Second
 
         ...
 
+    - role: Full-stack Developer
+      time: 2017.03 - 2018.06
+      company: Engie Fabricom Airport Systems
+      tag: full-time
+      location: Brussels, Belgium
+      details: |
+        Experience in this company:
+        - Worked on software used in airports, namely bag sorting software.
+        - Most of the work involved Node.Js and AngularJs for responsive web application.
+        - A few projects were done in Python and Kibana with Elastic stack.
+        - Marginal software maintenance done in Java and C#
+          
+
+        ...
+
     - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
+      time: 2016.06 - 2016.12
+      company: Keemotion
       tag: Remote, part-time
-      location: Beijing
+      location: Louvain-la-Neuve, Belgium
       details: |
         Experience in this company:
         + First
         + Second
-
         ...
 
 projects:

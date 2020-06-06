@@ -58,11 +58,10 @@ profile:
   display: true
   title: Profile
   details: |
-    It's your career profile, you can wirte markdown format text.
+    It's your career profile, you can write markdown format text.
     + First
     + Second
 
-    ...
 
 education:
   display: true
@@ -92,7 +91,7 @@ experiences:
         - Took over work from remote team, analysis and sanytization of codebase
         - 24h internal Hackathon projects:
           - Flutter application simulating platform usage
-          - Unity/VR showcase application to promote Use case in a VR environment 
+          - Unity/VR showcase application to promote Use case in a VR environment
           - Walkthrough Web application to simulate and ease customer integration 
 
 

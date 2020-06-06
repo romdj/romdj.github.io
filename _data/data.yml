@@ -181,11 +181,17 @@ skills:
   details: |
     Here are my skills:
     - Node.JS ![alt text](/assets/images/tech/nodejs.svg "Node.Js")
-    - JavaScript :+1: :flag-fr:
+    - JavaScript 
     - TypeScript
     - AWS (Lambda, DynamoDB, CloudFormation ...) (strong)
     - Flutter (couple of smaller projects)
     - something1 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png " Title Text 1")
+\
+\ | Tables        | Are           | Cool  |
+\ | ------------- |:-------------:| -----:|
+\ | col 3 is      | right-aligned | $1600 |
+\ | col 2 is      | centered      |   $12 |
+\ | zebra stripes | are neat      |    $1 |
   comment: Albeit my experience is strongly oriented around the Javascript, I believe that a language serves a purpose, and learning something new has to be always be a part of the software engineer's journey
 
 evaluation:

@@ -9,7 +9,11 @@
     <ul class="list-unstyled languages-list">
         {% for language in languages.items %}
         <li>
+            {% if language.flagicon %}
+            {{ language.idiom | markdo }}
+            {% else %}
             {{ language.idiom }}
+            {% endif %}
             {% if language.level %}
             <small>[{{ language.level }}]</small>
             {% endif %}

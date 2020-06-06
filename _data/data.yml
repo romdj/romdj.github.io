@@ -21,14 +21,19 @@ languages:
   title: Languages
   items:
     - idiom: French
+      flagicon: :flag-fr:
       level: Native
     - idiom: English
+      flagicon: :flag-uk:
       level: Native
     - idiom: Spanish
+      flagicon: :flag-es:
       level: B2
     - idiom: German
+      flagicon: :flag-de:
       level: Notions (A2)
     - idiom: Dutch
+      flagicon: :flag-nl:
       level: Notions (A2)
 
 interests:

@@ -146,7 +146,7 @@ projects:
 
   items:
     - name: SongAway
-      link: https://www.romdj.xyz/songaway
+      link: https://www.github.com/romdj/songaway
       tags: 
         - Flutter
         - AWS
@@ -156,7 +156,7 @@ projects:
         Self hosted Mobile media application
 
     - name: 3point-game-nhl-standing
-      link: https://www.romdj.xyz/3point-game-nhl-standing
+      link: https://www.github.com/romdj/3point-game-nhl-standing
       tags: 
         - Vue.js
         - Node.js
@@ -164,7 +164,7 @@ projects:
         Simulation of what-if the NHL was using the 3-point game present in the International (IIHF) system.
     
     - name: hockey-goalie-vr
-      link: https://www.romdj.xyz/hockey-goalie-vr
+      link: https://www.github.com/romdj/hockey-goalie-vr
       tags: 
         - Unity
         - Oculus Quest

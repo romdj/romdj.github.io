@@ -89,10 +89,12 @@ experiences:
       location: Eindhoven, The Netherlands
       details: |
         Experience in this company:
+        - 
         - Took over work from remote team, analysis and sanytization of codebase
-        + Second
-
-        ...
+        - 24h internal Hackathon projects:
+          - Flutter application simulating platform usage
+          - Unity/VR showcase application to promote Use case in a VR environment 
+          - Walkthrough Web application to simulate and ease customer integration 
 
     - role: Full-stack Developer
       time: 2017.03 - 2018.06
@@ -105,40 +107,52 @@ experiences:
         - Most of the work involved Node.Js and AngularJs for responsive web application.
         - A few projects were done in Python and Kibana with Elastic stack.
         - Marginal software maintenance done in Java and C#
-          
-
-        ...
 
     - role: Backend Developer
       time: 2016.06 - 2016.12
       company: Keemotion
-      tag: Remote, part-time
+      tag: full-time
       location: Louvain-la-Neuve, Belgium
       details: |
-        Experience in this company:
-        + First
-        + Second
-        ...
+        - Swift - iOS application UI Testing.
+        - On-Promise based PHP micro-services migration into AWS Lambda, CloudFormation and APIGateway.
 
 projects:
   display: true
   title: Projects
   intro: |
-    This is all the projects I'm involved in.
+    Most projects are still under construction.
 
   items:
-    - name: Foo
-      link: https://www.google.com
+    - name: SongAway
+      link: https://www.romdj.xyz/songaway
+      tags: 
+        - Flutter
+        - AWS
+        - Node.js
+        - Electron
       details: |
-        Project Foo's detail, you can write markdown format text.
+        Self hosted Mobile media application
 
-    - name: Bar
-      link:
+    - name: 3point-game-nhl-standing
+      link: https://www.romdj.xyz/3point-game-nhl-standing
+      tags: 
+        - Vue.js
+        - Node.js
       details: |
-        Project Bar's detail, you can write markdown format text.
+        Simulation of what-if the NHL was using the 3-point game present in the International (IIHF) system.
+    
+    - name: hockey-goalie-vr
+      link: https://www.romdj.xyz/hockey-goalie-vr
+      tags: 
+        - Unity
+        - Oculus Quest
+      details: |
+        Goalie training application in VR
+    
 
 publications:
-  display: true
+  display: false
   title: Publications
   intro: |
     This is all the books I wrote.
@@ -155,11 +169,14 @@ publications:
 
 skills:
   display: true
-  title: Skills
+  title: Skillset
   details: |
-    Here is my skills:
-    + First
-    + Second
+    Here are my skills:
+    + Node.JS
+    + JavaScript
+    - TypeScript
+    + AWS (Lambda, DynamoDB, CloudFormation)
+    - 
 
     ...
 

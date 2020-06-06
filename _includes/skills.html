@@ -9,6 +9,13 @@
     <div class="details">
         {{ skills.details | markdownify }}
     </div>
+    {% if skills.comment %}
+    <div class="details">
+        <i>
+            {{ skills.comment }}
+        </i>
+    </div>
+    {% endif %}
 
 </section>
 {% endif %}

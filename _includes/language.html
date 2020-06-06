@@ -10,12 +10,12 @@
         {% for language in languages.items %}
         <li>
             {% if language.flagicon %}
-            {{ language.idiom | markdo }}
+                {{ language.flagicon | markdownify }}
             {% else %}
-            {{ language.idiom }}
+                {{ language.idiom }}
             {% endif %}
             {% if language.level %}
-            <small>[{{ language.level }}]</small>
+                <small>[{{ language.level }}]</small>
             {% endif %}
         </li>
         {% endfor %}

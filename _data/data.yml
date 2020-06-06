@@ -41,22 +41,31 @@ interests:
   title: Interests
   items:
     - item: Hackathons/Startup weekends
+      icon:
       link:
     - item: Triathlon
+      icon:
       link:
     - item: Ski
+      icon:
       link:
     - item: Cycling
+      icon:
       link:
     - item: Ice Hockey
+      icon:
       link:
     - item: Tennis
+      icon:
       link:
     - item: Cooking
+      icon:
       link:
     - item: Investment
+      icon:
       link:
     - item: Cooking
+      icon:
       link:
 
 profile:

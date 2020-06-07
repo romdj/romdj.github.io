@@ -6,14 +6,14 @@
         {{ interests.title }}
     </div>
 
-    <ul class="list-unstyled interests-list">
+    <ul>
         {% for interest in interests.items %}
 
-        {% if interest.link %}
+        <!-- {% if interest.link %}
         <li><a href="{{ interest.link }}" target="_blank">{{ interest.item }}</a></li>
-        {% else %}
+        {% else %} -->
         <li>{{ interest.item }}</li>
-        {% endif %}
+        <!-- {% endif %} -->
 
         {% endfor %}
     </ul>

@@ -28,7 +28,7 @@ languages:
     - idiom: English
       level: Native
     - idiom: Spanish
-      level: B2
+      level: Conversation (B2)
     - idiom: German
       level: Notions (A2)
     - idiom: Dutch
@@ -56,14 +56,17 @@ interests:
       link:
     - item: Investment
       link:
-    - item: Cooking
-      link:
 
 profile:
   display: true
   title: Profile
   details: |
-    Full stack software developer with an extreme passion for new businesses and opportunities arising from new technologies.
+    Full stack software developer with an extreme passion for new business opportunities arising from new technologies.
+    Character traits:
+      - Very responsive to stimulating environments
+      - Product/Result oriented
+      - Avid learner
+      - Team player
 
 education:
   display: true
@@ -81,15 +84,18 @@ education:
       
 experiences:
   display: true
-  title: AWS IoT Node.js Developer
+  title: AWS IoT Node.js 
   items:
     - role: Backend Developer
       time: 2018.03 - present
       company: Philips N.V
-      tag: full-time
+      tag: consultant via Amaris NL
       location: Eindhoven, The Netherlands
       details: |
         - Took over work from remote team, analysis and sanytization of codebase
+        - Implemented REST API as a broking solution to PostGresQL and DynamoDB
+        - Impact on team:
+          - Initiated a new routine where at every new sprint start, we would have a mob session to get every member aligned and pick-up tasks
         - 24h internal Hackathon projects:
           - Flutter application simulating platform usage
           - Unity/VR showcase application to promote Use case in a VR environment
@@ -99,9 +105,10 @@ experiences:
     - role: Full-stack Developer
       time: 2017.03 - 2018.06
       company: Engie Fabricom Airport Systems
-      tag: full-time
+      tag: consultant via Wemanity BE
       location: Brussels, Belgium
       details: |
+        - Created Bag kiosk simulator with through and through simulation.
         - Worked on software used in airports, namely bag sorting software.
         - Most of the work involved Node.Js and AngularJs for responsive web application.
         - A few projects were done in Python and Kibana with Elastic stack.
@@ -111,7 +118,7 @@ experiences:
     - role: Backend Developer
       time: 2016.06 - 2016.12
       company: Keemotion
-      tag: full-time
+      tag: full-time, on payroll
       location: Louvain-la-Neuve, Belgium
       details: |
         - Swift - iOS application UI Testing.
@@ -158,8 +165,19 @@ projects:
         - Community Founder
         - event Co-organizer and host
     
+certifications:
+  display: true
+  title: Certifications
+  intro: |
+    These are my earned certifications.
+  items:
+    - title: Agile SCRUM Foundation
+      authors: Exin
+      date: '02.2018'
+      link: https://app.exeed.pro/badge/2591
+    
 publications:
-  display: false
+  display: true
   title: Publications
   intro: |
     This is all the books I wrote.
@@ -178,26 +196,26 @@ skills:
   display: true
   title: Skillset
   techs:
-    - name: Node.JS
+    - name: Node.JS (ECMA 2020)
       level: 4
-    - name: JavaScript 
+    - name: JavaScript
       level: 4
     - name: TypeScript
       level: 4
-    - name: AWS (Lambda, DynamoDB, CloudFormation ...)
+    - name: AWS (Lambda, DynamoDB, CloudFormation ...(10 other services used))
       level: 4
     - name: Flutter / Dart (couple of smaller projects)
       level: 2
+    - name: AngularJS
+      level: 3
     - name: Kotlin (few projects)
       level: 1
     - name: GoLang (few projects)
       level: 1
-    - name: Ruby (few projects)
-      level: 1
   details: |
-    Here are my skills:
+    What you can expect:
 
-  comment: Albeit my experience is strongly oriented around the Javascript, I believe that a language serves a purpose, and learning something new has to be always be a part of the software engineer's journey
+  comment: Albeit my experience is strongly oriented around the Javascript and the likes, I believe that a language serves a purpose, and learning something new has to be always be a part of the software engineer's journey
 
 evaluation:
   display: false

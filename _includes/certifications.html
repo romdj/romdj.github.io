@@ -1,0 +1,38 @@
+{% assign certifications = data.certifications %}
+{% if certifications and certifications.display %}
+<section class="section certifications-section">
+
+    <div class="section-title">
+        {{ certifications.title }}
+    </div>
+
+    {% if certifications.intro %}
+    <div class="intro">
+        {{ certifications.intro | markdownify }}
+    </div>
+    {% endif %}
+
+    {% for certification in certifications.items %}
+    <div class="item">
+        {% if certification.title %}
+        <p class="pub-title">
+            {% if certification.link %}
+            <a href="{{ certification.link }}" target="_blank">{{ certification.title }}</a>
+            {% else %}
+            {{ certification.title }}
+            {% endif %}
+        </p>
+
+        {% if certification.authors %}
+        <div class="pub-authors">{{ certification.authors }}</div>
+        {% endif %}
+
+        {% if certification.conference %}
+        <div class="pub-conference">{{ certification.conference }}</div>
+        {% endif %}
+        {% endif %}
+    </div>
+    {% endfor %}
+
+</section>
+{% endif %}

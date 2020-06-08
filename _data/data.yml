@@ -6,7 +6,7 @@ intro:
   contractType: freelance or full-time
   avatar:
     display: true
-    path: pp1.png
+    path: pp2.jpeg
 
 contact:
   email: lussier.romain@gmail.com
@@ -38,7 +38,7 @@ interests:
   display: true
   title: Interests
   items:
-    - item: Hackathons/Startup weekends
+    - item: Hackathons & Startup weekends
       link:
     - item: AR/VR
       link:

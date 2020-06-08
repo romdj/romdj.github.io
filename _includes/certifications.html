@@ -6,12 +6,6 @@
         {{ certifications.title }}
     </div>
 
-    {% if certifications.intro %}
-    <div class="intro">
-        {{ certifications.intro | markdownify }}
-    </div>
-    {% endif %}
-
     {% for certification in certifications.items %}
     <div class="item">
         {% if certification.title %}

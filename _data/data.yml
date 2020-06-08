@@ -168,8 +168,6 @@ projects:
 certifications:
   display: true
   title: Certifications
-  intro: |
-    These are my earned certifications.
   items:
     - title: Agile SCRUM Foundation
       authors: Exin

@@ -175,7 +175,7 @@ certifications:
       link: https://app.exeed.pro/badge/2591
     
 publications:
-  display: true
+  display: false
   title: Publications
   intro: |
     This is all the books I wrote.

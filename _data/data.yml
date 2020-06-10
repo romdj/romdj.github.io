@@ -1,7 +1,7 @@
 intro:
   name: Romain Lussier
   title: T-shaped Full-Stack Developer
-  availability: '2020.09'
+  availability: 'septembre 2020'
   driverLicense: Yes
   contractType: freelance or full-time
   avatar:
@@ -9,15 +9,39 @@ intro:
     path: pp2.jpeg
 
 contact:
-  email: lussier.romain@gmail.com
-  phone: (+32)491598181
-  whatsapp: (+32)491598181
-  website: romdj.xyz
-  linkedin: romainlussier
-  github: romdj
-  gitlab: romdj
-  bitbucket: romdj
-  stackoverflow: 2996025/romdj
+  address:
+    display: true
+    title: avenue San Sever, 92, 1970 Wezembeek-Oppem, NL
+  birthdate:
+    display: true
+    title: 25/06/1991
+  email:
+    display: true
+    title: lussier.romain@gmail.com
+  phone:
+    display: true
+    title: (+32)491598181
+  whatsapp:
+    display: true
+    title: (+32)491598181
+  website:
+    display: false
+    title: romdj.xyz
+  linkedin:
+    display: true
+    title: romainlussier
+  github:
+    display: true
+    title: romdj
+  gitlab:
+    display: false
+    title: romdj
+  bitbucket:
+    display: false
+    title: romdj
+  stackoverflow:
+    display: false
+    title: 2996025/romdj
 
 languages:
   display: true

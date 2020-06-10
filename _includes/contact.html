@@ -1,89 +1,101 @@
 {% assign contact = data.contact %}
 <ul class="list-unstyled contact-list">
 
-    {% if contact.email %}
+    {% if contact.email.display %}
     <li class="email"><i class="fas fa-envelope"></i>
-        <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+        <a href="mailto:{{ contact.email.title }}">{{ contact.email.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.phone %}
+    {% if contact.address.display %}
+    <li class="address"><i class="fas fa-envelope"></i>
+        <a href="mailto:{{ contact.address.title }}">{{ contact.address.title }}</a>
+    </li>
+    {% endif %}
+
+    {% if contact.birthdate.display %}
+    <li class="birthdate"><i class="fas fa-envelope"></i>
+        <a href="mailto:{{ contact.birthdate.title }}">{{ contact.birthdate.title }}</a>
+    </li>
+    {% endif %}
+
+    {% if contact.phone.display %}
     <li class="phone"><i class="fas fa-phone"></i>
-        <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
+        <a href="tel:{{ contact.phone.title }}">{{ contact.phone.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.whatsapp %}
+    {% if contact.whatsapp.display %}
     <li class="whatsapp"><i class="fab fa-whatsapp"></i>
-        <a href="https://wa.me/{{ contact.whatsapp }}" target="_blank">{{ contact.whatsapp }}</a>
+        <a href="https://wa.me/{{ contact.whatsapp.title }}" target="_blank">{{ contact.whatsapp.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.telegram %}
+    {% if contact.telegram.display %}
     <li class="telegram"><i class="fab fa-telegram"></i>
-        <a href="https://t.me/{{ contact.telegram }}" target="_blank">{{ contact.telegram }}</a>
+        <a href="https://t.me/{{ contact.telegram.title }}" target="_blank">{{ contact.telegram.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.website %}
+    {% if contact.website.display %}
     <li class="website"><i class="fas fa-globe"></i>
-        <a href="https://{{ contact.website }}" target="_blank">{{ contact.website }} <i>(Under Construction)</i></a>
+        <a href="https://{{ contact.website.title }}" target="_blank">{{ contact.website.title }} <i>(Under Construction)</i></a>
     </li>
     {% endif %}
 
-    {% if contact.medium %}
+    {% if contact.medium.display %}
     <li class="medium"><i class="fab fa-medium"></i>
-        <a href="https://medium.com/@{{ contact.medium }}" target="_blank">{{ contact.medium }}</a>
+        <a href="https://medium.com/@{{ contact.medium.title }}" target="_blank">{{ contact.medium.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.linkedin %}
+    {% if contact.linkedin.display %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-        <a href="https://linkedin.com/in/{{ contact.linkedin }}" target="_blank">{{ contact.linkedin }}</a>
+        <a href="https://linkedin.com/in/{{ contact.linkedin.title }}" target="_blank">{{ contact.linkedin.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.github %}
+    {% if contact.github.display %}
     <li class="github"><i class="fab fa-github"></i>
-        <a href="https://github.com/{{ contact.github }}" target="_blank">{{ contact.github }}</a>
+        <a href="https://github.com/{{ contact.github.title }}" target="_blank">{{ contact.github.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.gitlab %}
+    {% if contact.gitlab.display %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
-        <a href="https://gitlab.com/{{ contact.gitlab }}" target="_blank">{{ contact.gitlab }}</a>
+        <a href="https://gitlab.com/{{ contact.gitlab.title }}" target="_blank">{{ contact.gitlab.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.bitbucket %}
+    {% if contact.bitbucket.display %}
     <li class="bitbucket"><i class="fab fa-bitbucket"></i>
-        <a href="https://bitbucket.com/{{ contact.bitbucket }}" target="_blank">{{ contact.bitbucket }}</a>
+        <a href="https://bitbucket.com/{{ contact.bitbucket.title }}" target="_blank">{{ contact.bitbucket.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.twitter %}
+    {% if contact.twitter.display %}
     <li class="twitter"><i class="fab fa-twitter"></i>
-        <a href="https://twitter.com/{{ contact.twitter }}" target="_blank">{{ contact.twitter }}</a>
+        <a href="https://twitter.com/{{ contact.twitter.title }}" target="_blank">{{ contact.twitter.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.stackoverflow %}
+    {% if contact.stackoverflow.display %}
     <li class="stackoverflow"><i class="fab fa-stack-overflow"></i>
-        <a href="https://stackoverflow.com/users/{{ contact.stackoverflow }}"
-            target="_blank">{{ contact.stackoverflow }}</a>
+        <a href="https://stackoverflow.com/users/{{ contact.stackoverflow.title }}"
+            target="_blank">{{ contact.stackoverflow.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.quora %}
+    {% if contact.quora.display %}
     <li class="quora"><i class="fab fa-quora"></i>
-        <a href="https://www.quora.com/profile/{{ contact.quora }}" target="_blank">{{ contact.quora }}</a>
+        <a href="https://www.quora.com/profile/{{ contact.quora.title }}" target="_blank">{{ contact.quora.title }}</a>
     </li>
     {% endif %}
 
-    {% if contact.goodreads %}
+    {% if contact.goodreads.display %}
     <li class="goodreads"><i class="fab fa-goodreads"></i>
-        <a href="https://www.goodreads.com/user/show/{{ contact.goodreads }}"
-            target="_blank">{{ contact.goodreads }}</a>
+        <a href="https://www.goodreads.com/user/show/{{ contact.goodreads.title }}"
+            target="_blank">{{ contact.goodreads.title }}</a>
     </li>
     {% endif %}
 

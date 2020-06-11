@@ -1,12 +1,12 @@
 {% assign intro = data.intro %}
 <section class="section intro-section">
 
-    <div class="intro-container">
-        {% if intro.avatar.path and intro.avatar.display %}
-        <div class="avatar-container">
-            <img class="avatar" src="{{ site.baseurl }}/assets/images/profile/{{ intro.avatar.path }}" alt="avatar">
-        </div>
+    {% if intro.avatar.path and intro.avatar.display %}
+    <div class="avatar-container">
+        <img class="avatar" src="{{ site.baseurl }}/assets/images/profile/{{ intro.avatar.path }}" alt="avatar">
+    </div>
 
+    <div class="intro-container">
         {% if intro.name %}
         <div class="header">
             <h2 class="name">{{ intro.name }}</h2>
@@ -22,11 +22,11 @@
         </div>
         {% endif %}
 
-        <div class="contact">
+        <!-- <div class="contact">
 
             {% include contact.html %}
 
-        </div>
+        </div> -->
     </div>
 
     {% else %}

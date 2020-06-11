@@ -9,18 +9,21 @@
 
     {% if contact.address.display %}
     <li class="address">
+        <i class="fas fa-address-card"></i>
         {{ contact.address.title }}
     </li>
     {% endif %}
 
     {% if contact.birthdate.display %}
     <li class="birthdate">
+        <i class="fas fa-id-card"></i>
         {{ contact.birthdate.title }}
     </li>
     {% endif %}
 
     {% if contact.phone.display %}
-    <li class="phone"><i class="fas fa-phone"></i>
+    <li class="phone">
+        <i class="fas fa-phone"></i>
         <a href="tel:{{ contact.phone.title }}">{{ contact.phone.title }}</a>
     </li>
     {% endif %}

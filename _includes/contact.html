@@ -8,14 +8,14 @@
     {% endif %}
 
     {% if contact.address.display %}
-    <li class="address"><i class="fas fa-envelope"></i>
-        <a href="mailto:{{ contact.address.title }}">{{ contact.address.title }}</a>
+    <li class="address">/i>
+        {{ contact.address.title }}
     </li>
     {% endif %}
 
     {% if contact.birthdate.display %}
-    <li class="birthdate"><i class="fas fa-envelope"></i>
-        <a href="mailto:{{ contact.birthdate.title }}">{{ contact.birthdate.title }}</a>
+    <li class="birthdate">/i>
+        {{ contact.birthdate.title }}
     </li>
     {% endif %}
 

@@ -132,11 +132,9 @@ experiences:
       tag: consultant via Wemanity BE
       location: Brussels, Belgium
       details: |
-        - Created Bag kiosk simulator with through and through simulation
-        - Worked on software used in airports, namely bag sorting software
-        - Most of the work involved Node.Js and AngularJs for responsive web application
-        - A few projects were done in Python and Kibana with Elastic stack
-        - Marginal software maintenance done in Java and C#
+        - Created Bag kiosk simulator with complete (multiple layers) simulation (Node.Js, AngularJS)
+        - Porting IoT data to Elastic stack, creating realtime dashboarding solutions
+        - Minor software maintenance in Java (Tomcat) and C#
 
 
     - role: Backend Developer
@@ -146,7 +144,8 @@ experiences:
       location: Louvain-la-Neuve, Belgium
       details: |
         - Swift - iOS application UI Testing
-        - On-Promise based PHP micro-services migration into AWS Lambda, CloudFormation and APIGateway
+        - Cleaning script to show unused/outdated AWS S3 buckets and data
+        - On-Promise based PHP micro-services migration into CloudFormation, APIGateway and Lambda solution 
 
 projects:
   display: true

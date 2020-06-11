@@ -132,10 +132,10 @@ experiences:
       tag: consultant via Wemanity BE
       location: Brussels, Belgium
       details: |
-        - Created Bag kiosk simulator with through and through simulation.
-        - Worked on software used in airports, namely bag sorting software.
-        - Most of the work involved Node.Js and AngularJs for responsive web application.
-        - A few projects were done in Python and Kibana with Elastic stack.
+        - Created Bag kiosk simulator with through and through simulation
+        - Worked on software used in airports, namely bag sorting software
+        - Most of the work involved Node.Js and AngularJs for responsive web application
+        - A few projects were done in Python and Kibana with Elastic stack
         - Marginal software maintenance done in Java and C#
 
 
@@ -145,25 +145,25 @@ experiences:
       tag: full-time, on payroll
       location: Louvain-la-Neuve, Belgium
       details: |
-        - Swift - iOS application UI Testing.
-        - On-Promise based PHP micro-services migration into AWS Lambda, CloudFormation and APIGateway.
+        - Swift - iOS application UI Testing
+        - On-Promise based PHP micro-services migration into AWS Lambda, CloudFormation and APIGateway
 
 projects:
   display: true
   title: Projects
   intro: |
-    Most projects are still under construction.
+    Most projects are still under construction
 
   items:
-    - name: SongAway
-      link: https://www.github.com/romdj/songaway
-      tags: 
-        - Flutter
-        - AWS
-        - Node.js
-        - Electron
-      details: |
-        Self hosted Mobile media application
+    # - name: SongAway
+    #   link: https://www.github.com/romdj/songaway
+    #   tags: 
+    #     - Flutter
+    #     - AWS
+    #     - Node.js
+    #     - Electron
+    #   details: |
+    #     Self hosted Mobile media application
 
     - name: 3point-game-nhl-standing
       link: https://www.github.com/romdj/3point-game-nhl-standing
@@ -171,15 +171,15 @@ projects:
         - Vue.js
         - Node.js
       details: |
-        Simulation of what-if the NHL was using the 3-point game present in the International (IIHF) system.
+        Simulation of what-if the NHL was using the 3-point game present in the International (IIHF) system
     
-    - name: hockey-goalie-vr
-      link: https://www.github.com/romdj/hockey-goalie-vr
-      tags: 
-        - Unity
-        - Oculus Quest
-      details: |
-        Goalie training application in VR
+    # - name: hockey-goalie-vr
+    #   link: https://www.github.com/romdj/hockey-goalie-vr
+    #   tags: 
+    #     - Unity
+    #     - Oculus Quest
+    #   details: |
+    #     Goalie training application in VR
 
     - name: Eindhoven Technology Meetup group
       link: https://www.meetup.com/Eindhoven-Technology-Meetup-Group/

@@ -23,7 +23,9 @@
             </tbody>
             {% endfor %}
         </table>
-        {{ skills.details | markdownify }}
+        {% if skills.details %}
+            {{ skills.details | markdownify }}
+        {% endif %}
     </div>
     {% if skills.comment %}
     <div class="details">

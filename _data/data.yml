@@ -151,7 +151,7 @@ projects:
   display: true
   title: Projects
   intro: |
-    Most projects are still under construction
+    Here are the various projects that I am working on:
 
   items:
     # - name: SongAway

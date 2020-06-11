@@ -121,9 +121,9 @@ experiences:
         - Impact on team:
           - Initiated a new routine where at every new sprint start, we would have a mob session to get every member aligned and pick-up tasks
         - 24h internal Hackathon projects:
-          - Flutter application simulating platform usage
-          - Unity/VR showcase application to promote Use case in a VR environment
-          - Walkthrough Web application to simulate and ease customer integration 
+          - Flutter application simulating IoT devices connecting on the platform
+          - Unity/VR for Oculus Quest application showing the use of medical devices in an immersive home environment
+          - Walkthrough Web application to ease customer configuration and onboarding 
 
 
     - role: Full-stack Developer

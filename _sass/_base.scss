@@ -106,8 +106,14 @@ p {
     color: $text-grey;
   }
 
+
   .role,
   .major {
+    font-style: italic;
+  }
+
+  .cdescription {
+    font-size: $small-font-size;
     font-style: italic;
   }
 

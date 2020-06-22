@@ -101,5 +101,9 @@
             target="_blank">{{ contact.goodreads.title }}</a>
     </li>
     {% endif %}
-
+    {% if contact.driverLicense.display %}
+    <h3 class="title">
+        <i class="fas fa-car"></i>
+        Driver's License: {{ contact.driverLicense.title }}</h3>
+    {% endif %}
 </ul>

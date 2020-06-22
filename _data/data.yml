@@ -1,8 +1,7 @@
 intro:
   name: Romain Lussier
   title: Full-Stack Developer
-  availability: 'september 2020'
-  driverLicense: Yes
+  # availability: 'september 2020'
   contractType: freelance or full-time
   avatar:
     display: true
@@ -15,6 +14,9 @@ contact:
   birthdate:
     display: true
     title: 25/06/1991
+  driverLicense:
+    display: true
+    title: B
   email:
     display: true
     title: lussier.romain@gmail.com
@@ -99,7 +101,7 @@ education:
     - university: "HEB-ESI"
       time: 2013 - 2016
       major: Informatique des Réseaux
-      degree: Bachelor's degree (not graduated, completed years 1 & 2)
+      degree: Years 1 & 2 of the Bachelor's degree curriculum completed (not graduated)
 
     - university: "International School of Brussels"
       time: 2007 - 2010
@@ -111,6 +113,8 @@ experiences:
   title: Professional Experience 
   items:
     - role: Backend Developer
+      intro: fefe
+      management: SCRUMFEFEF
       time: 2018.03 - present
       company: Philips N.V
       tag: consultant via Amaris NL
@@ -127,6 +131,8 @@ experiences:
 
 
     - role: Full-stack Developer
+      intro: fefe
+      management: SCRUMFEFEF
       time: 2017.03 - 2018.06
       company: Engie Fabricom Airport Systems
       tag: consultant via Wemanity BE
@@ -138,6 +144,8 @@ experiences:
 
 
     - role: Backend Developer
+      intro: fefe
+      management: SCRUMFEFEF
       time: 2016.06 - 2016.12
       company: Keemotion
       tag: full-time, on payroll
@@ -145,13 +153,13 @@ experiences:
       details: |
         - Swift - iOS application UI Testing
         - Cleaning script to show unused/outdated AWS S3 buckets and data
-        - On-Promise based PHP micro-services migration into CloudFormation, APIGateway and Lambda solution 
+        - On-Premise based PHP micro-services migration into CloudFormation, APIGateway and Lambda solution 
 
 projects:
   display: true
-  title: Projects
-  intro: |
-    Here are the various projects that I am working on:
+  title: Ongoing Projects
+  # intro: |
+    # Here are the various projects that I am working on:
 
   items:
     # - name: SongAway
@@ -215,7 +223,7 @@ publications:
 
 skills:
   display: true
-  title: Skillset
+  title: Experience Level
   techs:
     - name: Node.JS (ECMA 2020)
       level: 4

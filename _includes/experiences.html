@@ -13,6 +13,9 @@
                 {% if experience.tag %}
                 <small>[{{ experience.tag }}]</small>
                 {% endif %}
+                {% if experience.management %}
+                <small>, [{{ experience.management }}]</small>
+                {% endif %}
             </div>
             <div class="time">{{ experience.time }}</div>
         </div>

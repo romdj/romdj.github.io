@@ -21,6 +21,13 @@
     </li>
     {% endif %}
 
+    {% if contact.driverLicense.display %}
+    <li class="driverslicense">
+        <i class="fas fa-car"></i>
+        Driver's License: {{ contact.driverLicense.title }}
+    </li>
+    {% endif %}
+    
     {% if contact.phone.display %}
     <li class="phone">
         <i class="fas fa-phone"></i>
@@ -100,12 +107,6 @@
     <li class="goodreads"><i class="fab fa-goodreads"></i>
         <a href="https://www.goodreads.com/user/show/{{ contact.goodreads.title }}"
             target="_blank">{{ contact.goodreads.title }}</a>
-    </li>
-    {% endif %}
-    {% if contact.driverLicense.display %}
-    <li class="driverslicense">
-        <i class="fas fa-car"></i>
-        Driver's License: {{ contact.driverLicense.title }}
     </li>
     {% endif %}
 </ul>

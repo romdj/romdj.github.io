@@ -107,8 +107,8 @@ experiences:
     - role: Backend Developer
       technologies:
         - AWS (Lambda, API Gateway, CloudFormation, DynamoDB, Kinesis stream, CloudWatch, SNS)
-        - Node.JS (ECMAScript 2020, Typescript)
-        - Jenkins CI
+        - ' / Node.JS (ECMAScript 2020, Typescript)'
+        - ' / Jenkins CI'
       management: SAFe
       time: 2018.03 - present
       company: Philips N.V
@@ -128,11 +128,11 @@ experiences:
     - role: Full-stack Developer
       technologies:
         - Node.JS
-        - AngularJS
-        - Docker
-        - ELK (ElasticSearch, Kibana)
-        - Java (Tomcat)
-        - C#
+        - ' / AngularJS'
+        - ' / Docker'
+        - ' / ELK (ElasticSearch, Kibana)'
+        - ' / Java (Tomcat)'
+        - ' / C#'
 
       management: Waterfall
       time: 2017.03 - 2018.06
@@ -148,10 +148,10 @@ experiences:
     - role: Backend Developer
       technologies:
         - Node.JS
-        - AWS (Cloudformation, S3, API Gateway, Lambda)
-        - Swift
-        - Ruby
-        - PHP
+        - ' / AWS (Cloudformation, S3, API Gateway, Lambda)'
+        - ' / Swift'
+        - ' / Ruby'
+        - ' / PHP'
       management: SCRUM
       time: 2016.06 - 2016.12
       company: Keemotion

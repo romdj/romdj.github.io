@@ -13,9 +13,6 @@
                 {% if experience.tag %}
                 <small>[{{ experience.tag }}]</small>
                 {% endif %}
-                {% if experience.technologies %}
-                <small>, [{{ experience.technologies.join(' / ') }}]</small>
-                {% endif %}
                 {% if experience.management %}
                 <small>, [{{ experience.management }}]</small>
                 {% endif %}
@@ -23,6 +20,7 @@
             <div class="time">{{ experience.time }}</div>
         </div>
         <div class="upper-row">
+            <div class="ctech">{{ experience.technologies}}</div>
             <div class="cdescription">{{ experience.cdescription }}</div>
             <div class="location">{{ experience.location }}</div>
         </div>

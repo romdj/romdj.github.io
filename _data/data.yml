@@ -68,7 +68,7 @@ interests:
       link:
     - item: AR/VR
       link:
-    - item: 'Sports: Triathlon, Ski, Cycling, Ice Hockey, Tennis'
+    - item: "Sports: Triathlon, Ski, Cycling, Ice Hockey, Tennis"
       link:
     - item: Cooking
       link:
@@ -99,12 +99,16 @@ education:
       time: 2007 - 2010
       major: Physics, Economics and Litterature majors, standard Math
       degree: International Baccalaureate
-      
+
 experiences:
   display: true
   title: Professional Experience
   items:
     - role: Backend Developer
+      technologies:
+        - AWS (Lambda, API Gateway, CloudFormation, DynamoDB, Kinesis stream, CloudWatch, SNS)
+        - Node.JS (ECMAScript 2020, Typescript)
+        - Jenkins CI
       management: SAFe
       time: 2018.03 - present
       company: Philips N.V
@@ -119,10 +123,17 @@ experiences:
         - 24h internal Hackathon projects:
           - Flutter application simulating IoT devices connecting on the platform
           - Unity/VR for Oculus Quest application showing the use of medical devices in an immersive home environment
-          - Walkthrough Web application to ease customer configuration and onboarding 
-
+          - Walkthrough Web application to ease customer configuration and onboarding
 
     - role: Full-stack Developer
+      technologies:
+        - Node.JS
+        - AngularJS
+        - Docker
+        - ELK (ElasticSearch, Kibana)
+        - Java (Tomcat)
+        - C#
+
       management: Waterfall
       time: 2017.03 - 2018.06
       company: Engie Fabricom Airport Systems
@@ -134,8 +145,13 @@ experiences:
         - Porting IoT data to Elastic stack, creating realtime dashboarding solutions
         - Minor software maintenance in Java (Tomcat) and C#
 
-
     - role: Backend Developer
+      technologies:
+        - Node.JS
+        - AWS (Cloudformation, S3, API Gateway, Lambda)
+        - Swift
+        - Ruby
+        - PHP
       management: SCRUM
       time: 2016.06 - 2016.12
       company: Keemotion
@@ -145,18 +161,18 @@ experiences:
       details: |
         - Swift - iOS application UI Testing
         - Cleaning script to show unused/outdated AWS S3 buckets and data
-        - On-Premise based PHP micro-services migration into CloudFormation, APIGateway and Lambda solution 
+        - On-Premise based PHP micro-services migration into CloudFormation, APIGateway and Lambda solution
 
 projects:
   display: true
   title: Ongoing Projects
   # intro: |
-    # Here are the various projects that I am working on:
+  # Here are the various projects that I am working on:
 
   items:
     # - name: SongAway
     #   link: https://www.github.com/romdj/songaway
-    #   tags: 
+    #   tags:
     #     - Flutter
     #     - AWS
     #     - Node.js
@@ -166,15 +182,15 @@ projects:
 
     - name: 3point-game-nhl-standing
       link: https://www.github.com/romdj/3point-game-nhl-standing
-      tags: 
+      tags:
         - Vue.js
         - Node.js
       details: |
         Simulation of what-if the NHL was using the 3-point game present in the International (IIHF) system
-    
+
     # - name: hockey-goalie-vr
     #   link: https://www.github.com/romdj/hockey-goalie-vr
-    #   tags: 
+    #   tags:
     #     - Unity
     #     - Oculus Quest
     #   details: |
@@ -182,21 +198,21 @@ projects:
 
     - name: Eindhoven Technology Meetup group
       link: https://www.meetup.com/Eindhoven-Technology-Meetup-Group/
-      tags: 
+      tags:
         - Meetup
       details: |
         - Community Founder
         - event Co-organizer and host
-    
+
 certifications:
   display: true
   title: Certifications
   items:
     - title: Agile SCRUM Foundation
       authors: Exin
-      date: '02.2018'
+      date: "02.2018"
       link: https://app.exeed.pro/badge/2591
-    
+
 publications:
   display: false
   title: Publications
@@ -233,7 +249,7 @@ skills:
       level: 1
     - name: GoLang (few projects)
       level: 1
-  details: 
+  details:
 
   comment: I believe that a language serves a purpose, and although my experience revolves around the JavaScript stack, as an avid learner, I'd be very happy to explore new languages as long as it will remain innovative.
 
@@ -249,5 +265,4 @@ evaluation:
 footer:
   display: true
 
-close: 
-  Thank you for reading!
+close: Thank you for reading!

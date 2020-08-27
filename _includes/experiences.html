@@ -13,6 +13,9 @@
                 {% if experience.tag %}
                 <small>[{{ experience.tag }}]</small>
                 {% endif %}
+                {% if experience.technologies %}
+                <small>, [{{ experience.technologies.join(' / ') }}]</small>
+                {% endif %}
                 {% if experience.management %}
                 <small>, [{{ experience.management }}]</small>
                 {% endif %}

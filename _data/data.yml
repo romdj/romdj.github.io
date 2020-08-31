@@ -208,6 +208,11 @@ certifications:
   display: true
   title: Certifications
   items:
+    - title: AWS Certified Developer - Associate
+      authors: AWS
+      date: "08.2020"
+      link: https://www.youracclaim.com/badges/24ea1284-7bb6-42cf-8fe8-0a7ac30ed234/public_url
+
     - title: Agile SCRUM Foundation
       authors: Exin
       date: "02.2018"

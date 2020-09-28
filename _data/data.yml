@@ -116,8 +116,22 @@ experiences:
       tag: consultant via Amaris NL
       location: Eindhoven, The Netherlands
       details: |
-        - Team work to make a codebase take over, engineering quality assessment and architecture overhaul
-        - Implemented REST API as a broking solution to PostGresQL and DynamoDB
+        - Participation to 3 platform services:
+          - Data Broker Service:
+            - Responsible for ingesting, cleaning/parsing and distributing data to a variety of services (Mediator
+          pattern)
+            - AWS Services: Lambda, Kinesis, SNS, SQS, Cloudwatch, Elastic stack
+            - Node.JS component: TypeScript, serverless, sinon, mocha
+          - IoTGateway:
+            - Responsible for managing a fleet of IoT devices (Authentication, connection, data transmission /
+          collection and monitoring)
+            - AWS Services: IoT Core, Lambda, SNS, cloudwatch, KMS, XRay
+            - Node.JS components: TypeScript, MQTT connection, serverless, sinon, mocha
+          - Firmware:
+            - Responsible for managing the Firmware distribution on a fleet of devices
+            - AWS Services: API Gateway, Route53, Lambda, dynamodb, cloudwatch, KMS, XRay
+            - Node.JS components: TypeScript, serverless, jest, localstack
+
         - Impact on team:
           - Initiated a new routine where at every new sprint start, we would have a mob session to get every member aligned and pick-up tasks
         - 24h internal Hackathon projects:

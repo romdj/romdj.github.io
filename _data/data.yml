@@ -1,8 +1,8 @@
 intro:
   name: Romain Lussier
   title: Full-Stack Developer
-  availability: 'October 19th, 2020'
-  contractType: freelance or full-time
+  # availability: 'October 19th, 2020'
+  contractType: freelance
   avatar:
     display: true
     path: pp2.jpeg
@@ -10,7 +10,7 @@ intro:
 contact:
   address:
     display: true
-    title: avenue San Sever, 92, 1970 Wezembeek-Oppem, BE
+    title: van Severlaan, 92, 1970 Wezembeek-Oppem, BE
   birthdate:
     display: true
     title: 25/06/1991
@@ -104,6 +104,25 @@ experiences:
   display: true
   title: Professional Experience
   items:
+    - role: Data Engineer
+      technologies:
+        - AWS (EMR, EC2, ECS)
+        - ' / Spark (Scala, Python)'
+        - ' / Airflow'
+        - ' / Jenkins CI'
+        - ' / Docker'
+        - ' / Dataiku'
+        - ' / Git'
+      management: Kanban
+      time: 2020.10 - 2020.11
+      company: Levi Strauss
+      cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
+      tag: consultant via Amaris BE
+      location: Brussels, Belgium
+      details: |
+        - Implemented CI/CD pipeline and integration with Jenkins
+        - Various Data flow implementation
+
     - role: Backend Developer
       technologies:
         - AWS (Lambda, API Gateway, CloudFormation, DynamoDB, Kinesis stream, CloudWatch, SNS)
@@ -111,7 +130,7 @@ experiences:
         - ' / Jenkins CI'
         - ' / Git'
       management: SAFe
-      time: 2018.07 - 2020.10
+      time: 2018.07 - 2020.09
       company: Philips N.V
       cdescription: HealthSuite Digital Platform provides a complete set of cloud services to devices used in a hospital context.
       tag: consultant via Amaris NL

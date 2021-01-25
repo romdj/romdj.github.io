@@ -101,9 +101,25 @@ education:
       degree: International Baccalaureate
 
 experiences:
-  display: true
+  display: false
   title: Professional Experience
   items:
+    - role: Software Engineer
+      technologies:
+        - AWS (ECS, SNS, SQS)
+        - ' / TypeScript (Express)'
+        - ' / Docker'
+        - ' / Github Actions'
+        - ' / Git'
+      management: SCRUM
+      time: 2020.12 - today
+      company: Extra Horizon
+      cdescription: Extra Horizon provides the customer with a pre-approved software solution and architecture that allows for quick integration in a regulated medical environment
+      tag: permanent
+      location: Hasselt, Belgium
+      details: |
+        - Developed a full-fledge micro-service allowing SMS messages to be sent
+    
     - role: Data Engineer
       technologies:
         - AWS (EMR, EC2, ECS)
@@ -112,6 +128,7 @@ experiences:
         - ' / Jenkins CI'
         - ' / Docker'
         - ' / Dataiku'
+        - ' / Github Actions'
         - ' / Git'
       management: Kanban
       time: 2020.10 - 2020.11
@@ -120,7 +137,7 @@ experiences:
       tag: consultant via Amaris BE
       location: Brussels, Belgium
       details: |
-        - Implemented CI/CD pipeline and integration with Jenkins
+        - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
         - Various Data flow implementation
 
     - role: Backend Developer

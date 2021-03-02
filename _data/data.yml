@@ -111,23 +111,25 @@ experiences:
         - ' / Docker'
         - ' / Github Actions'
         - ' / Git'
+        - ' / BitBucket'
+        - ' / Jira'
+        - ' / Confluence'
       management: SCRUM
       time: 2020.12 - today
       company: Extra Horizon
-      cdescription: Extra Horizon provides the customer with a pre-approved software solution and architecture that allows for quick integration in a regulated medical environment
+      cdescription: Extra Horizon provides the customer with a medical-grade turn-key architecture and software solution, allowing a quick development and integration
       tag: permanent
       location: Hasselt, Belgium
       details: |
         - Developed a full-fledge micro-service allowing SMS messages to be sent
+        - Extended existing services to support the new SMS micro-service
     
     - role: Data Engineer
       technologies:
-        - AWS (EMR, EC2, ECS)
+        - AWS (EC2, ECS)
         - ' / Spark (Scala, Python)'
         - ' / Airflow'
-        - ' / Jenkins CI'
         - ' / Docker'
-        - ' / Dataiku'
         - ' / Github Actions'
         - ' / Git'
       management: Kanban
@@ -137,6 +139,7 @@ experiences:
       tag: consultant via Amaris BE
       location: Brussels, Belgium
       details: |
+        - Worked on some Data pipeline and flows to be used by the Data Science team
         - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
         - Various Data flow implementation
 

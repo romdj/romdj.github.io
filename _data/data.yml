@@ -101,7 +101,7 @@ education:
       degree: International Baccalaureate
 
 experiences:
-  display: false
+  display: true
   title: Professional Experience
   items:
     - role: Software Engineer

@@ -123,6 +123,8 @@ experiences:
       details: |
         - Developed a full-fledge micro-service allowing SMS messages to be sent
         - Extended existing services to support the new SMS micro-service
+        - Further integration of Stripe service functionalities
+        - Developed a full-fledge micro-service allowing Lambda functions to be managed
     
     - role: Data Engineer
       technologies:

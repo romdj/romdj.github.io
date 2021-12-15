@@ -2,7 +2,7 @@ intro:
   name: Romain Lussier
   title: Full-Stack Developer
   # availability: 'October 19th, 2020'
-  contractType: freelance
+  # contractType: freelance
   avatar:
     display: true
     path: pp2.jpeg
@@ -10,7 +10,7 @@ intro:
 contact:
   address:
     display: true
-    title: van Severlaan, 92, 1970 Wezembeek-Oppem, BE
+    title: rue du Tabellion, 1050 Ixelles, BE
   birthdate:
     display: true
     title: 25/06/1991
@@ -104,7 +104,7 @@ experiences:
   display: true
   title: Professional Experience
   items:
-    - role: Software Engineer
+    - role: Solutions Architect / Software Engineer
       technologies:
         - AWS (ECS, SNS, SQS)
         - ' / TypeScript (Express)'
@@ -117,14 +117,21 @@ experiences:
       management: SCRUM
       time: 2020.12 - today
       company: Extra Horizon
-      cdescription: Extra Horizon provides the customer with a medical-grade turn-key architecture and software solution, allowing a quick development and integration
+      cdescription: Medically compliant Backend as a Service
       tag: permanent
       location: Hasselt, Belgium
       details: |
+      Junior Solution Architect:
+        - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
+        - Designed, planned, developed and released services that fitted customer needs
+        - Helped Management in the technical sphere gaining knowledge of our platform and shared knowledge on best practices
+      
+      Backend Cloud Developments:
         - Developed a full-fledge micro-service allowing SMS messages to be sent
-        - Extended existing services to support the new SMS micro-service
-        - Further integration of Stripe service functionalities
-        - Developed a full-fledge micro-service allowing Lambda functions to be managed
+        - Extended OAuth2 and OAuth1 specifications and extended MFA functionalities
+        - Integration of AppStore and Google Play Store inside payment micro-service
+        - Extended a micro-service, which wraps around AWS lambda functions and made it a management system
+        - All features were developed using TDD, 100% testing coverage and documentation
     
     - role: Data Engineer
       technologies:

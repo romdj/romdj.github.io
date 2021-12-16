@@ -121,18 +121,18 @@ experiences:
       tag: permanent
       location: Hasselt, Belgium
       details: |
-      Junior Solution Architect:
-        - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
-        - Designed, planned, developed and released services that fitted customer needs
-        - Helped Management in the technical sphere gaining knowledge of our platform and shared knowledge on best practices
-      
-      Backend Cloud Developments:
-        - Developed a full-fledge micro-service allowing SMS messages to be sent
-        - Extended OAuth2 and OAuth1 specifications and extended MFA functionalities
-        - Integration of AppStore and Google Play Store inside payment micro-service
-        - Extended a micro-service, which wraps around AWS lambda functions and made it a management system
-        - All features were developed using TDD, 100% testing coverage and documentation
-    
+        Junior Solution Architect:
+          - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
+          - Designed, planned, developed and released services that fitted customer needs
+          - Helped Management in the technical sphere gaining knowledge of our platform and shared knowledge on best practices
+
+        Backend Cloud Developments:
+          - Developed a full-fledge micro-service allowing SMS messages to be sent
+          - Extended OAuth2 and OAuth1 specifications and extended MFA functionalities
+          - Integration of AppStore and Google Play Store inside payment micro-service
+          - Extended a micro-service, which wraps around AWS lambda functions and made it a management system
+          - All features were developed using TDD, 100% testing coverage and documentation
+
 #     - role: Data Engineer
 #       technologies:
 #         - AWS (EC2, ECS)

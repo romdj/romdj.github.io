@@ -115,7 +115,7 @@ experiences:
         - ' / Jira'
         - ' / Confluence'
       management: SCRUM
-      time: 2020.12 - today
+      time: 2020.10 - today
       company: Extra Horizon
       cdescription: Medically compliant Backend as a Service
       tag: permanent
@@ -133,24 +133,24 @@ experiences:
         - Extended a micro-service, which wraps around AWS lambda functions and made it a management system
         - All features were developed using TDD, 100% testing coverage and documentation
     
-    - role: Data Engineer
-      technologies:
-        - AWS (EC2, ECS)
-        - ' / Spark (Scala, Python)'
-        - ' / Airflow'
-        - ' / Docker'
-        - ' / Github Actions'
-        - ' / Git'
-      management: Kanban
-      time: 2020.09 - 2020.12
-      company: Levi Strauss
-      cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
-      tag: consultant via Amaris BE
-      location: Brussels, Belgium
-      details: |
-        - Worked on some Data pipeline and flows to be used by the Data Science team
-        - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
-        - Various Data flow implementation
+#     - role: Data Engineer
+#       technologies:
+#         - AWS (EC2, ECS)
+#         - ' / Spark (Scala, Python)'
+#         - ' / Airflow'
+#         - ' / Docker'
+#         - ' / Github Actions'
+#         - ' / Git'
+#       management: Kanban
+#       time: 2020.09 - 2020.12
+#       company: Levi Strauss
+#       cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
+#       tag: consultant via Amaris BE
+#       location: Brussels, Belgium
+#       details: |
+#         - Worked on some Data pipeline and flows to be used by the Data Science team
+#         - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
+#         - Various Data flow implementation
 
     - role: Backend Developer
       technologies:

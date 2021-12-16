@@ -55,9 +55,9 @@ languages:
       level: Native
     - idiom: Spanish
       level: Conversation (B2)
-    - idiom: German
-      level: Notions (A2)
     - idiom: Dutch
+      level: Professional litteracy (B1)
+    - idiom: German
       level: Notions (A2)
 
 interests:

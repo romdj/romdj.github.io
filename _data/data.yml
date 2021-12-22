@@ -104,23 +104,31 @@ experiences:
   display: true
   title: Professional Experience
   items:
-    - role: Solutions Architect / Software Engineer
+    - role: Solutions Architect / Software Engineer / Data Engineer
       technologies:
-        - AWS (ECS, SNS, SQS)
+        - AWS (ECS, SNS, SQS, Glue, Athena, Lambda)
         - ' / TypeScript (Express)'
         - ' / Docker'
+        - ' / Scala'
+        - ' / Python'
         - ' / Github Actions'
         - ' / Git'
         - ' / BitBucket'
         - ' / Jira'
         - ' / Confluence'
       management: SCRUM
-      time: 2020.10 - today
+      time: 2021.01 - today
       company: Extra Horizon
       cdescription: Medically compliant Backend as a Service
       tag: permanent
       location: Hasselt, Belgium
       details: |
+        Data Engineering Cloud Developments:
+          - Brainstormed and developed data models for various statistics and marketing team in order for them to have the data they need in their report
+          - - That data needed to be updated as soon as they reached the platform
+          - - Event-Driven ingestion design and mechanisms
+          - Currently working on a dashboarding platform and view allowing for the client to monitor their infrastructure (full-stack development work)
+
         Junior Solution Architect:
           - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
           - Designed, planned, developed and released services that fitted customer needs
@@ -133,24 +141,24 @@ experiences:
           - Extended a micro-service, which wraps around AWS lambda functions and made it a management system
           - All features were developed using TDD, 100% testing coverage and documentation
 
-#     - role: Data Engineer
-#       technologies:
-#         - AWS (EC2, ECS)
-#         - ' / Spark (Scala, Python)'
-#         - ' / Airflow'
-#         - ' / Docker'
-#         - ' / Github Actions'
-#         - ' / Git'
-#       management: Kanban
-#       time: 2020.09 - 2020.12
-#       company: Levi Strauss
-#       cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
-#       tag: consultant via Amaris BE
-#       location: Brussels, Belgium
-#       details: |
-#         - Worked on some Data pipeline and flows to be used by the Data Science team
-#         - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
-#         - Various Data flow implementation
+    - role: Data Engineer
+      technologies:
+        - AWS (EC2, ECS)
+        - ' / Spark (Scala, Python)'
+        - ' / Airflow'
+        - ' / Docker'
+        - ' / Github Actions'
+        - ' / Git'
+      management: Kanban
+      time: 2020.09 - 2020.12
+      company: Levi Strauss
+      cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
+      tag: consultant via Amaris BE
+      location: Brussels, Belgium
+      details: |
+        - Worked on some Data pipeline and flows to be used by the Data Science team
+        - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
+        - Various Data flow implementation
 
     - role: Backend Developer
       technologies:

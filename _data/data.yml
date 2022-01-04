@@ -122,21 +122,21 @@ experiences:
       tag: permanent
       location: Hasselt, Belgium
       details: |
-      Junior Solution Architect:
-        - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
-        - Designed, planned, developed and released services that fitted customer needs including
-          - RESTful API design - OpenAPI - Swagger
-        - Helped Management in the technical sphere gaining knowledge of our platform and shared knowledge on best practices
-      
-      Backend Cloud Developments:
-        - Ported multiple services written in Java (6) to Node.js
-        - Fully Developed the following micro-services:
-          - SMS messages
-          - OAuth2 & OAuth1 authentication 
-          - extended MFA functionalities
-          - Integration of AppStore and Google Play Store inside payment micro-service
-          - AWS lambda functions micro-service
-        - All features were developed using TDD, 100% testing coverage and documentation
+        Junior Solution Architect:
+          - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
+          - Designed, planned, developed and released services that fitted customer needs including
+            - RESTful API design - OpenAPI - Swagger
+          - Helped Management in the technical sphere gaining knowledge of our platform and shared knowledge on best practices
+        
+        Backend Cloud Developments:
+          - Ported multiple services written in Java (6) to Node.js
+          - Fully Developed the following micro-services:
+            - SMS messages
+            - OAuth2 & OAuth1 authentication 
+            - extended MFA functionalities
+            - Integration of AppStore and Google Play Store inside payment micro-service
+            - AWS lambda functions micro-service
+          - All features were developed using TDD, 100% testing coverage and documentation
 
     - role: Backend Developer
       technologies:

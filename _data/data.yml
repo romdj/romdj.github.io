@@ -56,7 +56,7 @@ languages:
     - idiom: Spanish
       level: Conversation (B2)
     - idiom: Dutch
-      level: Professional literacy (B1)
+      level: Professional litteracy (B1)
     - idiom: German
       level: Notions (A2)
 
@@ -104,30 +104,35 @@ experiences:
   display: true
   title: Professional Experience
   items:
-    - role: Solutions Architect / Software Engineer
+    - role: Solutions Architect / Back-end, Data Engineer
       technologies:
-        - AWS (ECS, SNS, SQS)
-        - ' / TypeScript (Express)'
+        - AWS (ECS, SNS, SQS, Glue, Athena, Lambda)
+        - ' / TypeScript'
         - ' / Docker'
+        - ' / Scala'
+        - ' / Python'
         - ' / Github Actions'
         - ' / Git'
-        - ' / Swagger'
-        - ' / BitBucket'
         - ' / Jira'
         - ' / Confluence'
-      management: SCRUMBan
-      time: 2020.10 - today
+      management: SCRUM
+      time: 2021.01 - today
       company: Extra Horizon
       cdescription: Medically compliant Backend as a Service
       tag: permanent
       location: Hasselt, Belgium
       details: |
+        Data Engineering Cloud Developments:
+          - Brainstormed and developed data models for various statistics and marketing team in order for them to have the data they need in their report
+          - - That data needed to be updated as soon as they reached the platform
+          - - Event-Driven ingestion design and mechanisms
+          - Currently working on a dashboarding platform and view allowing for the client to monitor their infrastructure (full-stack development work)
+
         Junior Solution Architect:
           - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
-          - Designed, planned, developed and released services that fitted customer needs including
-            - RESTful API design - OpenAPI - Swagger
+          - Designed, planned, developed and released services that fitted customer needs
           - Helped Management in the technical sphere gaining knowledge of our platform and shared knowledge on best practices
-        
+
         Backend Cloud Developments:
           - Ported multiple services written in Java (6) to Node.js
           - Fully Developed the following micro-services:
@@ -137,6 +142,25 @@ experiences:
             - Integration of AppStore and Google Play Store inside payment micro-service
             - AWS lambda functions micro-service
           - All features were developed using TDD, 100% testing coverage and documentation
+
+    - role: Data Engineer
+      technologies:
+        - AWS (EC2, ECS)
+        - ' / Spark (Scala, Python)'
+        - ' / Airflow'
+        - ' / Docker'
+        - ' / Github Actions'
+        - ' / Git'
+      management: Kanban
+      time: 2020.09 - 2020.12
+      company: Levi Strauss
+      cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
+      tag: consultant via Amaris BE
+      location: Brussels, Belgium
+      details: |
+        - Worked on some Data pipeline and flows to be used by the Data Science team
+        - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
+        - Various Data flow implementation
 
     - role: Backend Developer
       technologies:
@@ -167,13 +191,6 @@ experiences:
             - AWS Services: API Gateway, Route53, Lambda, dynamodb, cloudwatch, KMS, XRay
             - Node.JS components: TypeScript, serverless, jest, localstack
 
-        - Impact on team:
-          - Initiated a new routine where at every new sprint start, we would have a mob session to get every member aligned and pick-up tasks
-        - 24h internal Hackathon projects:
-          - Flutter application simulating IoT devices connecting on the platform
-          - Unity/VR for Oculus Quest application showing the use of medical devices in an immersive home environment
-          - Walkthrough Web application to ease customer configuration and onboarding
-
     - role: Full-stack Developer
       technologies:
         - Node.JS
@@ -191,9 +208,9 @@ experiences:
       tag: consultant via Wemanity BE
       location: Brussels, Belgium
       details: |
-        - Created Bag kiosk simulator with complete (multiple layers) simulation (Node.Js, AngularJS)
-        - Porting IoT data to Elastic stack, creating realtime dashboarding solutions
-        - Minor software maintenance in Java (Tomcat) and C#
+        - Created Bag kiosk simulator with complete (multiple layers) simulation - Node.Js, AngularJS
+        - Porting IoT data to Elastic stack, creating realtime dashboarding solutions- Python, ELK
+        - Project maintenance - Java (Tomcat), C#
 
     - role: Backend Developer
       technologies:

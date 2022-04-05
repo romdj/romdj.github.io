@@ -314,14 +314,14 @@ skills:
       level: 4
     - name: AWS (Lambda, DynamoDB, CloudFormation (and 10 other services used))
       level: 4
-    - name: Flutter / Dart (couple of smaller projects)
-      level: 2
-    - name: AngularJS
+    - name: Scala/Java/Kotlin
       level: 3
-    - name: Kotlin (few projects)
-      level: 1
-    - name: GoLang (few projects)
-      level: 1
+    - name: Spark
+      level: 3
+    - name: JuPyteR
+      level: 3
+    - name: ELK
+      level: 2
   details:
 
   comment: I believe that a language serves a purpose, and although my experience revolves around the JavaScript stack, as an avid learner, I'd be very happy to explore new languages as long as it will remain innovative.

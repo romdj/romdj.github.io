@@ -115,7 +115,7 @@ experiences:
         - ' / Git'
         - ' / Jira'
         - ' / Confluence'
-      management: SCRUM
+      management: SCRUMBan
       time: 2021.01 - today
       company: Extra Horizon
       cdescription: Medically compliant Backend as a Service
@@ -124,8 +124,8 @@ experiences:
       details: |
         Data Engineering Cloud Developments:
           - Brainstormed and developed data models for various statistics and marketing team in order for them to have the data they need in their report
-          - - That data needed to be updated as soon as they reached the platform
-          - - Event-Driven ingestion design and mechanisms
+            - That data needed to be updated as soon as they reached the platform
+            - Event-Driven ingestion design and mechanisms
           - Currently working on a dashboarding platform and view allowing for the client to monitor their infrastructure (full-stack development work)
 
         Junior Solution Architect:
@@ -140,7 +140,7 @@ experiences:
             - OAuth2 & OAuth1 authentication 
             - extended MFA functionalities
             - Integration of AppStore and Google Play Store inside payment micro-service
-            - AWS lambda functions micro-service
+            - AWS lambda functions management micro-service
           - All features were developed using TDD, 100% testing coverage and documentation
 
     - role: Data Engineer

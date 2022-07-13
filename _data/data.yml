@@ -1,7 +1,7 @@
 intro:
   name: Romain Lussier
   title: Full-Stack Developer
-  # availability: 'October 19th, 2020'
+  availability: 'July 15th, 2022'
   # contractType: freelance
   avatar:
     display: true
@@ -276,9 +276,14 @@ certifications:
   display: true
   title: Certifications
   items:
+    - title: Azure Solutions Architect Professional
+      authors: Microsoft
+      date: "Not obtained yet - Training Currently ongoing"
+      link: https://docs.microsoft.com/fr-be/learn/certifications/exams/az-303
+  
     - title: Neo4J
-      authors: C
-      date: "Training Currently ongoing"
+      authors: Neo4J
+      date: "Not obtained yet - Training Currently ongoing"
       link: https://neo4j.com/graphacademy/neo4j-certification/
   
     - title: IEC 62304

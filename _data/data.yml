@@ -154,7 +154,7 @@ experiences:
             - OAuth2 & OAuth1 authentication 
             - extended MFA functionalities
             - Integration of AppStore and Google Play Store inside payment micro-service
-            - AWS lambda functions micro-service
+            - AWS lambda functions management micro-service
           - All features were developed using TDD, 100% testing coverage and documentation
 
     - role: Data Engineer
@@ -246,7 +246,7 @@ experiences:
         - On-Premise based PHP micro-services migration into CloudFormation, APIGateway and Lambda solution
 
 projects:
-  display: true
+  display: false
   title: Ongoing Projects
   # intro: |
   # Here are the various projects that I am working on:
@@ -290,16 +290,35 @@ certifications:
   display: true
   title: Certifications
   items:
+    - title: Azure Solutions Architect Professional
+      authors: Microsoft
+      date: "Not obtained yet - Training Currently ongoing"
+      link: https://docs.microsoft.com/fr-be/learn/certifications/exams/az-303
+  
+    - title: Neo4J
+      authors: Neo4J
+      date: "Not obtained yet - Training Currently ongoing"
+      link: https://neo4j.com/graphacademy/neo4j-certification/
+  
+    - title: IEC 62304
+      authors: Trained by Paul Theunissen
+      date: "03.2022"
+      link: https://www.linkedin.com/in/paul-theunissen-8239594/
+      
     - title: AWS Certified Developer - Associate
       authors: AWS
       date: "08.2020"
       link: https://www.youracclaim.com/badges/24ea1284-7bb6-42cf-8fe8-0a7ac30ed234/public_url
 
+    - title: FHIR Compliance
+      authors: Udemy
+      date: "03.2020"
+      
     - title: Agile SCRUM Foundation
       authors: Exin
       date: "02.2018"
       link: https://app.exeed.pro/badge/2591
-
+      
 publications:
   display: false
   title: Publications

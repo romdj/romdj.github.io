@@ -1,6 +1,6 @@
 intro:
   name: Romain Lussier
-  title: Full-Stack Developer
+  title: Solution Architect
   # availability: 'October 19th, 2020'
   # contractType: freelance
   avatar:
@@ -10,7 +10,7 @@ intro:
 contact:
   address:
     display: true
-    title: rue du Tabellion, 1050 Ixelles, BE
+    title: rue du Tabellion, 35, 1050 Ixelles, BE
   birthdate:
     display: true
     title: 25/06/1991
@@ -79,7 +79,8 @@ profile:
   display: true
   title: Profile
   details: |
-    Full stack software developer with an extreme passion for new business opportunities arising from new technologies.
+    Solution Architect with a professional background in full-stack software development.
+    Great passion for new business opportunities arising from new technologies.
     Character traits:
       - Very responsive to stimulating environments
       - Product/Result oriented
@@ -104,11 +105,30 @@ experiences:
   display: true
   title: Professional Experience
   items:
-    - role: Solutions Architect / Back-end, Data Engineer
+    - role: Solution Architect
+      technologies:
+        - Azure (Functions, IoT, CosmosDB)
+        - ' / Docker'
+        - ' / Git'
+        - ' / Jira'
+        - ' / Confluence'
+      management: SCRUM
+      time: 2022.08 - today
+      company: Inimco
+      cdescription: Placing fully integrated IoT solutions in industrial companies
+      tag: permanent
+      location: Temse, Belgium
+      details: |
+        Solution Architect:
+          - Interfaced with multiple customer needs and came up with solutions on how to adapt our product to the client environment
+          - Became a reference point and client point of contact with regards to Azure technologies
+
+    - role: Solution Architect / Software Engineer
       technologies:
         - AWS (ECS, SNS, SQS, Glue, Athena, Lambda)
         - ' / TypeScript'
         - ' / Docker'
+        - ' / Kubernetes'
         - ' / Scala'
         - ' / Python'
         - ' / Github Actions'
@@ -116,18 +136,12 @@ experiences:
         - ' / Jira'
         - ' / Confluence'
       management: SCRUM
-      time: 2021.01 - today
+      time: 2021.01 - 2022.06
       company: Extra Horizon
       cdescription: Medically compliant Backend as a Service
       tag: permanent
       location: Hasselt, Belgium
       details: |
-        Data Engineering Cloud Developments:
-          - Brainstormed and developed data models for various statistics and marketing team in order for them to have the data they need in their report
-          - - That data needed to be updated as soon as they reached the platform
-          - - Event-Driven ingestion design and mechanisms
-          - Currently working on a dashboarding platform and view allowing for the client to monitor their infrastructure (full-stack development work)
-
         Junior Solution Architect:
           - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
           - Designed, planned, developed and released services that fitted customer needs
@@ -162,7 +176,7 @@ experiences:
         - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
         - Various Data flow implementation
 
-    - role: Backend Developer
+    - role: Software Engineer
       technologies:
         - AWS (Lambda, API Gateway, CloudFormation, DynamoDB, Kinesis stream, CloudWatch, SNS)
         - ' / Node.JS (ECMAScript 2020, Typescript)'
@@ -212,7 +226,7 @@ experiences:
         - Porting IoT data to Elastic stack, creating realtime dashboarding solutions- Python, ELK
         - Project maintenance - Java (Tomcat), C#
 
-    - role: Backend Developer
+    - role: Full-stack Developer
       technologies:
         - Node.JS
         - ' / AWS (Cloudformation, S3, API Gateway, Lambda)'

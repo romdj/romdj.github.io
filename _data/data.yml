@@ -107,12 +107,12 @@ experiences:
   items:
     - role: Lead Software Engineer 
       technologies:
-        - AWS (Lambda, SNS, SQS, Kinesis, Organizations, ECS, EKS, DynamoDB, DocumentDB, API Gateway)
-        - ' / LucidChart'
+        - 'LucidChart'
+        - ' / AWS'
         - ' / Python'
         - ' / Java'
         - ' / Serverless'
-        - ' / Github'
+        - ' / Open API Documentation'
         - ' / Jenkins'
         - ' / Git'
         - ' / Jira'
@@ -134,11 +134,9 @@ experiences:
 
     - role: Solution Architect
       technologies:
-        - Azure (Functions, IoT, CosmosDB)
-        - ' / TOGAF'
+        - 'TOGAF'
         - ' / Archimate'
-        - ' / Stakeholder Management'
-        - ' / Presentation'
+        - ' / Azure'
         - ' / AWS'
         - ' / Node.js'
         - ' / TypeScript'

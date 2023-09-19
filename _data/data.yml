@@ -120,6 +120,7 @@ experiences:
       management: SAFe and SCRUM
       time: 2022.12 - today
       company: Nike ELC
+      logo: nike-swoosh-logo-black.jpeg
       cdescription: Leading a team of 12 to build a new platform for Nike's Supply Chain Technology
       tag: permanent
       location: Laakdal, Belgium
@@ -147,6 +148,7 @@ experiences:
       management: Kanban
       time: 2022.06 - 2022.12
       company: IBM
+      logo: ibm-logo-black.png
       cdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
       tag: permanent
       location: Belgium
@@ -171,6 +173,7 @@ experiences:
       management: SCRUMBAN
       time: 2021.01 - 2022.06
       company: Extra Horizon
+      logo: exh-logo.png
       cdescription: Medically compliant Backend as a Service
       tag: permanent
       location: Hasselt, Belgium
@@ -201,6 +204,7 @@ experiences:
       management: Kanban
       time: 2020.09 - 2020.12
       company: Levi Strauss
+      logo: levis.jpg
       cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
       tag: consultant via Amaris BE
       location: Brussels, Belgium
@@ -218,6 +222,7 @@ experiences:
       management: SAFe
       time: 2018.07 - 2020.09
       company: Philips N.V
+      logo: philips-hsdp.png
       cdescription: HealthSuite Digital Platform provides a complete set of cloud services to devices used in a hospital context.
       tag: consultant via Amaris NL
       location: Eindhoven, The Netherlands
@@ -251,6 +256,7 @@ experiences:
       management: Waterfall
       time: 2017.03 - 2018.06
       company: Engie Fabricom Airport Systems
+      logo: enfie_fas.png
       cdescription: Airports Baggage handling solution
       tag: consultant via Wemanity BE
       location: Brussels, Belgium
@@ -270,6 +276,7 @@ experiences:
       management: SCRUM
       time: 2016.06 - 2016.12
       company: Keemotion
+      logo: keemotion.jpg
       cdescription: Keemotion is is the automated video production solution connecting the arena for coaches, leagues, and fans.
       tag: full-time, on payroll
       location: Louvain-la-Neuve, Belgium

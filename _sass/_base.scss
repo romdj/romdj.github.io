@@ -131,7 +131,12 @@ p {
   .pub-title {
     font-weight: 700;
   }
-
+  
+  .company img {
+    max-width: 80px; /* Adjust the size as needed */
+    margin-right: 20px; /* Adjust spacing as needed */
+  }
+  
   .intro,
   .details {
     ul {

@@ -8,8 +8,8 @@
     {% for experience in experiences.items %}
     <div class="item">
         <div class="upper-row">
-            <img src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}" alt="{{ experience.company }}">
             <div class="company">
+                <img src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}" alt="{{ experience.company }}">
                 {{ experience.company }}
                 {% if experience.tag %}
                 <small>[{{ experience.tag }}]</small>

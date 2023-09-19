@@ -385,19 +385,21 @@ skills:
   display: true
   title: Experience Level
   techs:
-    - name: Node.JS (ECMA 2020)
+    - name: Node.js (JavaScript, TypeScript)
       level: 4
-    - name: JavaScript
+    - name: AWS (Lambda, DynamoDB, CloudFormation (and 15 other services used))
       level: 4
-    - name: TypeScript
+    - name: Azure (Functions, CosmosDB (and 6 other services used))
+      level: 3
+    - name: LucidChart/CloudCraft.co/Draw.io
       level: 4
-    - name: AWS (Lambda, DynamoDB, CloudFormation (and 10 other services used))
-      level: 4
+    - name: Archimate (TOGAF)
+      level: 3
     - name: Scala/Java/Kotlin
       level: 3
-    - name: Spark
+    - name: Spark/DataBricks/PySpark
       level: 3
-    - name: JuPyteR
+    - name: JuPyteR/Python
       level: 3
     - name: ELK
       level: 2

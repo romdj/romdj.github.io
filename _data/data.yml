@@ -120,7 +120,7 @@ experiences:
       management: SAFe and SCRUM
       time: 2022.12 - today
       company: Nike ELC
-      logo: nike-swoosh-logo-black.jpeg
+      logo: nike-swoosh-logo-multicolor.jpeg
       rdescription: Leading a team of 12 to build a new platform for Nike's Supply Chain Technology
       cdescription: Creating the Future of Sports
       tag: permanent
@@ -149,7 +149,7 @@ experiences:
       management: Kanban
       time: 2022.06 - 2022.12
       company: IBM
-      logo: ibm-logo-black.png
+      logo: ibm-logo-multicolor.png
       rdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
       cdescription: Let's put smart to work
       tag: permanent
@@ -175,7 +175,7 @@ experiences:
       management: SCRUMBAN
       time: 2021.01 - 2022.06
       company: Extra Horizon
-      logo: exh-logo.png
+      logo: exh-logo.jpeg
       rdescription: Design, develop and maintain a platform for the healthcare industry
       cdescription: Medically compliant Backend as a Service
       tag: permanent
@@ -261,7 +261,7 @@ experiences:
       management: Waterfall
       time: 2017.03 - 2018.06
       company: Engie Fabricom Airport Systems
-      logo: enfie_fas.png
+      logo: engie_fas.png
       rdescription: Development integrating PLC systems with the airport's baggage handling system
       cdescription: Airports Baggage handling solution
       tag: consultant via Wemanity BE

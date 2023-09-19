@@ -9,14 +9,17 @@
     <div class="item">
         <div class="upper-row">
             <div class="company">
-                <img src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}" alt="{{ experience.company }}">
-                {{ experience.company }}
-                {% if experience.tag %}
-                <small>[{{ experience.tag }}]</small>
-                {% endif %}
-                {% if experience.management %}
-                <small>, [{{ experience.management }}]</small>
-                {% endif %}
+                <img src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}"
+                    alt="{{ experience.company }}">
+                <small>
+                    {{ experience.company }}
+                    {% if experience.tag %}
+                    [{{ experience.tag }}]
+                    {% endif %}
+                    {% if experience.management %}
+                    , [{{ experience.management }}]
+                    {% endif %}
+                </small>
             </div>
             <div class="time">{{ experience.time }}</div>
         </div>

@@ -10,7 +10,7 @@ intro:
 contact:
   address:
     display: true
-    title: rue du Tabellion, 35, 1050 Ixelles, BE
+    title: rue Vanderkindere, 250, 1180 Uccle, BE
   birthdate:
     display: true
     title: 25/06/1991
@@ -105,27 +105,60 @@ experiences:
   display: true
   title: Professional Experience
   items:
-    - role: Solution Architect
+    - role: Lead Software Engineer 
       technologies:
-        - Azure (Functions, IoT, CosmosDB)
-        - ' / Docker'
+        - AWS (Lambda, SNS, SQS, Kinesis, Organizations, ECS, EKS, DynamoDB, DocumentDB, API Gateway)
+        - ' / LucidChart'
+        - ' / Python'
+        - ' / Java'
+        - ' / Serverless'
+        - ' / Github'
+        - ' / Jenkins'
         - ' / Git'
         - ' / Jira'
         - ' / Confluence'
-      management: SCRUM
-      time: 2022.08 - today
-      company: Inimco
-      cdescription: Placing fully integrated IoT solutions in industrial companies
+      management: SAFe and SCRUM
+      time: 2022.12 - today
+      company: Nike ELC
+      cdescription: Leading a team of 12 to build a new platform for Nike's Supply Chain Technology
       tag: permanent
-      location: Temse, Belgium
+      location: Laakdal, Belgium
+      details: |
+        Analysis and Design:
+          - Being the interface between the team and the Product Owner, Management and other teams, supporting everyone in their needs
+          - Integrated a new logistics system and rework the existing architecture to fit the new requirements, as well as the newly developed company-wide vision and strategy
+          - Refined and created epics and tickets to be developed by the team
+          - Accompanied the team in divesting from the legacy system and migrating to the new platform
+
+    - role: Solution Architect
+      technologies:
+        - Azure (Functions, IoT, CosmosDB)
+        - ' / TOGAF'
+        - ' / Archimate'
+        - ' / Stakeholder Management'
+        - ' / Presentation'
+        - ' / AWS'
+        - ' / Node.js'
+        - ' / TypeScript'
+        - ' / JavaScript'
+        - ' / Git'
+        - ' / Jira'
+        - ' / Confluence'
+      management: Kanban
+      time: 2022.06 - 2022.12
+      company: IBM
+      cdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
+      tag: permanent
+      location: Belgium
       details: |
         Solution Architect:
-          - Interfaced with multiple customer needs and came up with solutions on how to adapt our product to the client environment
-          - Became a reference point and client point of contact with regards to Azure technologies
+          - Designed and implemented a fully integrated IoT solution for a client
+          - Created designs and analysis for multiple clients integrations, sustainability
+          - Helped managing partners and clients expectations
 
     - role: Solution Architect / Software Engineer
       technologies:
-        - AWS (ECS, SNS, SQS, Glue, Athena, Lambda)
+        - AWS (ECS, SNS, SQS, Lambda)
         - ' / TypeScript'
         - ' / Docker'
         - ' / Kubernetes'
@@ -135,7 +168,7 @@ experiences:
         - ' / Git'
         - ' / Jira'
         - ' / Confluence'
-      management: SCRUM
+      management: SCRUMBAN
       time: 2021.01 - 2022.06
       company: Extra Horizon
       cdescription: Medically compliant Backend as a Service

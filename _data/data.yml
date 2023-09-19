@@ -121,7 +121,8 @@ experiences:
       time: 2022.12 - today
       company: Nike ELC
       logo: nike-swoosh-logo-black.jpeg
-      cdescription: Leading a team of 12 to build a new platform for Nike's Supply Chain Technology
+      rdescription: Leading a team of 12 to build a new platform for Nike's Supply Chain Technology
+      cdescription: Creating the Future of Sports
       tag: permanent
       location: Laakdal, Belgium
       details: |
@@ -149,7 +150,8 @@ experiences:
       time: 2022.06 - 2022.12
       company: IBM
       logo: ibm-logo-black.png
-      cdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
+      rdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
+      cdescription: Let's put smart to work
       tag: permanent
       location: Belgium
       details: |
@@ -174,6 +176,7 @@ experiences:
       time: 2021.01 - 2022.06
       company: Extra Horizon
       logo: exh-logo.png
+      rdescription: Design, develop and maintain a platform for the healthcare industry
       cdescription: Medically compliant Backend as a Service
       tag: permanent
       location: Hasselt, Belgium
@@ -205,6 +208,7 @@ experiences:
       time: 2020.09 - 2020.12
       company: Levi Strauss
       logo: levis.jpg
+      rdescription: Part of a team aiming to assist Data Scientists in their daily tasks
       cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
       tag: consultant via Amaris BE
       location: Brussels, Belgium
@@ -223,6 +227,7 @@ experiences:
       time: 2018.07 - 2020.09
       company: Philips N.V
       logo: philips-hsdp.png
+      rdescription: Part of a back-end team aiming to provide the user with a complete and secure health platform
       cdescription: HealthSuite Digital Platform provides a complete set of cloud services to devices used in a hospital context.
       tag: consultant via Amaris NL
       location: Eindhoven, The Netherlands
@@ -257,6 +262,7 @@ experiences:
       time: 2017.03 - 2018.06
       company: Engie Fabricom Airport Systems
       logo: enfie_fas.png
+      rdescription: Development integrating PLC systems with the airport's baggage handling system
       cdescription: Airports Baggage handling solution
       tag: consultant via Wemanity BE
       location: Brussels, Belgium
@@ -277,6 +283,7 @@ experiences:
       time: 2016.06 - 2016.12
       company: Keemotion
       logo: keemotion.jpg
+      rdescription: Development of a mobile application for coaches and players
       cdescription: Keemotion is is the automated video production solution connecting the arena for coaches, leagues, and fans.
       tag: full-time, on payroll
       location: Louvain-la-Neuve, Belgium

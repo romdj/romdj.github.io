@@ -8,7 +8,7 @@
     {% for experience in experiences.items %}
     <div class="item">
         <div class="upper-row">
-            <img src="{{ site.baseurl }}/assets/images/companies/{{ item.logo }}" alt="{{ item.company }} Logo">
+            <img src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}" alt="{{ experience.company }}">
             <div class="company">
                 {{ experience.company }}
                 {% if experience.tag %}
@@ -25,7 +25,7 @@
             <div class="location">{{ experience.location }}</div>
         </div>
         <div class="upper-row">
-            <div class="cdescription">{{ experience.cdescription }}</div>
+            <div class="cdescription">{{ experience.rdescription }}</div>
             <div class="ctech">{{ experience.technologies}}</div>
         </div>
         {% if experience.details %}

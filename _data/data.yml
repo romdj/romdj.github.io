@@ -79,7 +79,7 @@ profile:
   display: true
   title: Profile
   details: |
-    Solution Architect with a professional background in full-stack software development.
+    Solution Architect with a professional background in full-stack cloud software development.
     Great passion for new business opportunities arising from new technologies.
     
     Character traits:
@@ -129,7 +129,9 @@ experiences:
       details: |
         Analysis and Design:
           - Being the interface between the team and the Product Owner, Management and other teams, supporting everyone in their needs
+          - Incorporating top-down Company-wide technical strategic decisions into the team's architecture and backlog
           - Integrated a new logistics system and rework the existing architecture to fit the new requirements, as well as the newly developed company-wide vision and strategy
+          - Reporting out to business stakeholders for more local programs
           - Refined and created epics and tickets to be developed by the team
           - Accompanied the team in divesting from the legacy system and migrating to the new platform
 
@@ -155,9 +157,9 @@ experiences:
       location: Belgium
       details: |
         Solution Architect:
-          - Designed and implemented a fully integrated IoT solution for a client
-          - Created designs and analysis for multiple clients integrations, sustainability
-          - Helped managing partners and clients expectations
+          - Designed and implemented a fully integrated IoT solution for an embedded technology client
+          - Created architecture for data pipelines, analysis for energy reports to clients to assess their sustainability
+          - Assisted (Sr) partners in providing a technical overview and rapid feedback analysis on client leads and prospects
 
     - role: Solution Architect / Software Engineer
       technologies:
@@ -180,19 +182,19 @@ experiences:
       tag: permanent
       location: Hasselt, Belgium
       details: |
-        Junior Solution Architect:
-          - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto our platform
+        Solution Architect:
+          - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto the ExH platform
           - Designed, planned, developed and released services that fitted customer needs
           - Helped Management in the technical sphere gaining knowledge of our platform and shared knowledge on best practices
 
         Backend Cloud Developments:
           - Ported multiple services written in Java (6) to Node.js
           - Fully Developed the following micro-services:
-            - SMS messages
-            - OAuth2 & OAuth1 authentication 
-            - extended MFA functionalities
-            - Integration of AppStore and Google Play Store inside payment micro-service
             - AWS lambda functions management micro-service
+            - SMS messages
+            - OAuth2 & OAuth1 authentication
+            - Extended MFA functionalities
+            - Integration of AppStore and Google Play Store inside payment micro-service
           - All features were developed using TDD, 100% testing coverage and documentation
 
     - role: Data Engineer

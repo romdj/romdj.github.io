@@ -20,6 +20,10 @@ contact:
   email:
     display: true
     title: lussier.romain@gmail.com
+  meeting-url:
+    display: true
+    title: Book a meeting
+    url: https://calendly.com/romain-lussier/30min
   phone:
     display: true
     title: (+32)491598181

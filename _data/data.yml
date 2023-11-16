@@ -1,6 +1,6 @@
 intro:
   name: Romain Lussier
-  title: Solution Architect
+  # title: Solution Architect
   # availability: 'October 19th, 2020'
   # contractType: freelance
   avatar:
@@ -110,14 +110,18 @@ experiences:
       technologies:
         - 'LucidChart'
         - ' / AWS'
-        - ' / Python'
         - ' / Java'
+        - ' / Python'
+        - ' / Node.js'
         - ' / Serverless'
-        - ' / Open API Documentation'
+        - ' / AVRO'
+        - ' / OpenApi'
+        - ' / Hackolade'
         - ' / Jenkins'
         - ' / Git'
         - ' / Jira'
         - ' / Confluence'
+        - ' / Miro'
       management: SAFe and SCRUM
       time: 2022.12 - today
       company: Nike ELC
@@ -131,19 +135,19 @@ experiences:
           - Being the interface between the team and the Product Owner, Management and other teams, supporting everyone in their needs
           - Incorporating top-down Company-wide technical strategic decisions into the team's architecture and backlog
           - Integrated a new logistics system and rework the existing architecture to fit the new requirements, as well as the newly developed company-wide vision and strategy
-          - Reporting out to business stakeholders for more local programs
+          - Implementation of serverless microservices in Java, Python and Node.js
           - Refined and created epics and tickets to be developed by the team
-          - Accompanied the team in divesting from the legacy system and migrating to the new platform
 
     - role: Solution Architect
       technologies:
         - 'TOGAF'
         - ' / Archimate'
         - ' / Azure'
+        - ' / IBM Cloud'
         - ' / AWS'
         - ' / Node.js'
         - ' / TypeScript'
-        - ' / JavaScript'
+        - ' / DataBricks'
         - ' / Git'
         - ' / Jira'
         - ' / Confluence'

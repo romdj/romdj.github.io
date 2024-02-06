@@ -1,8 +1,9 @@
 intro:
   name: Romain Lussier
-  # title: Solution Architect
-  # availability: 'October 19th, 2020'
-  # contractType: freelance
+  title: Solution Architect
+  availability: 'February 26th, 2024'
+  contractType: freelance
+  vatNumber: BE1003780744
   avatar:
     display: true
     path: pp2.jpeg
@@ -10,7 +11,8 @@ intro:
 contact:
   address:
     display: true
-    title: rue Vanderkindere, 250, 1180 Uccle, BE
+    title: Uccle (Brussels), Belgium
+ # title: rue Vanderkindere, 250, 1180 Uccle, BE
   birthdate:
     display: true
     title: 25/06/1991
@@ -28,13 +30,13 @@ contact:
     display: true
     title: (+32)491598181
   whatsapp:
-    display: true
+    display: false
     title: (+32)491598181
   website:
     display: false
     title: romdj.xyz
   linkedin:
-    display: true
+    display: false
     title: romainlussier
   github:
     display: true
@@ -69,15 +71,12 @@ interests:
   title: Interests
   items:
     - item: Hackathons & Startup weekends
-      link:
-    - item: AR/VR
-      link:
     - item: "Sports: Triathlon, Ski, Cycling, Ice Hockey, Tennis"
-      link:
+    - item: Barista & Coffee tasting, roasting
     - item: Cooking
-      link:
     - item: Investment
       link:
+    - item: Photography 
 
 profile:
   display: true
@@ -127,7 +126,7 @@ experiences:
         - ' / Confluence'
         - ' / Miro'
       management: SAFe and SCRUM
-      time: 2022.12 - today
+      time: 2022.12 - 2024.02
       company: Nike ELC
       logo: nike-swoosh-logo-paint-cropped.png
       rdescription: Leading a team of 12 to build a new event-driven platform for Nike's Supply Chain Technology
@@ -140,7 +139,7 @@ experiences:
           - Incorporating top-down Company-wide technical strategic decisions into the team's architecture and backlog
           - Integrated a new logistics system and rework the existing architecture to fit the new requirements, as well as the newly developed company-wide vision and strategy
           - Implementation of serverless microservices in Java, Python and Node.js
-          - Refined and created epics and tickets to be developed by the team
+          - Refined and created epics and tickets resulting in raising the standard in DoR and capacity optimization for the development team
 
     - role: Solution Architect
       technologies:

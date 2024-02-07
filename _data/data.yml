@@ -127,11 +127,10 @@ experiences:
         - ' / Miro'
       management: SAFe and SCRUM
       time: 2022.12 - 2024.02
-      company: Nike ELC
+      company: Nike
       logo: nike-swoosh-logo-paint-cropped.png
       rdescription: Leading a team of 12 to build a new event-driven platform for Nike's Supply Chain Technology
       cdescription: Creating the Future of Sports
-      tag: permanent
       location: Laakdal, Belgium
       details: |
         Analysis and Design:
@@ -143,8 +142,7 @@ experiences:
 
     - role: Solution Architect
       technologies:
-        - 'TOGAF'
-        - ' / Archimate'
+        - 'Archimate'
         - ' / Azure'
         - ' / IBM Cloud'
         - ' / AWS'
@@ -160,7 +158,6 @@ experiences:
       logo: ibm-logo-multicolor-lcp.png
       rdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
       cdescription: Let's put smart to work
-      tag: permanent
       location: Belgium
       details: |
         Solution Architect:
@@ -186,7 +183,6 @@ experiences:
       logo: exh-logo.jpeg
       rdescription: Design, develop and maintain a platform for the healthcare industry
       cdescription: Medically compliant Backend as a Service
-      tag: permanent
       location: Hasselt, Belgium
       details: |
         Solution Architect:
@@ -218,7 +214,7 @@ experiences:
       logo: levis.jpg
       rdescription: Part of a team aiming to assist Data Scientists in their daily tasks
       cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
-      tag: consultant via Amaris BE
+      tag: via Amaris BE
       location: Brussels, Belgium
       details: |
         - Worked on some Data pipeline and flows to be used by the Data Science team
@@ -237,7 +233,7 @@ experiences:
       logo: philips-hsdp.png
       rdescription: Part of a back-end team aiming to provide the user with a complete and secure health platform
       cdescription: HealthSuite Digital Platform provides a complete set of cloud services to devices used in a hospital context.
-      tag: consultant via Amaris NL
+      tag: via Amaris NL
       location: Eindhoven, The Netherlands
       details: |
         - Participation to 3 platform services:
@@ -272,7 +268,7 @@ experiences:
       logo: engie_fas.png
       rdescription: Development integrating PLC systems with the airport's baggage handling system
       cdescription: Airports Baggage handling solution
-      tag: consultant via Wemanity BE
+      tag: via Wemanity BE
       location: Brussels, Belgium
       details: |
         - Created Bag kiosk simulator with complete (multiple layers) simulation - Node.Js, AngularJS

@@ -109,6 +109,36 @@ experiences:
   display: true
   title: Professional Experience
   items:
+    - role: Application Solution Architect 
+      technologies:
+        - 'LucidChart'
+        - ' / OpenShift'
+        - ' / Java'
+        - ' / AS400 Mainframe'
+        - ' / Angular'
+        - ' / Microfrontend'
+        - ' / Monorepo'
+        - ' / Keycloak'
+        - ' / OpenApi'
+        - ' / Quarkus'
+        - ' / Git'
+        - ' / Jira'
+        - ' / Confluence'
+      management: Scrumban and waterfall
+      time: 2024.01 - 2024.06
+      company: ABVV-FGTB
+      logo: abvv-fgtb.png
+      rdescription: Leading the modernization of a 30y old AS400 Mainframe application
+      cdescription: The General Federation of Belgian Labour 
+      location: Brussels, Belgium
+      details: |
+        Analysis and Design:
+          - Created a continuous strategy and roadmap for divesting a 30y young AS400 Mainframe applications into a modernized architecture
+          - Revised security practices, reviewed access patterns and implemented a new security layer using Keycloak in coordination with Active Directory
+          - R&D and implemented a modernization roadmap for Front-End internal products, incorporating a micro-frontend architecture, as well as Back-End for Front-End
+          - Being the interface between the developing teams and their PO, PM, setting architectural decisions and setting technology roadmap
+
+
     - role: Lead Software Engineer 
       technologies:
         - 'LucidChart'
@@ -126,7 +156,7 @@ experiences:
         - ' / Confluence'
         - ' / Miro'
       management: SAFe and SCRUM
-      time: 2022.12 - 2024.02
+      time: 2022.12 - 2023.12
       company: Nike
       logo: nike-swoosh-logo-paint-cropped.png
       rdescription: Leading a team of 12 to build a new event-driven platform for Nike's Supply Chain Technology
@@ -341,6 +371,11 @@ certifications:
   display: true
   title: Certifications
   items:
+    - title: Security certificaton OAuth2, OpenID Connect, SAML V2 and Keycloak
+      authors: Trained by Laurent Révillon
+      date: "03.2024"
+      link: https://www.laurent-revillion.com/
+
     - title: Azure Solutions Architect Professional
       authors: Microsoft
       date: "Not obtained yet - Training Currently ongoing"

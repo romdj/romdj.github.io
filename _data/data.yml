@@ -412,36 +412,25 @@ skills:
   display: true
   title: Experience Level
   techs:
-    - name: Node.js (JavaScript, TypeScript)
-      level: 4
+    - name: LucidChart/CloudCraft.co/Draw.io
+      level: 4.5
+    - name: Archimate (TOGAF)
+      level: 3.5
     - name: AWS (Lambda, DynamoDB, CloudFormation (and 15 other services used))
       level: 4
     - name: Azure (Functions, CosmosDB (and 6 other services used))
       level: 3
-    - name: LucidChart/CloudCraft.co/Draw.io
-      level: 4
-    - name: Archimate (TOGAF)
+    - name: GCP (Cloud Functions, Firestore, Firebase, BigQuery, PubSub, Dataflow, Datastore)
       level: 3
+    - name: Node.js (JavaScript, TypeScript)
+      level: 4
     - name: Scala/Java/Kotlin
       level: 3
     - name: Spark/DataBricks/PySpark
       level: 3
     - name: JuPyteR/Python
       level: 3
-    - name: ELK
-      level: 2
   details:
-
-  comment: I believe that a language serves a purpose, and although my experience revolves around the JavaScript stack, as an avid learner, I'd be very happy to explore new languages as long as it will remain innovative.
-
-evaluation:
-  display: false
-  title: Self-evaluation
-  details: |
-    Here is my self evaluation.
-    + First
-    + Second
-    ...
 
 footer:
   display: true

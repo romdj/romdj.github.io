@@ -136,8 +136,8 @@ experiences:
           - Revised security practices, reviewed access patterns and implemented a new security layer using Keycloak in coordination with Active Directory
           - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a micro-frontend architecture, as well as Back-End for Front-End
           - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
-          - Technical guide for setting architectural decisions and setting technology roadmap(s), including conducting code reviews and technical mentoring
-          - Creating documentation and diagrams for legacy systems, mostly consisting of conducting technical interviews to establish a HLD and a more detailed view of the architecture
+          - Technical guide for setting architectural decisions and setting technology roadmap(s), including code reviews and technical mentoring
+          - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
     - role: Lead Software Engineer 
       technologies:

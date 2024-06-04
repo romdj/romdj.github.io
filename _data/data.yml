@@ -1,7 +1,7 @@
 intro:
   name: Romain Lussier
   title: Solution Architect
-  availability: 'June 1st, 2024'
+  # availability: 'June 1st, 2024'
   contractType: freelance
   vatNumber: BE1003780744
   avatar:
@@ -12,7 +12,6 @@ contact:
   address:
     display: true
     title: Uccle (Brussels), Belgium
- # title: rue Vanderkindere, 250, 1180 Uccle, BE
   birthdate:
     display: true
     title: 25/06/1991
@@ -22,10 +21,10 @@ contact:
   email:
     display: true
     title: lussier.romain@gmail.com
-  meeting-url:
-    display: true
-    title: Book a meeting
-    url: https://calendly.com/romain-lussier/30min
+  # meeting-url:
+  #   display: true
+  #   title: Book a meeting
+  #   url: https://calendly.com/romain-lussier/30min
   phone:
     display: true
     title: (+32)491598181
@@ -36,7 +35,7 @@ contact:
     display: false
     title: romdj.xyz
   linkedin:
-    display: false
+    display: true
     title: romainlussier
   github:
     display: true
@@ -59,10 +58,10 @@ languages:
       level: Native
     - idiom: English
       level: Native
+    - idiom: Dutch
+      level: Professional literacy (B1.2)
     - idiom: Spanish
       level: Conversation (B2)
-    - idiom: Dutch
-      level: Professional litteracy (B1)
     - idiom: German
       level: Notions (A2)
 
@@ -70,13 +69,12 @@ interests:
   display: true
   title: Interests
   items:
-    - item: Hackathons & Startup weekends
     - item: "Sports: Triathlon, Ski, Cycling, Ice Hockey, Tennis"
     - item: Barista & Coffee tasting, roasting
     - item: Cooking
-    - item: Investment
-      link:
+    - item: Hackathons & Startup weekends
     - item: Photography 
+    - item: Investment
 
 profile:
   display: true
@@ -102,7 +100,7 @@ education:
 
     - university: "International School of Brussels"
       time: 2007 - 2010
-      major: Physics, Economics and Litterature majors, standard Math
+      major: Physics, Economics and Literature majors, standard Math
       degree: International Baccalaureate
 
 experiences:
@@ -114,6 +112,7 @@ experiences:
         - 'LucidChart'
         - ' / OpenShift'
         - ' / Java'
+        - ' / Archimate'
         - ' / AS400 Mainframe'
         - ' / Angular'
         - ' / Microfrontend'
@@ -135,9 +134,10 @@ experiences:
         Analysis and Design:
           - Created a continuous strategy and roadmap for divesting a 30y young AS400 Mainframe applications into a modernized architecture
           - Revised security practices, reviewed access patterns and implemented a new security layer using Keycloak in coordination with Active Directory
-          - R&D and implemented a modernization roadmap for Front-End internal products, incorporating a micro-frontend architecture, as well as Back-End for Front-End
-          - Being the interface between the developing teams and their PO, PM, setting architectural decisions and setting technology roadmap
-
+          - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a micro-frontend architecture, as well as Back-End for Front-End
+          - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
+          - Technical guide for setting architectural decisions and setting technology roadmap(s), including conducting code reviews and technical mentoring
+          - Creating documentation and diagrams for legacy systems, mostly consisting of conducting technical interviews to establish a HLD and a more detailed view of the architecture
 
     - role: Lead Software Engineer 
       technologies:
@@ -351,14 +351,6 @@ projects:
       details: |
         Simulation of what-if the NHL was using the 3-point game present in the International (IIHF) system
 
-    # - name: hockey-goalie-vr
-    #   link: https://www.github.com/romdj/hockey-goalie-vr
-    #   tags:
-    #     - Unity
-    #     - Oculus Quest
-    #   details: |
-    #     Goalie training application in VR
-
     - name: Eindhoven Technology Meetup group
       link: https://www.meetup.com/Eindhoven-Technology-Meetup-Group/
       tags:
@@ -371,16 +363,11 @@ certifications:
   display: true
   title: Certifications
   items:
-    - title: Security certificaton OAuth2, OpenID Connect, SAML V2 and Keycloak
+    - title: Security certification OAuth2, OpenID Connect, SAML V2 , AD/LDAP, and Keycloak
       authors: Trained by Laurent Révillon
       date: "03.2024"
       link: https://www.laurent-revillion.com/
 
-    - title: Azure Solutions Architect Professional
-      authors: Microsoft
-      date: "Not obtained yet - Training Currently ongoing"
-      link: https://docs.microsoft.com/fr-be/learn/certifications/exams/az-303
-  
     - title: Neo4J
       authors: Neo4J
       date: "Not obtained yet - Training Currently ongoing"

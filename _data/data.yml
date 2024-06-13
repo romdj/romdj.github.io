@@ -201,7 +201,8 @@ experiences:
         - ' / TypeScript'
         - ' / Docker'
         - ' / Kubernetes'
-        - ' / Scala'
+        - ' / .NET Core'
+        - ' / C#'
         - ' / Python'
         - ' / Github Actions'
         - ' / Git'
@@ -420,6 +421,8 @@ skills:
       level: 4
     - name: Azure (Functions, CosmosDB (and 6 other services used))
       level: 3
+    - name: .NET Core/C#
+      level: 3.5
     - name: GCP (Cloud Functions, Firestore, Firebase, BigQuery, PubSub, Dataflow, Datastore)
       level: 3
     - name: Node.js (JavaScript, TypeScript)

@@ -107,7 +107,7 @@ experiences:
   display: true
   title: Professional Experience
   items:
-    - role: Application Solution Architect 
+    - role: Data Architect / Application Solution Architect 
       technologies:
         - 'LucidChart'
         - ' / OpenShift'
@@ -131,8 +131,14 @@ experiences:
       cdescription: The General Federation of Belgian Labour 
       location: Brussels, Belgium
       details: |
-        Analysis and Design:
+        Data Architecture:
           - Created a continuous strategy and roadmap for divesting a 30y young AS400 Mainframe applications into a modernized architecture
+          - Created new organization-wide data models and data flows to support the new architecture, including:
+            - Publish-Subscribe pattern for data distribution, synchronization and 
+            - CQRS pattern design and roadmap for implementation
+            - Incorporating the new data model in the current Java microservices
+        
+        Solution Architecture:
           - Revised security practices, reviewed access patterns and implemented a new security layer using Keycloak in coordination with Active Directory
           - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a micro-frontend architecture, as well as Back-End for Front-End
           - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
@@ -143,13 +149,15 @@ experiences:
       technologies:
         - 'LucidChart'
         - ' / AWS'
-        - ' / Java'
-        - ' / Python'
-        - ' / Node.js'
-        - ' / Serverless'
         - ' / AVRO'
-        - ' / OpenApi'
         - ' / Hackolade'
+        - ' / Snowflake'
+        - ' / Data Lake'
+        - ' / Databricks'
+        - ' / Python'
+        - ' / Java'
+        - ' / Node.js'
+        - ' / OpenApi'
         - ' / Jenkins'
         - ' / Git'
         - ' / Jira'
@@ -173,7 +181,7 @@ experiences:
     - role: Solution Architect
       technologies:
         - 'Archimate'
-        - ' / Azure'
+        - ' / Azure event hub'
         - ' / IBM Cloud'
         - ' / AWS'
         - ' / Node.js'

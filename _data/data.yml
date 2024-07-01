@@ -149,17 +149,13 @@ experiences:
       technologies:
         - 'LucidChart'
         - ' / AWS'
+        - ' / SAP S4/HANA'
         - ' / AVRO'
         - ' / Hackolade'
         - ' / Snowflake'
         - ' / Data Lake'
-        - ' / Databricks'
-        - ' / Python'
-        - ' / Java'
-        - ' / Node.js'
         - ' / OpenApi'
         - ' / Jenkins'
-        - ' / Git'
         - ' / Jira'
         - ' / Confluence'
         - ' / Miro'
@@ -171,12 +167,30 @@ experiences:
       cdescription: Creating the Future of Sports
       location: Laakdal, Belgium
       details: |
-        Analysis and Design:
+        External integrations:
+          - SAP S4/HANA 
+          - Centiro (Logistics)
+          - Blue Yonder (Logistics)
+        
+        Overall Role description:
           - Being the interface between the team and the Product Owner, Management and other teams, supporting everyone in their needs
           - Incorporating top-down Company-wide technical strategic decisions into the team's architecture and backlog
-          - Integrated a new logistics system and rework the existing architecture to fit the new requirements, as well as the newly developed company-wide vision and strategy
-          - Implementation of serverless microservices in Java, Python and Node.js
           - Refined and created epics and tickets resulting in raising the standard in DoR and capacity optimization for the development team
+          - Technical stack for implementation: Java, Python, React and Node.js
+        
+        Nike SEC (Supply Chain Execution):
+        Initiative to modernize the current Supply Chain Technology stack
+          - Reviewed and redefined the current architecture, including the data model, data flow, and data storage
+          - Revised the designs for features that would belong/not to the new SAP S4/HANA stack
+          - Adapted the technology stack accordingly to the architecture office directives
+
+        Appointment Scheduling capability - Design and Analysis:
+          - Developed the designs and architecture for a new integration party (Blue Yonder) where a renewed warehouse will adopt a new integration system
+          - Created 7 new data flows and synchronization allowing internal and external parties to have guaranteed delivery over delivery messages
+        
+        Customs and Logistics Initiative - Design and Analysis:
+          - Developed the designs and architecture for a new internal web application to manage the deliveries to a specific subset of countries that have specific customs requirements
+          - Created a new data model and data flow to support our external partners executing deliveries in the said countries 
 
     - role: Solution Architect
       technologies:

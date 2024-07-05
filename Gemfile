@@ -5,3 +5,4 @@ source "https://rubygems.org"
 # gem "rails"
 gem 'jekyll', '~> 4.2.0'
 gem 'jemoji'
+gem 'rake'

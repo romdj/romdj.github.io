@@ -206,7 +206,7 @@ experiences:
         - ' / Jira'
         - ' / Confluence'
       management: Kanban
-      time: 2022.06 - 2022.12
+      time: 2022.08 - 2022.12
       company: IBM
       logo: ibm-logo-multicolor-lcp.png
       rdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
@@ -217,6 +217,29 @@ experiences:
           - Designed and implemented a fully integrated IoT solution for an embedded technology client
           - Created architecture for data pipelines, analysis for energy reports to clients to assess their sustainability
           - Assisted (Sr) partners in providing a technical overview and rapid feedback analysis on client leads and prospects
+
+    - role: Solution Architect
+      technologies:
+        - 'Azure (Functions, Event Hub, MS SQL, CosmosDB, Blob Storage, Bicep, Data Factory)'
+        - ' / .NET Core'
+        - ' / .NET Framework'
+        - ' / C#'
+        - ' / TOGAF'
+        - ' / Archimate'
+        - ' / Git'
+        - ' / TFS'
+      management: Kanban
+      time: 2022.03 - 2022.08
+      company: Inimco
+      logo: inimco.png
+      rdescription: Analyze, Design, and present possible solutions to external clients and stakeholders, follow up on the implementation 
+      cdescription: IoT solutions to optimize industrial productivity and efficiency using Microsoft Azure.
+      location: Belgium
+      details: |
+        - Designed an OEE Management solution, that based on machine data, calculates the Overall Equipment Effectiveness
+        - Oversaw the implementation of the solution, including the data pipeline, data storage, and data analysis
+        - Oversaw a digital twin implementation for replicating the behavior of industrial machines in a virtual environment
+        - Learned about TOGAF and Archimate and applied them to the solution architecture, creating a more structured and standardized approach
 
     - role: Solution Architect / Software Engineer
       technologies:
@@ -231,7 +254,7 @@ experiences:
         - ' / Jira'
         - ' / Confluence'
       management: SCRUMBAN
-      time: 2021.01 - 2022.06
+      time: 2021.01 - 2022.03
       company: Extra Horizon
       logo: exh-logo.jpeg
       rdescription: Design, develop and maintain a platform for the healthcare industry

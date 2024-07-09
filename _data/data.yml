@@ -107,7 +107,7 @@ experiences:
   display: true
   title: Professional Experience
   items:
-    - role: Data Architect / Application Solution Architect 
+    - role: Application Solution Architect 
       technologies:
         - 'LucidChart'
         - ' / OpenShift'
@@ -116,10 +116,10 @@ experiences:
         - ' / AS400 Mainframe'
         - ' / Angular'
         - ' / Microfrontend'
+        - ' / API Management'
         - ' / Monorepo'
         - ' / Keycloak'
         - ' / OpenApi'
-        - ' / Quarkus'
         - ' / Git'
         - ' / Jira'
         - ' / Confluence'
@@ -145,15 +145,16 @@ experiences:
           - Technical guide for setting architectural decisions and setting technology roadmap(s), including code reviews and technical mentoring
           - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
-    - role: Lead Software Engineer 
+    - role: Lead Software Engineer / Solution Architect
       technologies:
         - 'LucidChart'
         - ' / AWS'
+        - ' / Kafka'
         - ' / SAP S4/HANA'
         - ' / AVRO'
         - ' / Hackolade'
         - ' / Snowflake'
-        - ' / Data Lake'
+        - ' / API management'
         - ' / OpenApi'
         - ' / Jenkins'
         - ' / Jira'

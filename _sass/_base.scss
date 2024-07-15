@@ -79,13 +79,25 @@ p {
     }
   }
 
+  // .avatar {
+  //   float: right;
+  //   max-width: 100px;
+  //   margin-bottom: $spacing-unit;
+  //   border: 0px solid $wrapper-color;
+  //   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  // }
+
   .avatar {
     float: right;
     max-width: 100px;
+    width: 100px; // Ensure the width is set to make the image a circle
+    height: 100px; // Ensure the height is the same as the width
     margin-bottom: $spacing-unit;
     border: 0px solid $wrapper-color;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  }
+    border-radius: 50%; // Make the image circular
+    object-fit: cover; // Ensure the image covers the area without stretching
+}
 
   // .item {
   //     padding-bottom: $spacing-unit / 4;

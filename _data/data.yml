@@ -107,260 +107,106 @@ experiences:
   title: Professional Experience
   items:
     - role: Application Solution Architect 
-      technologies:
-        - 'LucidChart'
-        - ' / OpenShift'
-        - ' / Java'
-        - ' / Spring'
-        - ' / Spring Boot'
-        - ' / Archimate'
-        - ' / AS400 Mainframe'
-        - ' / SQL'
-        - ' / IBM API Connect'
-        - ' / IBM IIB'
-        - ' / SQL Data Queries'
-        - ' / Angular'
-        - ' / Microfrontend'
-        - ' / API Management'
-        - ' / Monorepo'
-        - ' / Keycloak'
-        - ' / OpenApi'
-        - ' / Git'
-        - ' / Jira'
-        - ' / Confluence'
       management: Scrumban and waterfall
-      time: 2024.01 - 2024.06
-      company: ABVV-FGTB
       logo: abvv-fgtb.png
+      time: 2024.01 - 2024.06
       rdescription: Leading the modernization of a 30y old AS400 Mainframe application
       cdescription: The General Federation of Belgian Labour 
+      company: ABVV-FGTB
       location: Brussels, Belgium
       details: |
-        Data Architecture:
-          - Created a continuous strategy and roadmap for divesting a 30y young AS400 Mainframe applications into a modernized architecture
-          - Created new organization-wide data models and data flows to support the new architecture, including:
-            - Publish-Subscribe pattern for data distribution, synchronization and 
-            - CQRS pattern design and roadmap for implementation
-            - Incorporating the new data model in the current Java microservices
-        
-        Solution Architecture:
-          - Revised security practices, reviewed access patterns and implemented a new security layer using Keycloak in coordination with Active Directory
-          - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a micro-frontend architecture, as well as Back-End for Front-End
-          - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
-          - Technical guide for setting architectural decisions and setting technology roadmap(s), including code reviews and technical mentoring
-          - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
+        - Modernized a 30-year-old AS400 Mainframe application
+        - Developed new data models and data flows for a modern architecture
+        - Implemented a new security layer using Keycloak and Active Directory
+        - Managed stakeholder relationships, providing technical guidance to non-technical stakeholders
 
     - role: Lead Software Engineer / Solution Architect
-      technologies:
-        - 'LucidChart'
-        - ' / AWS'
-        - ' / Java'
-        - ' / Spring'
-        - ' / Spring Boot'
-        - ' / Kafka'
-        - ' / SAP S4/HANA'
-        - ' / AVRO'
-        - ' / Hackolade'
-        - ' / Snowflake'
-        - ' / API management'
-        - ' / OpenApi'
-        - ' / Jenkins'
-        - ' / Jira'
-        - ' / Confluence'
-        - ' / Miro'
       management: SAFe and SCRUM
-      time: 2022.12 - 2023.12
-      company: Nike
       logo: nike-swoosh-logo-paint-cropped.png
+      time: 2022.12 - 2023.12
       rdescription: Leading a team of 12 to build a new event-driven platform for Nike's Supply Chain Technology
       cdescription: Creating the Future of Sports
+      company: Nike
       location: Laakdal, Belgium
       details: |
-        External integrations:
-          - SAP S4/HANA 
-          - Centiro (Logistics)
-          - Blue Yonder (Logistics)
-        
-        Overall Role description:
-          - Being the interface between the team and the Product Owner, Management and other teams, supporting everyone in their needs
-          - Incorporating top-down Company-wide technical strategic decisions into the team's architecture and backlog
-          - Refined and created epics and tickets resulting in raising the standard in DoR and capacity optimization for the development team
-          - Technical stack for implementation: Java, Python, React and Node.js
-        
-        Nike SEC (Supply Chain Execution):
-        Initiative to modernize the current Supply Chain Technology stack
-          - Reviewed and redefined the current architecture, including the data model, data flow, and data storage
-          - Revised the designs for features that would belong/not to the new SAP S4/HANA stack
-          - Adapted the technology stack accordingly to the architecture office directives
-
-        Appointment Scheduling capability - Design and Analysis:
-          - Developed the designs and architecture for a new integration party (Blue Yonder) where a renewed warehouse will adopt a new integration system
-          - Created 7 new data flows and synchronization allowing internal and external parties to have guaranteed delivery over delivery messages
-        
-        Customs and Logistics Initiative - Design and Analysis:
-          - Developed the designs and architecture for a new internal web application to manage the deliveries to a specific subset of countries that have specific customs requirements
-          - Created a new data model and data flow to support our external partners executing deliveries in the said countries 
+        - Led a team to build an event-driven platform for Nike's Supply Chain Technology
+        - Integrated SAP S4/HANA and other logistics systems into the existing landscape for proper integration
+        - Defined architecture and data models for the new supply chain technology stack and external integrators
 
     - role: Solution Architect
-      technologies:
-        - 'Archimate'
-        - ' / Azure event hub'
-        - ' / IBM Cloud'
-        - ' / AWS'
-        - ' / Node.js'
-        - ' / TypeScript'
-        - ' / MS SQL'
-        - ' / DataBricks'
-        - ' / Git'
-        - ' / Jira'
-        - ' / Confluence'
       management: Kanban
-      time: 2022.06 - 2022.12
-      company: IBM
       logo: ibm-logo-multicolor-lcp.png
+      time: 2022.06 - 2022.12
       rdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
       cdescription: Let's put smart to work
+      company: IBM
       location: Belgium
       details: |
-        Solution Architect:
-          - Designed and implemented a fully integrated IoT solution for an embedded technology client
-          - Created architecture for data pipelines, analysis for energy reports to clients to assess their sustainability
-          - Assisted (Sr) partners in providing a technical overview and rapid feedback analysis on client leads and prospects
+        - Designed an integrated IoT solution for an embedded technology client
+        - Created data pipelines and analysis for automated energy reports for teams of data scientists
+        - Provided technical analysis and feedback for client leads
 
     - role: Solution Architect / Software Engineer
-      technologies:
-        - AWS (ECS, SNS, SQS, Lambda)
-        - ' / TypeScript'
-        - ' / Docker'
-        - ' / Kubernetes'
-        - ' / Java'
-        - ' / Python'
-        - ' / Github Actions'
-        - ' / Git'
-        - ' / Jira'
-        - ' / Confluence'
       management: SCRUMBAN
-      time: 2021.01 - 2022.06
-      company: Extra Horizon
       logo: exh-logo.jpeg
+      time: 2021.01 - 2022.06
       rdescription: Design, develop and maintain a platform for the healthcare industry
       cdescription: Medically compliant Backend as a Service
+      company: Extra Horizon
       location: Hasselt, Belgium
       details: |
-        Solution Architect:
-          - Interfaced with multiple customer needs and came up with solutions on how to integrate their products onto the ExH platform
-          - Designed, planned, developed and released services that fitted customer needs
-          - Helped Management in the technical sphere gaining knowledge of our platform and shared knowledge on best practices
-
-        Backend Cloud Developments:
-          - Ported multiple services written in Java (6) to Node.js
-          - Fully Developed the following micro-services:
-            - AWS lambda functions management micro-service
-            - SMS messages
-            - OAuth2 & OAuth1 authentication
-            - Extended MFA functionalities
-            - Integration of AppStore and Google Play Store inside payment micro-service
-          - All features were developed using TDD, 100% testing coverage and documentation
+        - Designed and developed a healthcare platform (Backend as a Service) to enable new customer products to be built on top of it in a medically compliant environment
+        - Integrated customer products onto the platform
+        - Developed multiple micro-services with TDD and 100% test coverage
 
     - role: Data Engineer
-      technologies:
-        - AWS (EC2, ECS)
-        - ' / Spark (Scala, Python)'
-        - ' / Airflow'
-        - ' / Docker'
-        - ' / Github Actions'
-        - ' / Git'
       management: Kanban
-      time: 2020.09 - 2020.12
-      company: Levi Strauss
       logo: levis.jpg
+      time: 2020.09 - 2020.12
       rdescription: Part of a team aiming to assist Data Scientists in their daily tasks
       cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
-      tag: via Amaris BE
+      company: Levi Strauss (via Amaris BE)
       location: Brussels, Belgium
       details: |
-        - Worked on some Data pipeline and flows to be used by the Data Science team
-        - Implemented CI/CD pipeline and integration using Github Actions and Jenkins
-        - Various Data flow implementation
+        - Assisted Data Scientists with data pipeline and flow implementations
+        - Implemented CI/CD pipeline using Github Actions and Jenkins
 
     - role: Software Engineer
-      technologies:
-        - AWS (Lambda, API Gateway, CloudFormation, DynamoDB, Kinesis stream, CloudWatch, SNS)
-        - ' / Node.JS (ECMAScript 2020, Typescript)'
-        - ' / Jenkins CI'
-        - ' / Git'
       management: SAFe
-      time: 2018.07 - 2020.09
-      company: Philips N.V
       logo: philips-hsdp.png
+      time: 2018.07 - 2020.09
       rdescription: Part of a back-end team aiming to provide the user with a complete and secure health platform
       cdescription: HealthSuite Digital Platform provides a complete set of cloud services to devices used in a hospital context.
-      tag: via Amaris NL
+      company: Philips N.V (via Amaris NL)
       location: Eindhoven, The Netherlands
       details: |
-        - Participation to 3 platform services:
-          - Data Broker Service:
-            - Responsible for ingesting, cleaning/parsing and distributing data to a variety of services (Mediator
-          pattern)
-            - AWS Services: Lambda, Kinesis, SNS, SQS, Cloudwatch, Elastic stack
-            - Node.JS component: TypeScript, serverless, sinon, mocha
-          - IoTGateway:
-            - Responsible for managing a fleet of IoT devices (Authentication, connection, data transmission /
-          collection and monitoring)
-            - AWS Services: IoT Core, Lambda, SNS, cloudwatch, KMS, XRay
-            - Node.JS components: TypeScript, MQTT connection, serverless, sinon, mocha
-          - Firmware:
-            - Responsible for managing the Firmware distribution on a fleet of devices
-            - AWS Services: API Gateway, Route53, Lambda, dynamodb, cloudwatch, KMS, XRay
-            - Node.JS components: TypeScript, serverless, jest, localstack
+        - Developed platform services for the HealthSuite Digital Platform
+        - Implemented AWS services for data ingestion, device management, and firmware distribution
 
     - role: Full-stack Developer
-      technologies:
-        - Node.JS
-        - ' / AngularJS'
-        - ' / Python'
-        - ' / Docker'
-        - ' / ELK (ElasticSearch, Kibana)'
-        - ' / Java'
-        - ' / Tomcat'
-        - ' / MS SQL'
-        - ' / C#'
-        - ' / Git & SVN'
-
       management: Waterfall
-      time: 2017.03 - 2018.06
-      company: Engie Fabricom Airport Systems
       logo: engie_fas.png
+      time: 2017.03 - 2018.06
       rdescription: Development integrating PLC systems with the airport's baggage handling system
       cdescription: Airports Baggage handling solution
-      tag: via Wemanity BE
+      company: Engie Fabricom Airport Systems (via Wemanity BE)
       location: Brussels, Belgium
       details: |
-        - Created Bag kiosk simulator with complete (multiple layers) simulation - Node.Js, AngularJS
-        - Porting IoT data to Elastic stack, creating realtime dashboarding solutions- Python, ELK
-        - Project maintenance - Java (Tomcat), C#
+        - Developed a baggage handling system simulation
+        - Created real-time dashboarding solutions with ELK stack
+        - Maintained project using Java, Tomcat, and C#
 
     - role: Full-stack Developer
-      technologies:
-        - Node.JS
-        - ' / AWS (Cloudformation, S3, API Gateway, Lambda)'
-        - ' / Swift'
-        - ' / Ruby'
-        - ' / PHP'
-        - ' / Git'
       management: SCRUM
-      time: 2016.06 - 2016.12
-      company: Keemotion
       logo: keemotion.jpg
+      time: 2016.06 - 2016.12
       rdescription: Development of a mobile application for coaches and players
       cdescription: Keemotion is is the automated video production solution connecting the arena for coaches, leagues, and fans.
-      tag: full-time, on payroll
+      company: Keemotion
       location: Louvain-la-Neuve, Belgium
       details: |
-        - Swift - iOS application UI Testing
-        - Cleaning script to show unused/outdated AWS S3 buckets and data
-        - On-Premise based PHP micro-services migration into CloudFormation, APIGateway and Lambda solution
-
+        - Developed a mobile application for coaches and players
+        - Migrated on-premise services to cloud solutions
 projects:
   display: false
   title: Ongoing Projects
@@ -442,30 +288,6 @@ publications:
       authors: Foo Bar
       conference: Foobar, 2019
       link:
-
-skills:
-  display: true
-  title: Experience Level
-  techs:
-    - name: LucidChart/CloudCraft.co/Draw.io
-      level: 4.5
-    - name: Archimate (TOGAF)
-      level: 3.5
-    - name: AWS (Lambda, DynamoDB, CloudFormation (and 15 other services used))
-      level: 4
-    - name: Azure (Functions, CosmosDB (and 6 other services used))
-      level: 3
-    - name: GCP (Cloud Functions, Firestore, Firebase, BigQuery, PubSub, Dataflow, Datastore)
-      level: 3
-    - name: Node.js (JavaScript, TypeScript)
-      level: 4
-    - name: Scala/Java/Kotlin
-      level: 3
-    - name: Spark/DataBricks/PySpark
-      level: 3
-    - name: JuPyteR/Python
-      level: 3
-  details:
 
 footer:
   display: true

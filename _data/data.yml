@@ -112,7 +112,6 @@ experiences:
         - 'LucidChart'
         - ' / OpenShift'
         - ' / Java'
-        - ' / Archimate'
         - ' / AS400 Mainframe'
         - ' / Angular'
         - ' / Microfrontend'
@@ -414,8 +413,6 @@ skills:
   techs:
     - name: LucidChart/CloudCraft.co/Draw.io
       level: 4.5
-    - name: Archimate (TOGAF)
-      level: 3.5
     - name: AWS (Lambda, DynamoDB, CloudFormation (and 15 other services used))
       level: 4
     - name: Azure (Functions, CosmosDB (and 6 other services used))
@@ -429,7 +426,7 @@ skills:
     - name: Spark/DataBricks/PySpark
       level: 3
     - name: JuPyteR/Python
-      level: 3
+      level: 2
   details:
 
 footer:

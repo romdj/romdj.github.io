@@ -171,11 +171,11 @@ experiences:
 
     - role: Solution Architect
       technologies:
-        - 'Archimate'
-        - ' / Azure'
+        - ' Azure'
         - ' / IBM Cloud'
         - ' / AWS'
         - ' / Node.js'
+        - ' / Archimate course'
         - ' / TypeScript'
         - ' / DataBricks'
         - ' / Git'

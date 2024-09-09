@@ -80,7 +80,7 @@ profile:
   display: true
   title: Profile
   details: |
-    Data Engineer with a professional background in full-stack cloud software development.
+    Data architect with a professional background in data engineering & full-stack cloud software development.
     Great passion for new business opportunities arising from new technologies.
     
     Character traits:
@@ -145,7 +145,7 @@ experiences:
           - Technical guide for setting architectural decisions and setting technology roadmap(s), including code reviews and technical mentoring
           - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
-    - role: Lead Data Engineer 
+    - role: Lead Data Engineer
       technologies:
         - 'LucidChart'
         - ' / AWS'
@@ -419,7 +419,15 @@ skills:
   display: true
   title: Experience Level
   techs:
+    - name: Hackolade/Apache Avro/Parquet
+      level: 4
+    - name: Archimate
+      level: 3.5
+    - name: LucidChart/CloudCraft.co/Draw.io (C4 Model)
+      level: 4.5
     - name: Spark/DataBricks/PySpark
+      level: 4
+    - name: Kafka/EventBridge/EventHub/ActiveMQ/rabbitMQ
       level: 4
     - name: JuPyteR/Python/Pandas
       level: 4
@@ -432,9 +440,7 @@ skills:
     - name: Node.js (JavaScript, TypeScript)
       level: 4
     - name: IaC (Serverless, Terraform, CloudFormation, Ansible, Bicep)
-      level: 4
-    - name: LucidChart/CloudCraft.co/Draw.io
-      level: 4.5
+      level: 3
     - name: Scala/Java/Kotlin
       level: 3
   details:

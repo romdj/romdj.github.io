@@ -80,7 +80,7 @@ profile:
   display: true
   title: Profile
   details: |
-    Solution Architect with a professional background in full-stack cloud software development.
+    Data Engineer with a professional background in full-stack cloud software development.
     Great passion for new business opportunities arising from new technologies.
     
     Character traits:
@@ -145,15 +145,18 @@ experiences:
           - Technical guide for setting architectural decisions and setting technology roadmap(s), including code reviews and technical mentoring
           - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
-    - role: Lead Software Engineer 
+    - role: Lead Data Engineer 
       technologies:
         - 'LucidChart'
         - ' / AWS'
-        - ' / SAP S4/HANA'
-        - ' / AVRO'
         - ' / Hackolade'
+        - ' / AVRO'
         - ' / Snowflake'
+        - ' / Databricks'
         - ' / Data Lake'
+        - ' / SAP S4/HANA'
+        - ' / Python'
+        - ' / Pandas (numpy, TensorFlow, Keras, Scikit-learn)'
         - ' / OpenApi'
         - ' / Jenkins'
         - ' / Jira'
@@ -163,7 +166,7 @@ experiences:
       time: 2022.12 - 2023.12
       company: Nike
       logo: nike-swoosh-logo-paint-cropped.png
-      rdescription: Leading a team of 12 to build a new event-driven platform for Nike's Supply Chain Technology
+      rdescription: Leading a team of 12 to build a new event-driven platform for Nike's Supply Chain Technology & analytics
       cdescription: Creating the Future of Sports
       location: Laakdal, Belgium
       details: |
@@ -176,23 +179,16 @@ experiences:
           - Being the interface between the team and the Product Owner, Management and other teams, supporting everyone in their needs
           - Incorporating top-down Company-wide technical strategic decisions into the team's architecture and backlog
           - Refined and created epics and tickets resulting in raising the standard in DoR and capacity optimization for the development team
-          - Technical stack for implementation: Java, Python, React and Node.js
+          - Technical stack for implementation: Python, Databricks, Snowflake, AWS Lambda, Step Functions, EventBridge and S3
         
         Nike SEC (Supply Chain Execution):
         Initiative to modernize the current Supply Chain Technology stack
           - Reviewed and redefined the current architecture, including the data model, data flow, and data storage
           - Revised the designs for features that would belong/not to the new SAP S4/HANA stack
           - Adapted the technology stack accordingly to the architecture office directives
+          - Created a new data model for the new platform, including the data flow and data storage (Snowflake)
 
-        Appointment Scheduling capability - Design and Analysis:
-          - Developed the designs and architecture for a new integration party (Blue Yonder) where a renewed warehouse will adopt a new integration system
-          - Created 7 new data flows and synchronization allowing internal and external parties to have guaranteed delivery over delivery messages
-        
-        Customs and Logistics Initiative - Design and Analysis:
-          - Developed the designs and architecture for a new internal web application to manage the deliveries to a specific subset of countries that have specific customs requirements
-          - Created a new data model and data flow to support our external partners executing deliveries in the said countries 
-
-    - role: Solution Architect
+    - role: Solution Architect / Data Engineer
       technologies:
         - 'Archimate'
         - ' / Azure event hub'
@@ -213,8 +209,8 @@ experiences:
       location: Belgium
       details: |
         Solution Architect:
-          - Designed and implemented a fully integrated IoT solution for an embedded technology client
-          - Created architecture for data pipelines, analysis for energy reports to clients to assess their sustainability
+          - Designed and implemented a fully integrated IoT solution for an embedded technology client (OEE monitoring)
+          - Created architecture for data pipelines, analysis for energy reports to clients to assess their sustainability and energy consumption/carbon footprint
           - Assisted (Sr) partners in providing a technical overview and rapid feedback analysis on client leads and prospects
 
     - role: Solution Architect / Software Engineer
@@ -351,19 +347,8 @@ experiences:
 projects:
   display: false
   title: Ongoing Projects
-  # intro: |
-  # Here are the various projects that I am working on:
 
   items:
-    # - name: SongAway
-    #   link: https://www.github.com/romdj/songaway
-    #   tags:
-    #     - Flutter
-    #     - AWS
-    #     - Node.js
-    #     - Electron
-    #   details: |
-    #     Self hosted Mobile media application
 
     - name: 3point-game-nhl-standing
       link: https://www.github.com/romdj/3point-game-nhl-standing
@@ -434,23 +419,23 @@ skills:
   display: true
   title: Experience Level
   techs:
-    - name: LucidChart/CloudCraft.co/Draw.io
-      level: 4.5
-    - name: Archimate (TOGAF)
-      level: 3.5
+    - name: Spark/DataBricks/PySpark
+      level: 4
+    - name: JuPyteR/Python/Pandas
+      level: 4
     - name: AWS (Lambda, DynamoDB, CloudFormation (and 15 other services used))
       level: 4
-    - name: Azure (Functions, CosmosDB (and 6 other services used))
+    - name: Azure (Functions, CosmosDB, Databricks, Event (and 6 other services used))
       level: 3
     - name: GCP (Cloud Functions, Firestore, Firebase, BigQuery, PubSub, Dataflow, Datastore)
       level: 3
     - name: Node.js (JavaScript, TypeScript)
       level: 4
+    - name: IaC (Serverless, Terraform, CloudFormation, Ansible, Bicep)
+      level: 4
+    - name: LucidChart/CloudCraft.co/Draw.io
+      level: 4.5
     - name: Scala/Java/Kotlin
-      level: 3
-    - name: Spark/DataBricks/PySpark
-      level: 3
-    - name: JuPyteR/Python
       level: 3
   details:
 

@@ -130,15 +130,22 @@ experiences:
       cdescription: The General Federation of Belgian Labour 
       location: Brussels, Belgium
       details: |
-        Analysis and Design:
+        Data Architecture:
           - Created a continuous strategy and roadmap for divesting a 30y young AS400 Mainframe applications into a modernized architecture
+          - Created new organization-wide data models and data flows to support the new architecture, including:
+            - Publish-Subscribe pattern for data distribution, synchronization and 
+            - CQRS pattern design and roadmap for implementation
+            - Incorporating the new data model in the current Java microservices
+        
+        Solution Architecture:
           - Revised security practices, reviewed access patterns and implemented a new security layer using Keycloak in coordination with Active Directory
           - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a micro-frontend architecture, as well as Back-End for Front-End
           - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
           - Technical guide for setting architectural decisions and setting technology roadmap(s), including code reviews and technical mentoring
           - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
-    - role: Lead Software Engineer 
+
+    - role: Technical Architect / Lead Software Engineer 
       technologies:
         - 'LucidChart'
         - ' / AWS'
@@ -162,12 +169,23 @@ experiences:
       cdescription: Creating the Future of Sports
       location: Laakdal, Belgium
       details: |
-        Analysis and Design:
+        External integrations:
+          - SAP S4/HANA 
+          - Centiro (Logistics)
+          - Blue Yonder (Logistics)
+        
+        Overall Role description:
           - Being the interface between the team and the Product Owner, Management and other teams, supporting everyone in their needs
           - Incorporating top-down Company-wide technical strategic decisions into the team's architecture and backlog
-          - Integrated a new logistics system and rework the existing architecture to fit the new requirements, as well as the newly developed company-wide vision and strategy
-          - Implementation of serverless microservices in Java, Python and Node.js
           - Refined and created epics and tickets resulting in raising the standard in DoR and capacity optimization for the development team
+          - Technical stack for implementation: Python, Databricks, Snowflake, AWS Lambda, Step Functions, EventBridge and S3
+        
+        Nike SEC (Supply Chain Execution):
+        Initiative to modernize the current Supply Chain Technology stack
+          - Reviewed and redefined the current architecture, including the data model, data flow, and data storage
+          - Revised the designs for features that would belong/not to the new SAP S4/HANA stack
+          - Adapted the technology stack accordingly to the architecture office directives
+          - Created a new data model for the new platform, including the data flow and data storage (Snowflake)
 
     - role: Solution Architect
       technologies:

@@ -6,7 +6,7 @@ intro:
   vatNumber: BE1003780744
   avatar:
     display: true
-    path: pp2.jpeg
+    path: 2025.jpg
 
 contact:
   address:
@@ -72,9 +72,10 @@ interests:
     - item: "Sports: Triathlon, Ski, Cycling, Ice Hockey, Tennis"
     - item: Barista & Coffee tasting, roasting
     - item: Cooking
-    - item: Hackathons & Startup weekends
     - item: Photography 
-    - item: Investment
+    - item: Aviation, sailing, aerodynamics 
+    - item: Hackathons & Startup weekends
+    - item: Entrepreneurship & Personal Growth
 
 profile:
   display: true
@@ -166,24 +167,23 @@ experiences:
         - ' / Jira'
         - ' / Confluence'
       management: Scrumban and waterfall
-      time: 2024.01 - 2024.12
+      time: 2024.01 - 2024.07
       company: ABVV-FGTB
       logo: abvv-fgtb.png
       rdescription: Leading the modernization of a 30y old AS400 Mainframe application
       cdescription: The General Federation of Belgian Labour 
       location: Brussels, Belgium
       details: |
-        Solution Architecture:
-          - Initiated a continuous strategy and roadmap for divesting a 30y young AS400 Mainframe applications into a modernized architecture
-          - Created new organization-wide data models and data flows to support the new architecture, including:
-            - Publish-Subscribe pattern for data distribution, synchronization and 
-            - CQRS pattern design and roadmap for implementation
-            - Incorporating the new data model in the current Java microservices
+          - Initiated a continuous strategy and roadmap for **divesting a 30y young AS400 Mainframe applications** into a modernized architecture
+          - Created new **organization-wide data models and data flows** to support the new architecture, including:
+            - Pub-Sub pattern for data distribution, synchronization and 
+            - **CQRS** pattern design and roadmap for implementation
+            - Incorporating the new data model in the current **Java microservices**
         
-          - Revised security practices, reviewed access patterns and implemented a new security layer using Keycloak in coordination with Active Directory
-          - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a micro-frontend architecture, as well as Back-End for Front-End
+          - Revised security practices, **reviewed access patterns** and implemented a new security layer using Keycloak in coordination with Active Directory
+          - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a microfrontend architecture, with BFF
           - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
-          - Technical guide for setting architectural decisions and setting technology roadmap(s), including code reviews and technical mentoring
+          - Technical guide for setting architectural decisions and **setting technology roadmap(s)**, including code reviews and technical mentoring
           - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
 
@@ -224,7 +224,7 @@ experiences:
         
         Nike SEC (Supply Chain Execution):
         Initiative to modernize the current Supply Chain Technology stack
-          - Reviewed and redefined the current architecture, including the data model, data flow, and data storage
+          - Reviewed and redefined the current architecture, including the data model, data flow, and data storage, leveraging platform strategy and KAPPA architecture
           - Revised the designs for features that would belong/not to the new SAP S4/HANA stack
           - Adapted the technology stack accordingly to the architecture office directives
           - Created a new data model for the new platform, including the data flow and data storage (Snowflake)

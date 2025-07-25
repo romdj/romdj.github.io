@@ -107,15 +107,58 @@ experiences:
   display: true
   title: Professional Experience
   items:
-    - role: Application Solution Architect 
+    - role: Solution Architect (Enterprise Level)
+      technologies:
+        - ' EA Sparx'
+        - ' / Archimate'
+      management: SCRUM and Waterfall
+      time: 2024.10 - Present
+      company: Elia
+      logo: Elia-logo.svg
+      tag: via Aprico Consultants
+      rdescription: As a Solution Architect, my role is to establish architectural principles and practices within the organization, ensuring that the technology strategy aligns with the business architecture, as well as designing technical solutions aligned with architecture's core principles.
+      cdescription: ELIA is the Transmission System Operator for high-voltage electricity in Belgium.
+      location: Brussels, Belgium
+      details: |  
+        **Architecture Board internal initiatives:**  
+        Co-lead an architectural working group, establishing architectural principles and processes on how to formalize the involvement of architecture within the organization
+          - Establishing **API guidelines** and standards for the organization
+          - Establishing **Messaging guidelines** and standards for the organization
+          - Reviewed process such as **RACI matrix** among architecture, **SAD, ATAM, ADRs & ADL**
+          - Revised **security practices**, **user lifecycle**, and integration track for new authentication modules and practices  
+
+        **Projects:**  
+        Customer Centricity Platform Azure (.NET stack):  
+        _Supported the process of **maturation** of a cutting edge customer centricity Platform_   
+          - Cloud agnostic architecture based on K8s, .NET, and Azure
+          - Integration between new systems and legacy systems
+          - Incorporating an event-driven architecture with a model driven approach
+          - **Documented the existing implementation** and translated into a **Miro/Archimate** based architecture documentation
+
+        ADEMAR-[Capacity Remuneration Mechanism](https://www.elia.be/en/electricity-market-and-system/adequacy/capacity-remuneration-mechanism):  
+        _Suite of applications to support a Market driven process_   
+          - **Documented** the existing implementation and translated into a **Miro/Archimate** based architecture documentation
+          - Identified internal and external integration points
+          - Incorporated new **solution designs** in the current application context
+          - Created a **modernization track** to refactor the current applications into a Hub-and-spoke pattern
+
+        BSPM:  
+        _Data product driven monitoring platform for the Balancing Service Provider Market in the German market domain_  
+          - Created a solution design to support the new architecture, including:
+            - Leveraging new data products to support the greenfield application architecture
+            - Laid out the HL Roadmap and implementation plan
+            - Helped introducing a quality first mindset & culture, both for the architecture and the implementation
+        
+
+    - role: Solution Architect 
       technologies:
         - 'LucidChart'
+        - ' / EA Sparx'
         - ' / OpenShift'
         - ' / Java'
         - ' / AS400 Mainframe'
         - ' / Angular'
         - ' / Microfrontend'
-        - ' / Monorepo'
         - ' / Keycloak'
         - ' / OpenApi'
         - ' / Quarkus'
@@ -130,14 +173,13 @@ experiences:
       cdescription: The General Federation of Belgian Labour 
       location: Brussels, Belgium
       details: |
-        Data Architecture:
-          - Created a continuous strategy and roadmap for divesting a 30y young AS400 Mainframe applications into a modernized architecture
+        Solution Architecture:
+          - Initiated a continuous strategy and roadmap for divesting a 30y young AS400 Mainframe applications into a modernized architecture
           - Created new organization-wide data models and data flows to support the new architecture, including:
             - Publish-Subscribe pattern for data distribution, synchronization and 
             - CQRS pattern design and roadmap for implementation
             - Incorporating the new data model in the current Java microservices
         
-        Solution Architecture:
           - Revised security practices, reviewed access patterns and implemented a new security layer using Keycloak in coordination with Active Directory
           - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a micro-frontend architecture, as well as Back-End for Front-End
           - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
@@ -145,7 +187,7 @@ experiences:
           - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
 
-    - role: Technical Architect / Lead Software Engineer 
+    - role: Technical Architect
       technologies:
         - 'LucidChart'
         - ' / AWS'
@@ -170,7 +212,7 @@ experiences:
       location: Laakdal, Belgium
       details: |
         External integrations:
-          - SAP S4/HANA 
+          - SAP S4/HANA
           - Centiro (Logistics)
           - Blue Yonder (Logistics)
         
@@ -207,10 +249,9 @@ experiences:
       cdescription: Let's put smart to work
       location: Belgium
       details: |
-        Solution Architect:
           - Designed and implemented a fully integrated IoT solution for an embedded technology client
           - Created architecture for data pipelines, analysis for energy reports to clients to assess their sustainability
-          - Assisted (Sr) partners in providing a technical overview and rapid feedback analysis on client leads and prospects
+          - Assisted Senior partners in providing a technical overview and rapid feedback analysis on client leads and prospects
 
     - role: Solution Architect / Software Engineer
       technologies:
@@ -360,13 +401,24 @@ projects:
     #   details: |
     #     Self hosted Mobile media application
 
+    - name: Temps d'Arrêt Studio
+      link: https://www.github.com/romdj/tempsdarret.studio
+      tags:
+        - Svelte
+        - Node.js (TS)
+        - MongoDB
+        - Kafka
+      details: |
+        A modern portfolio and client portal for photographers, built with SvelteKit, Node.js, and MongoDB. Features public galleries, professional services, secure client access, and admin management.
+    
     - name: 3point-game-nhl-standing
       link: https://www.github.com/romdj/3point-game-nhl-standing
       tags:
-        - Vue.js
-        - Node.js
+        - Svelte
+        - Node.js (TS)
+        - GraphQL
       details: |
-        Simulation of what-if the NHL was using the 3-point game present in the International (IIHF) system
+        A modern web application showcasing what NHL standings would look like using the International Ice Hockey Federation (IIHF) 3-point scoring system instead of the traditional NHL 2-point system.
 
     - name: Eindhoven Technology Meetup group
       link: https://www.meetup.com/Eindhoven-Technology-Meetup-Group/
@@ -429,10 +481,14 @@ skills:
   display: true
   title: Experience Level
   techs:
-    - name: LucidChart/CloudCraft.co/Draw.io
+    - name: LucidChart/CloudCraft.co/Draw.io/Miro
       level: 4.5
     - name: AWS (Lambda, DynamoDB, CloudFormation (and 15 other services used))
       level: 4
+    - name: Archi/EA Sparx/LeanIX
+      level: 3.5
+    - name: Archimate
+      level: 3.5
     - name: Azure (Functions, CosmosDB (and 6 other services used))
       level: 3
     - name: GCP (Cloud Functions, Firestore, Firebase, BigQuery, PubSub, Dataflow, Datastore)
@@ -440,6 +496,8 @@ skills:
     - name: Node.js (JavaScript, TypeScript)
       level: 4
     - name: Scala/Java/Kotlin
+      level: 3
+    - name: .NET/Blazor/C#/.NET Core
       level: 3
     - name: Spark/DataBricks/PySpark
       level: 3

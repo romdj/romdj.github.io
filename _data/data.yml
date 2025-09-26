@@ -6,12 +6,13 @@ intro:
   vatNumber: BE1003780744
   avatar:
     display: true
-    path: 2025.jpg
+    path: 2025_10.jpg
 
 contact:
   address:
     display: true
-    title: Uccle (Brussels), Belgium
+    title: Lyongade, 2300 København, Denmark
+    # title: Uccle (Brussels), Belgium
   birthdate:
     display: true
     title: 25/06/1991
@@ -35,7 +36,7 @@ contact:
     display: false
     title: romdj.xyz
   linkedin:
-    display: true
+    display: false
     title: romainlussier
   github:
     display: true
@@ -81,14 +82,10 @@ profile:
   display: true
   title: Profile
   details: |
-    Solution Architect with a professional background in full-stack cloud software development.
-    Great passion for new business opportunities arising from new technologies.
-    
-    Character traits:
-      - Very responsive to stimulating environments
-      - Product/Result oriented
-      - Avid learner
-      - Team player
+    Enterprise Solution Architect with extensive experience bridging business strategy and technical implementation across complex organizational landscapes and domains. <br/> <br/>
+    Proven track record of collaborating with domain architects and business stakeholders to translate strategic business requirements into scalable, enterprise-grade technical solutions. <br/> <br/>
+    Specialized in establishing architectural governance frameworks and leading cross-functional architecture teams to drive digital transformation initiatives.
+    Cross-functional expertise in modern development practices, from on-prem to cloud, full-stack development to DevOps, and Data Engineering, with a strong emphasis on aligning IT initiatives with overarching business goals. <br/> <br/>
 
 education:
   display: true
@@ -113,37 +110,50 @@ experiences:
         - ' EA Sparx'
         - ' / Archimate'
       management: SCRUM and Waterfall
-      time: 2024.10 - Present
+      time: 2024.01 - Present
       company: Elia
       logo: Elia-logo.svg
       tag: via Aprico Consultants
-      rdescription: As a Solution Architect, my role is to establish architectural principles and practices within the organization, ensuring that the technology strategy aligns with the business architecture, as well as designing technical solutions aligned with architecture's core principles.
+      rdescription: As a Solution Architect, establishing architectural principles and practices within the organization, ensuring technology strategy aligns with business architecture, and designing technical solutions aligned with core architectural principles while leading cross-functional architecture teams.
       cdescription: ELIA is the Transmission System Operator for high-voltage electricity in Belgium.
       location: Brussels, Belgium
+
+# TODO ADD review and rework user lifecycle and authentication practices
       details: |  
         **Architecture Board internal initiatives:**  
-        Co-lead an architectural working group, establishing architectural principles and processes on how to formalize the involvement of architecture within the organization
+        Co-lead the Solution Architecture discipline and team
+        Lead an architectural working group, establishing architectural principles and processes on how to formalize the involvement of architecture within the organization:
+          - Establishing **Overall Customers and Market Parties Outside-IN** organization access patterns and guidelines for all applications within the organization's landscape
           - Establishing **API guidelines** and standards for the organization
           - Establishing **Messaging guidelines** and standards for the organization
-          - Reviewed process such as **RACI matrix** among architecture, **SAD, ATAM, ADRs & ADL**
-          - Revised **security practices**, **user lifecycle**, and integration track for new authentication modules and practices  
+          - Reviewed process such as **RACI matrix** among architecture, **SAD, ATAM, ADRs & ADL, ADLC**
+          - Revised **security practices**, **complete organization-wide user and company lifecycle**, and integration track for new authentication modules and practices  
 
         **Projects:**  
-        Customer Centricity Platform Azure (.NET stack):  
+        Customer Centricity Platform Azure (.NET stack) [EPIC](https://epic-portal.io), [Traxes](https://www.traxes.io), [WattsHappening](https://www.wattshappening.be/):  
+        _**20 parallel product lines and scrum teams**
         _Supported the process of **maturation** of a cutting edge customer centricity Platform_   
           - Cloud agnostic architecture based on K8s, .NET, and Azure
+          - Separation of concerns between **Core Platform** and **Business Applications**
           - Integration between new systems and legacy systems
           - Incorporating an event-driven architecture with a model driven approach
           - **Documented the existing implementation** and translated into a **Miro/Archimate** based architecture documentation
 
         ADEMAR-[Capacity Remuneration Mechanism](https://www.elia.be/en/electricity-market-and-system/adequacy/capacity-remuneration-mechanism):  
+        _**7 separate application scrum teams**
         _Suite of applications to support a Market driven process_   
           - **Documented** the existing implementation and translated into a **Miro/Archimate** based architecture documentation
           - Identified internal and external integration points
           - Incorporated new **solution designs** in the current application context
           - Created a **modernization track** to refactor the current applications into a Hub-and-spoke pattern
 
-        BSPM:  
+        MARS, ([STAR](https://www.elia.be/en/customers/customer-tools-and-extranet/star) replacement):  
+        _Market Domain Product: Elia has created an application for BSPs to submit capacity bids for balancing services._  
+          - Product is a business critical application for Elia and its Market Parties
+            - Review of the current re-architecting of the application
+            - Supported the follow-up on the resulting application from the re-architecting process
+
+        BSPM (50 Hertz):  
         _Data product driven monitoring platform for the Balancing Service Provider Market in the German market domain_  
           - Created a solution design to support the new architecture, including:
             - Leveraging new data products to support the greenfield application architecture
@@ -151,40 +161,40 @@ experiences:
             - Helped introducing a quality first mindset & culture, both for the architecture and the implementation
         
 
-    - role: Solution Architect 
-      technologies:
-        - 'LucidChart'
-        - ' / EA Sparx'
-        - ' / OpenShift'
-        - ' / Java'
-        - ' / AS400 Mainframe'
-        - ' / Angular'
-        - ' / Microfrontend'
-        - ' / Keycloak'
-        - ' / OpenApi'
-        - ' / Quarkus'
-        - ' / Git'
-        - ' / Jira'
-        - ' / Confluence'
-      management: Scrumban and waterfall
-      time: 2024.01 - 2024.07
-      company: ABVV-FGTB
-      logo: abvv-fgtb.png
-      rdescription: Leading the modernization of a 30y old AS400 Mainframe application
-      cdescription: The General Federation of Belgian Labour 
-      location: Brussels, Belgium
-      details: |
-          - Initiated a continuous strategy and roadmap for **divesting a 30y young AS400 Mainframe applications** into a modernized architecture
-          - Created new **organization-wide data models and data flows** to support the new architecture, including:
-            - Pub-Sub pattern for data distribution, synchronization and 
-            - **CQRS** pattern design and roadmap for implementation
-            - Incorporating the new data model in the current **Java microservices**
+    # - role: Solution Architect 
+    #   technologies:
+    #     - 'LucidChart'
+    #     - ' / EA Sparx'
+    #     - ' / OpenShift'
+    #     - ' / Java'
+    #     - ' / AS400 Mainframe'
+    #     - ' / Angular'
+    #     - ' / Microfrontend'
+    #     - ' / Keycloak'
+    #     - ' / OpenApi'
+    #     - ' / Quarkus'
+    #     - ' / Git'
+    #     - ' / Jira'
+    #     - ' / Confluence'
+    #   management: Scrumban and waterfall
+    #   time: 2024.01 - 2024.07
+    #   company: ABVV-FGTB
+    #   logo: abvv-fgtb.png
+    #   rdescription: Leading the modernization of a 30y old AS400 Mainframe application
+    #   cdescription: The General Federation of Belgian Labour 
+    #   location: Brussels, Belgium
+    #   details: |
+    #       - Initiated a continuous strategy and roadmap for **divesting a 30y young AS400 Mainframe applications** into a modernized architecture
+    #       - Created new **organization-wide data models and data flows** to support the new architecture, including:
+    #         - Pub-Sub pattern for data distribution, synchronization and 
+    #         - **CQRS** pattern design and roadmap for implementation
+    #         - Incorporating the new data model in the current **Java microservices**
         
-          - Revised security practices, **reviewed access patterns** and implemented a new security layer using Keycloak in coordination with Active Directory
-          - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a microfrontend architecture, with BFF
-          - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
-          - Technical guide for setting architectural decisions and **setting technology roadmap(s)**, including code reviews and technical mentoring
-          - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
+    #       - Revised security practices, **reviewed access patterns** and implemented a new security layer using Keycloak in coordination with Active Directory
+    #       - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a microfrontend architecture, with BFF
+    #       - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
+    #       - Technical guide for setting architectural decisions and **setting technology roadmap(s)**, including code reviews and technical mentoring
+    #       - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
 
     - role: Technical Architect
@@ -481,29 +491,26 @@ skills:
   display: true
   title: Experience Level
   techs:
-    - name: LucidChart/CloudCraft.co/Draw.io/Miro
-      level: 4.5
-    - name: AWS (Lambda, DynamoDB, CloudFormation (and 15 other services used))
-      level: 4
-    - name: Archi/EA Sparx/LeanIX
-      level: 3.5
     - name: Archimate
       level: 3.5
-    - name: Azure (Functions, CosmosDB (and 6 other services used))
-      level: 3
-    - name: GCP (Cloud Functions, Firestore, Firebase, BigQuery, PubSub, Dataflow, Datastore)
-      level: 3
+    - name: EA Sparx (experimenting with LeanIX, Ardoq (...))
+      level: 3.5
+    - name: TOGAF
+      level: 2
+    - name: 'Public Clouds: AWS, Azure, GCP, + self-hosted (Openshift)'
+      level: 4.5
+    - name: Agile Project Management and Practices (Scrum, Kanban, SAFe)
+      level: 4.5
     - name: Node.js (JavaScript, TypeScript)
       level: 4
     - name: Scala/Java/Kotlin
-      level: 3
+      level: 4
     - name: .NET/Blazor/C#/.NET Core
-      level: 3
-    - name: Spark/DataBricks/PySpark
-      level: 3
-    - name: JuPyteR/Python
-      level: 2
-  details:
+      level: 4
+    - name: Spark/DataBricks/PySpark/JuPyteR/Python
+      level: 4
+    - name: LucidChart/CloudCraft.co/Draw.io/Miro
+      level: 4.5
 
 footer:
   display: true

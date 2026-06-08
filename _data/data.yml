@@ -11,8 +11,7 @@ intro:
 contact:
   address:
     display: true
-    title: Lyongade, 2300 København, Denmark
-    # title: Uccle (Brussels), Belgium
+    title: Uccle (Brussels), Belgium
   birthdate:
     display: true
     title: 25/06/1991
@@ -82,10 +81,13 @@ profile:
   display: true
   title: Profile
   details: |
-    Enterprise Solution Architect with extensive experience bridging business strategy and technical implementation across complex organizational landscapes and domains. <br/> <br/>
-    Proven track record of collaborating with domain architects and business stakeholders to translate strategic business requirements into scalable, enterprise-grade technical solutions. <br/> <br/>
+    Enterprise Level Solution Architect with extensive experience bridging business strategy and technical implementation across complex organizational landscapes and domains.
+
+    Proven track record of collaborating with IT and business stakeholders to translate IT problems into strategic business opportunities.
+    
     Specialized in establishing architectural governance frameworks and leading cross-functional architecture teams to drive digital transformation initiatives.
-    Cross-functional expertise in modern development practices, from on-prem to cloud, full-stack development to DevOps, and Data Engineering, with a strong emphasis on aligning IT initiatives with overarching business goals. <br/> <br/>
+    
+    Cross-functional expertise in modern development practices, from on-prem to cloud, full-stack development to DevOps, and Data Engineering, with a strong emphasis on aligning IT initiatives with overarching business goals.
 
 education:
   display: true
@@ -109,92 +111,102 @@ experiences:
       technologies:
         - ' EA Sparx'
         - ' / Archimate'
+        - ' / ATAM'
+        - ' / IAM'
+        - ' / OpenShift'
+        - ' / Azure'
+        - ' / K8s'
+        - ' / TOGAF'
+        - ' / Design Thinking'
+        - ' / IT Principles, Guidelines and Governance <br/><br/>'
       management: SCRUM and Waterfall
-      time: 2024.01 - Present
+      time: 2024.07 - Present
       company: Elia
       logo: Elia-logo.svg
-      tag: via Aprico Consultants
+      tag: via Yuma Group
       rdescription: As a Solution Architect, establishing architectural principles and practices within the organization, ensuring technology strategy aligns with business architecture, and designing technical solutions aligned with core architectural principles while leading cross-functional architecture teams.
       cdescription: ELIA is the Transmission System Operator for high-voltage electricity in Belgium.
       location: Brussels, Belgium
 
-# TODO ADD review and rework user lifecycle and authentication practices
-      details: |  
-        **Architecture Board internal initiatives:**  
-        Co-lead the Solution Architecture discipline and team
-        Lead an architectural working group, establishing architectural principles and processes on how to formalize the involvement of architecture within the organization:
-          - Establishing **Overall Customers and Market Parties Outside-IN** organization access patterns and guidelines for all applications within the organization's landscape
-          - Establishing **API guidelines** and standards for the organization
-          - Establishing **Messaging guidelines** and standards for the organization
-          - Reviewed process such as **RACI matrix** among architecture, **SAD, ATAM, ADRs & ADL, ADLC**
-          - Revised **security practices**, **complete organization-wide user and company lifecycle**, and integration track for new authentication modules and practices  
+      details: |
+        
+        ##### **Enterprise Security Architecture Studies - Group Level:**
 
-        **Projects:**  
+        **Initiative 1 - Enterprise IAM Architecture:**
+
+          Group-level security architecture study for 1000+ external market organizations interfacing with safety-critical energy systems across Belgium and Germany
+          - Identity & federation: Applied ATAM with organisation-defined quality attributes to evaluate authentication architectures and B2B federation models (human and machine) - sensitivity-analysed ADR-backed decision record                                                                                                                                                        
+          - Authorization & compliance: Assessed authorization federation and consolidation models, entitlement lifecycle, and regulatory posture (NIS2/DORA/REMIT) - evaluated EU IAM vendors against CLOUD Act exposure, audit trail requirements, and blackout-resilient IAM
+          - Integration & governance: Produced B2B pattern catalog (35 patterns), API access framework with explicit revocation SLAs, EU hosting sovereignty recommendation, and programme capability model 
+
+        **Initiative 2 - Market Party Integration Architecture:**
+
+        _Modernization of Elia's external connectivity layer for 1000+ regulated market organisations across Europe_
+          - Designed unified and consolidated access patterns for each use case - leading to SLA improvements and introduced governance across all external integrations
+          - Defined authentication and authorization standards for all external access patterns, driving a wide security practice transition
+          - Produced **ADR-backed** architecture building blocks and roadmap in accordance with the organisation's identified quality attributes
+          - Aligned and validated the vision with impacted stakeholders, presented that vision to C-Level leadership
+
+        
+        ##### **Projects:**  
         Customer Centricity Platform Azure (.NET stack) [EPIC](https://epic-portal.io), [Traxes](https://www.traxes.io), [WattsHappening](https://www.wattshappening.be/):  
-        _**20 parallel product lines and scrum teams**
-        _Supported the process of **maturation** of a cutting edge customer centricity Platform_   
+        _**20 product lines, 10 scrum teams** - Supported the process of **maturation** of a cutting edge Customer Centricity Platform_   
           - Cloud agnostic architecture based on K8s, .NET, and Azure
           - Separation of concerns between **Core Platform** and **Business Applications**
           - Integration between new systems and legacy systems
           - Incorporating an event-driven architecture with a model driven approach
           - **Documented the existing implementation** and translated into a **Miro/Archimate** based architecture documentation
 
-        ADEMAR-[Capacity Remuneration Mechanism](https://www.elia.be/en/electricity-market-and-system/adequacy/capacity-remuneration-mechanism):  
-        _**7 separate application scrum teams**
-        _Suite of applications to support a Market driven process_   
+        ADEMAR - [Capacity Remuneration Mechanism](https://www.elia.be/en/electricity-market-and-system/adequacy/capacity-remuneration-mechanism):  
+        _**Suite of 5 separate applications scrum teams** - Suite of applications to support a Market driven process_   
           - **Documented** the existing implementation and translated into a **Miro/Archimate** based architecture documentation
           - Identified internal and external integration points
           - Incorporated new **solution designs** in the current application context
           - Created a **modernization track** to refactor the current applications into a Hub-and-spoke pattern
 
-        MARS, ([STAR](https://www.elia.be/en/customers/customer-tools-and-extranet/star) replacement):  
-        _Market Domain Product: Elia has created an application for BSPs to submit capacity bids for balancing services._  
-          - Product is a business critical application for Elia and its Market Parties
-            - Review of the current re-architecting of the application
-            - Supported the follow-up on the resulting application from the re-architecting process
-
-        BSPM (50 Hertz):  
-        _Data product driven monitoring platform for the Balancing Service Provider Market in the German market domain_  
-          - Created a solution design to support the new architecture, including:
-            - Leveraging new data products to support the greenfield application architecture
-            - Laid out the HL Roadmap and implementation plan
-            - Helped introducing a quality first mindset & culture, both for the architecture and the implementation
+        Lesser Initiatives: MARS, ([STAR](https://www.elia.be/en/customers/customer-tools-and-extranet/star) replacement), BSPM (50 Hertz), NxPro (...) <br/> <br/> <br/>
         
+        ##### **Group Architecture internal initiatives:**
+        Co-led the Solution Architecture discipline and team
+        Led a working group, establishing architectural principles and processes on how to formalize the involvement of architecture within the organization:
+          - Establishing **API guidelines** and standards for the organization
+          - Establishing **Messaging guidelines** and standards for the organization (WIP)
+          - Reviewed process such as **RACI matrix** among architecture, **SAD, ATAM, ADRs & ADLC** (TOGAF)
 
-    # - role: Solution Architect 
-    #   technologies:
-    #     - 'LucidChart'
-    #     - ' / EA Sparx'
-    #     - ' / OpenShift'
-    #     - ' / Java'
-    #     - ' / AS400 Mainframe'
-    #     - ' / Angular'
-    #     - ' / Microfrontend'
-    #     - ' / Keycloak'
-    #     - ' / OpenApi'
-    #     - ' / Quarkus'
-    #     - ' / Git'
-    #     - ' / Jira'
-    #     - ' / Confluence'
-    #   management: Scrumban and waterfall
-    #   time: 2024.01 - 2024.07
-    #   company: ABVV-FGTB
-    #   logo: abvv-fgtb.png
-    #   rdescription: Leading the modernization of a 30y old AS400 Mainframe application
-    #   cdescription: The General Federation of Belgian Labour 
-    #   location: Brussels, Belgium
-    #   details: |
-    #       - Initiated a continuous strategy and roadmap for **divesting a 30y young AS400 Mainframe applications** into a modernized architecture
-    #       - Created new **organization-wide data models and data flows** to support the new architecture, including:
-    #         - Pub-Sub pattern for data distribution, synchronization and 
-    #         - **CQRS** pattern design and roadmap for implementation
-    #         - Incorporating the new data model in the current **Java microservices**
-        
-    #       - Revised security practices, **reviewed access patterns** and implemented a new security layer using Keycloak in coordination with Active Directory
-    #       - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a microfrontend architecture, with BFF
-    #       - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
-    #       - Technical guide for setting architectural decisions and **setting technology roadmap(s)**, including code reviews and technical mentoring
-    #       - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
+    - role: Solution Architect
+      technologies:
+        - 'LucidChart'
+        - ' / EA Sparx'
+        - ' / OpenShift'
+        - ' / Java'
+        - ' / AS400 Mainframe'
+        - ' / Angular'
+        - ' / Microfrontend'
+        - ' / Keycloak'
+        - ' / OpenApi'
+        - ' / Quarkus'
+        - ' / Git'
+        - ' / Jira'
+        - ' / Confluence'
+      management: Scrumban and waterfall
+      time: 2024.01 - 2024.07
+      company: ABVV-FGTB
+      logo: abvv-fgtb.png
+      rdescription: Leading the modernization of a 30y old AS400 Mainframe application
+      cdescription: The General Federation of Belgian Labour
+      location: Brussels, Belgium
+      details: |
+        - Initiated a continuous strategy and roadmap for **divesting a 30y young AS400 Mainframe applications** into a modernized architecture
+        - Created new **organization-wide data models and data flows** to support the new architecture, including:
+          - Pub-Sub pattern for data distribution, synchronization and
+          - **CQRS** pattern design and roadmap for implementation
+          - Incorporating the new data model in the current **Java microservices**
+
+        - Revised security practices, **reviewed access patterns** and implemented a new security layer using Keycloak in coordination with Active Directory
+        - R&D and implemented a modernization roadmap for Front-End internal applications, incorporating a microfrontend architecture, with BFF
+        - Stakeholder Management: Responsible for being the technical counterpart in managing non-technical stakeholders such as PO, PM, and management
+        - Technical guide for setting architectural decisions and **setting technology roadmap(s)**, including code reviews and technical mentoring
+        - Creating documentation and diagrams for legacy systems, conducting technical interviews to establish a HLD combined with a more in-depth view
 
 
     - role: Technical Architect
@@ -214,54 +226,61 @@ experiences:
         - ' / Confluence'
         - ' / Miro'
       management: SAFe and SCRUM
-      time: 2022.12 - 2023.12
+      time: 2022.06 - 2024.03
       company: Nike
       logo: nike-swoosh-logo-paint-cropped.png
       rdescription: Leading a team of 12 to build a new event-driven platform for Nike's Supply Chain Technology
       cdescription: Creating the Future of Sports
       location: Laakdal, Belgium
       details: |
-        External integrations:
-          - SAP S4/HANA
-          - Centiro (Logistics)
-          - Blue Yonder (Logistics)
-        
-        Overall Role description:
-          - Being the interface between the team and the Product Owner, Management and other teams, supporting everyone in their needs
-          - Incorporating top-down Company-wide technical strategic decisions into the team's architecture and backlog
-          - Refined and created epics and tickets resulting in raising the standard in DoR and capacity optimization for the development team
-          - Technical stack for implementation: Python, Databricks, Snowflake, AWS Lambda, Step Functions, EventBridge and S3
-        
-        Nike SEC (Supply Chain Execution):
-        Initiative to modernize the current Supply Chain Technology stack
-          - Reviewed and redefined the current architecture, including the data model, data flow, and data storage, leveraging platform strategy and KAPPA architecture
-          - Revised the designs for features that would belong/not to the new SAP S4/HANA stack
-          - Adapted the technology stack accordingly to the architecture office directives
-          - Created a new data model for the new platform, including the data flow and data storage (Snowflake)
+        **External integrations:** SAP S4/HANA, Centiro (Logistics), Blue Yonder (Logistics)
 
-    - role: Solution Architect
-      technologies:
-        - ' Azure'
-        - ' / IBM Cloud'
-        - ' / AWS'
-        - ' / Node.js'
-        - ' / Archimate course'
-        - ' / TypeScript'
-        - ' / DataBricks'
-        - ' / Git'
-        - ' / Jira'
-        - ' / Confluence'
-      management: Kanban
-      time: 2022.06 - 2022.12
-      company: IBM
-      logo: ibm-logo-multicolor-lcp.png
-      rdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
-      cdescription: Let's put smart to work
-      location: Belgium
-      details: |
-          - Designed and implemented a fully integrated IoT solution for an embedded technology client
-          - Created architecture for data pipelines, analysis for energy reports to clients to assess their sustainability
-          - Assisted Senior partners in providing a technical overview and rapid feedback analysis on client leads and prospects
+        **Role:**
+          - Architecture lead for a team of 12, serving as the interface between development, Product Owners, and senior management
+          - Translated company-wide architectural and strategic directives into team architecture and backlog
+          - Owned architectural decisions and drove capacity optimization through refined epics and DoR standards
+          - Technical stack: Python, Databricks, Snowflake, AWS Lambda, Step Functions, EventBridge and S3
+
+        **Projects:**
+
+        Nike SEC (Supply Chain Execution) - Platform modernization:
+        Initiative to unify Nike's Supply Chain Technology stack under a platform strategy
+          - Reviewed and redefined the current architecture (data model, data flow, storage) leveraging platform strategy and KAPPA architecture
+          - Revised feature scoping between the new platform and the incoming SAP S4/HANA stack
+          - Aligned the technology stack with architecture office directives and company-wide strategy
+          - Designed a new data model for the platform, including data flow and storage (Snowflake)
+
+        Appointment Scheduling Capability - External integration design:
+          - Architected the integration layer for a renewed warehouse adopting Blue Yonder as a new logistics system
+          - Designed 7 new data flows enabling guaranteed delivery between internal systems and external logistics partners
+
+        Customs and Logistics Initiative - Domain expansion:
+          - Designed an internal application and integration layer to handle deliveries for countries with specific customs requirements
+          - Created a new data model and access patterns for external partners executing deliveries in those countries
+
+    # - role: Solution Architect
+    #   technologies:
+    #     - ' Azure'
+    #     - ' / IBM Cloud'
+    #     - ' / AWS'
+    #     - ' / Node.js'
+    #     - ' / Archimate course'
+    #     - ' / TypeScript'
+    #     - ' / DataBricks'
+    #     - ' / Git'
+    #     - ' / Jira'
+    #     - ' / Confluence'
+    #   management: Kanban
+    #   time: 2022.06 - 2022.12
+    #   company: IBM
+    #   logo: ibm-logo-multicolor-lcp.png
+    #   rdescription: Analyze, Design, and present possible solutions to clients and stakeholders, follow up on the implementation 
+    #   cdescription: Let's put smart to work
+    #   location: Belgium
+    #   details: |
+    #       - Designed and implemented a fully integrated IoT solution for an embedded technology client
+    #       - Created architecture for data pipelines, analysis for energy reports to clients to assess their sustainability
+    #       - Assisted Senior partners in providing a technical overview and rapid feedback analysis on client leads and prospects
 
     - role: Solution Architect / Software Engineer
       technologies:
@@ -445,7 +464,7 @@ certifications:
     - title: Security certification OAuth2, OpenID Connect, SAML V2 , AD/LDAP, and Keycloak
       authors: Trained by Laurent Révillon
       date: "03.2024"
-      link: https://www.laurent-revillion.com/
+      link: https://www.orsys.fr/belgique/formation/ldc
 
     - title: Neo4J
       authors: Neo4J
@@ -492,24 +511,26 @@ skills:
   title: Experience Level
   techs:
     - name: Archimate
-      level: 3.5
-    - name: EA Sparx (experimenting with LeanIX, Ardoq (...))
-      level: 3.5
-    - name: TOGAF
-      level: 2
+      level: 4
+    - name: Sparx Systems Enterprise Architect
+      level: 4
     - name: 'Public Clouds: AWS, Azure, GCP, + self-hosted (Openshift)'
       level: 4.5
+    - name: TOGAF Methodologies
+      level: 3
     - name: Agile Project Management and Practices (Scrum, Kanban, SAFe)
       level: 4.5
     - name: Node.js (JavaScript, TypeScript)
       level: 4
     - name: Scala/Java/Kotlin
       level: 4
+    - name: Project Management (Prince2, ITIL Processes)
+      level: 3
     - name: .NET/Blazor/C#/.NET Core
       level: 4
     - name: Spark/DataBricks/PySpark/JuPyteR/Python
       level: 4
-    - name: LucidChart/CloudCraft.co/Draw.io/Miro
+    - name: LucidChart/CloudCraft.co/Draw.io/Miro/Visio
       level: 4.5
 
 footer:

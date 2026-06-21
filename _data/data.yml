@@ -1,6 +1,7 @@
 intro:
   name: Romain Lussier
-  title: Solution Architect
+  title: "Cross-functional Leader: Engineering, Architecture, Direction"
+  tagline: I make small, AI-augmented teams safe to run fast.
   # availability: 'June 1st, 2024'
   contractType: freelance
   vatNumber: BE1003780744
@@ -81,13 +82,43 @@ profile:
   display: true
   title: Profile
   details: |
-    Enterprise Level Solution Architect with extensive experience bridging business strategy and technical implementation across complex organizational landscapes and domains.
+    I set the technical principles and governance that steer organizations toward shared business outcomes, bridging enterprise-grade rigor with AI-native practice. Track record across Belgium's national TSO (20+ teams), Nike (12-person team), and Philips HSDP (1B+ device connections per year).
 
-    Proven track record of collaborating with IT and business stakeholders to translate IT problems into strategic business opportunities.
-    
-    Specialized in establishing architectural governance frameworks and leading cross-functional architecture teams to drive digital transformation initiatives.
-    
-    Cross-functional expertise in modern development practices, from on-prem to cloud, full-stack development to DevOps, and Data Engineering, with a strong emphasis on aligning IT initiatives with overarching business goals.
+    Most engineering leaders are either deep technologists who have never run an AI-native org, or AI-hype operators with no governance spine. I bring both. AI-augmented engineering is my daily driver, not my reading list.
+
+    I work close to the business and lead through initiative and competence rather than positional authority. Strongest in regulated, high-stakes environments where business proximity, technical depth, and architectural governance must coexist.
+
+selected_impact:
+  display: true
+  title: Selected Impact
+  items:
+    - bullet: |
+        Authored the **DIF / IAM Architecture Vision** at Belgium's national TSO, unifying 3 fragmented identity stacks and 5 authorization mechanisms across **300+ external market participants** in Belgium and Germany, anchored in NIS2 / DORA / eIDAS 2.0. Vision ratified at the Architecture Review Board with C-level visibility; multi-year roadmap currently in delivery.
+    - bullet: |
+        Established **group-wide API and messaging standards** affecting ~100 engineering teams, ~50 applications, and ~70 data products. Adopted formally through the IT4IT library and informally by 10+ teams ahead of mandate.
+    - bullet: |
+        **Unblocked 2 development teams from a quarter-long delay** by delivering 3 intermediate solution designs in parallel with the strategic POC track. Initiative taken without formal authority, in support of colleagues driving the target-state architecture.
+    - bullet: |
+        **Architecture lead for a 12-person team at Nike**. KAPPA-based platform redesign on Snowflake / Databricks / AWS supporting Nike's largest European fulfillment site (Laakdal), with **multi-million daily events at peak**.
+    - bullet: |
+        Backend platform contributor at **Philips HealthSuite Digital Platform**, on the Data Broker, IoT Gateway, and Firmware services supporting **1B+ device connections per year**.
+
+sector_experience:
+  display: true
+  title: Sector Experience
+  rows:
+    - sector: Medtech
+      roles: Philips, Extra Horizon, FibriCheck
+      impact: |
+        HSDP backend at **1B+ device connections / year**. Medically-compliant Backend-as-a-Service shipped for digital health clients; familiar with the regulatory and quality-cycle expectations of the space.
+    - sector: Energy &amp; public sector
+      roles: Elia (current), ABVV-FGTB, Engie
+      impact: |
+        **DIF / IAM Architecture Vision** for **300+ market participants** at Belgium's national TSO (Elia), anchored in NIS2 / DORA / eIDAS 2.0. **AS400 → microservices + IAM rework** at the General Federation of Belgian Labour (ABVV-FGTB).
+    - sector: Sports tech
+      roles: Nike
+      impact: |
+        **Architecture lead for a 12-person team at Nike**, the sports industry's largest brand. Designed the integration platform supporting Nike's largest European fulfillment site (Laakdal), with **multi-million daily events at peak**.
 
 education:
   display: true
@@ -327,7 +358,7 @@ experiences:
         - ' / Git'
       management: Kanban
       time: 2020.09 - 2020.12
-      company: Levi Strauss
+      company: Levi's
       logo: levis.jpg
       rdescription: Part of a team aiming to assist Data Scientists in their daily tasks
       cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
@@ -381,7 +412,7 @@ experiences:
 
       management: Waterfall
       time: 2017.03 - 2018.06
-      company: Engie Fabricom Airport Systems
+      company: Engie Airport Systems
       logo: engie_fas.png
       rdescription: Development integrating PLC systems with the airport's baggage handling system
       cdescription: Airports Baggage handling solution
@@ -508,30 +539,23 @@ publications:
 
 skills:
   display: true
-  title: Experience Level
-  techs:
-    - name: Archimate
-      level: 4
-    - name: Sparx Systems Enterprise Architect
-      level: 4
-    - name: 'Public Clouds: AWS, Azure, GCP, + self-hosted (Openshift)'
-      level: 4.5
-    - name: TOGAF Methodologies
-      level: 3
-    - name: Agile Project Management and Practices (Scrum, Kanban, SAFe)
-      level: 4.5
-    - name: Node.js (JavaScript, TypeScript)
-      level: 4
-    - name: Scala/Java/Kotlin
-      level: 4
-    - name: Project Management (Prince2, ITIL Processes)
-      level: 3
-    - name: .NET/Blazor/C#/.NET Core
-      level: 4
-    - name: Spark/DataBricks/PySpark/JuPyteR/Python
-      level: 4
-    - name: LucidChart/CloudCraft.co/Draw.io/Miro/Visio
-      level: 4.5
+  title: Capabilities
+  groups:
+    - name: Leadership &amp; direction
+      detail: |
+        **Architecture Review Board defense and presentation.** Direct alignment with **CIO / CTO** levels and business leadership (Director, VP, EVP) across group and program initiatives, including **ADEMAR** and **CCP** at Elia. Translating company direction and business strategy into technical roadmaps, and connecting architecture decisions back to commercial and regulatory outcomes. Cross-team initiative leadership and influence without formal authority; coaching and technical mentoring.
+    - name: Architecture &amp; governance
+      detail: |
+        Enterprise, solution, and domain architecture. TOGAF / ATAM / ADR-driven decision-making. Sparx EA, Archimate. API and messaging governance. Reference-architecture authorship across regulated environments.
+    - name: Engineering &amp; platform
+      detail: |
+        Cloud (AWS, Azure, GCP, self-hosted OpenShift). Software (Node.js / TypeScript, Python, Scala / Java, .NET). DevOps and platform engineering. Full-stack across modern stacks.
+    - name: Security &amp; identity
+      detail: |
+        IAM strategy (OAuth2, OIDC, SAML, Keycloak, AD/LDAP). Authorization federation and B2B integration patterns. Regulated-environment posture (NIS2, DORA, eIDAS 2.0, IEC 62304, FHIR).
+    - name: AI &amp; data
+      detail: |
+        Hands-on agentic AI as a daily collaborator; historical ML / CV with TensorFlow; reinforcement-learning work (AWS DeepRacer). Data engineering across Spark, Databricks, Snowflake, Airflow.
 
 footer:
   display: true

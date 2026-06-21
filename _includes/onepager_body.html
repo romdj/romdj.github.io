@@ -1,0 +1,31 @@
+{% assign data = site.data.data %}
+
+{% if site.open %}
+
+<div class="wrapper onepager">
+    {% include header.html %}
+    <br/>
+    {% include profile.html %}
+    <br/>
+    {% include selected_impact.html %}
+    <br/>
+    {% include sector_experience.html %}
+    <br/>
+    {% include skills.html %}
+    <br/>
+    {% include certifications.html %}
+    <br/>
+    {% include language.html %}
+    <br/>
+    <div class="detail-link">
+        For the full chronological CV, see <a href="{{ '/detail/' | relative_url }}">/detail/</a>.
+    </div>
+</div>
+
+{% include footer.html %}
+
+{% else %}
+
+{% include close.html %}
+
+{% endif %}

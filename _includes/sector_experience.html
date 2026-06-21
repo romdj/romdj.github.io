@@ -1,0 +1,29 @@
+{% assign matrix = data.sector_experience %}
+{% if matrix and matrix.display %}
+<section class="section sector-experience-section">
+
+    <div class="section-title">
+        {{ matrix.title }}
+    </div>
+
+    <table class="sector-experience-table">
+        <thead>
+            <tr>
+                <th>Sector</th>
+                <th>Roles</th>
+                <th>Impact</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for row in matrix.rows %}
+            <tr>
+                <td class="sector-cell"><strong>{{ row.sector }}</strong></td>
+                <td class="roles-cell">{{ row.roles }}</td>
+                <td class="impact-cell">{{ row.impact | markdownify }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+</section>
+{% endif %}

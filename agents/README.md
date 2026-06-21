@@ -30,12 +30,24 @@ For each reviewer:
 Run each reviewer in a separate conversation so they do not contaminate
 each other.
 
-## How to use (automated, future)
+## How to use (automated, in Claude Code)
 
-Next step is a small Node or Python script using the Anthropic API that
-runs all 3 reviewers in parallel against the resume content, then
-collates the verdicts into a single report. Not built yet. This is the
-"small agentic build" artefact track from the AI-era positioning work.
+The `/resume-review` slash command (defined in
+`.claude/commands/resume-review.md`) reads target profile + AI-native
+context + all 3 personas, curls the rendered resume from the local
+Jekyll server, spawns 3 parallel subagents (one per persona), then
+collates the verdicts into a meta-summary with fit scores, common
+themes, top action items, and a sycophancy audit.
+
+Renamed from `/review` to avoid collision with the built-in PR review
+skill.
+
+## How to use (automated, outside Claude Code, future)
+
+A small Node or Python script using the Anthropic API can run the
+same orchestration outside Claude Code (callable from CI or a button
+on the site). Not built yet. This is the "small agentic build"
+artefact track from the AI-era positioning work.
 
 ## Anti-flattery
 

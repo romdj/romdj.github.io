@@ -13,6 +13,9 @@
             {% if intro.title %}
             <h3 class="title">{{ intro.title }}</h3>
             {% endif %}
+            {% if intro.tagline %}
+            <p class="tagline">{{ intro.tagline }}</p>
+            {% endif %}
             {% if intro.availability %}
             <h3 class="title">Availability: {{ intro.availability }}</h3>
             {% endif %}
@@ -32,6 +35,9 @@
             <h2 class="name">{{ intro.name }}</h2>
             {% if intro.title %}
             <h3 class="title">{{ intro.title }}</h3>
+            {% endif %}
+            {% if intro.tagline %}
+            <p class="tagline">{{ intro.tagline }}</p>
             {% endif %}
         </div>
         {% endif %}

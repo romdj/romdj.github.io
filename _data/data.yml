@@ -14,10 +14,10 @@ contact:
     display: true
     title: Uccle (Brussels), Belgium
   birthdate:
-    display: true
+    display: false
     title: 25/06/1991
   driverLicense:
-    display: true
+    display: false
     title: B
   email:
     display: true
@@ -97,7 +97,7 @@ selected_impact:
     - bullet: |
         Established **group-wide API and messaging standards** affecting ~100 engineering teams, ~50 applications, and ~70 data products. Adopted formally through the IT4IT library and informally by 10+ teams ahead of mandate.
     - bullet: |
-        **Unblocked 2 development teams from a quarter-long delay** by delivering 3 intermediate solution designs in parallel with the strategic POC track. Initiative taken without formal authority, in support of colleagues driving the target-state architecture.
+        **Unblocked 2 development teams from a quarter-long delay** by delivering 3 intermediate solution designs in parallel with the strategic POC track.
     - bullet: |
         **Architecture lead for a 12-person team at Nike**. KAPPA-based platform redesign on Snowflake / Databricks / AWS supporting Nike's largest European fulfillment site (Laakdal), with **multi-million daily events at peak**.
     - bullet: |
@@ -543,7 +543,7 @@ skills:
   groups:
     - name: Leadership &amp; direction
       detail: |
-        **Architecture Review Board defense and presentation.** Direct alignment with **CIO / CTO** levels and business leadership (Director, VP, EVP) across group and program initiatives, including **ADEMAR** and **CCP** at Elia. Translating company direction and business strategy into technical roadmaps, and connecting architecture decisions back to commercial and regulatory outcomes. Cross-team initiative leadership and influence without formal authority; coaching and technical mentoring.
+        **Architecture Review Board defense and presentation.** Direct alignment with **CIO / CTO** levels and business leadership (Director, VP, EVP) across group and program initiatives, including **ADEMAR** and **CCP** at Elia. Translating company direction and business strategy into technical roadmaps, and connecting architecture decisions back to commercial and regulatory outcomes. Cross-team initiative leadership across functions; coaching and technical mentoring.
     - name: Architecture &amp; governance
       detail: |
         Enterprise, solution, and domain architecture. TOGAF / ATAM / ADR-driven decision-making. Sparx EA, Archimate. API and messaging governance. Reference-architecture authorship across regulated environments.

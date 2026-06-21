@@ -1,26 +1,53 @@
-@media print
-   {
+@media print {
     @page {
         size: A4;
-        margin: 1cm 0.5cm;
-    }
-
-    @page :first {
-        margin-top: 0.5cm;
+        margin: 1.2cm 1.2cm;
     }
 
     body {
         padding: 0 !important;
+        background: #fff !important;
+        font-size: 10.5pt;
     }
 
-    a:after{
+    a {
+        color: #1f2937 !important;
+        text-decoration: none !important;
+    }
+
+    a:after {
         content: "" !important;
     }
 
     .wrapper {
-        .avatar {
-            max-width: 100px !important;
-        }
+        max-width: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+    }
+
+    .wrapper .avatar {
+        max-width: 72px !important;
+    }
+
+    .wrapper .section {
+        margin-bottom: 12px !important;
+        page-break-inside: avoid;
+    }
+
+    .wrapper .section-title {
+        font-size: 12pt !important;
+    }
+
+    .selected-impact-list li {
+        margin-bottom: 6px !important;
+    }
+
+    .sector-experience-table {
+        page-break-inside: avoid;
+    }
+
+    .detail-link {
+        display: none !important;
     }
 
     footer {

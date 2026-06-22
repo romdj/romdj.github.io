@@ -1,7 +1,6 @@
 intro:
   name: Romain Lussier
-  title: "Cross-functional Leader: Engineering, Architecture, Direction"
-  tagline: I make small, AI-augmented teams safe to run fast.
+  title: "Engineering Leader: Architecture, Direction-setting, Operating Model for AI-native engineering"
   # availability: 'June 1st, 2024'
   contractType: freelance
   vatNumber: BE1003780744
@@ -82,7 +81,7 @@ profile:
   display: true
   title: Profile
   details: |
-    I set the technical principles and governance that steer organizations toward shared business outcomes, bridging enterprise-grade rigor with AI-native practice. Track record across Belgium's national TSO (20+ teams), Nike (12-person team), and Philips HSDP (1B+ device connections per year).
+    I lead engineering direction at group level, setting the technical principles and governance that steer organizations toward shared business outcomes, bridging enterprise-grade rigor with AI-native practice. Track record covers Belgium's national TSO (ARB-ratified visions across 300+ regulated participants and multi-BU platforms), Nike (architecture lead for the most senior team in Outbound Transportation Execution), and Philips HSDP (among the first medically-compliant cloud platforms, 1B+ device connections per year).
 
     Most engineering leaders are either deep technologists who have never run an AI-native org, or AI-hype operators with no governance spine. I bring both. AI-augmented engineering is my daily driver, not my reading list.
 
@@ -93,15 +92,17 @@ selected_impact:
   title: Selected Impact
   items:
     - bullet: |
-        Authored the **DIF / IAM Architecture Vision** at Belgium's national TSO, unifying 3 fragmented identity stacks and 5 authorization mechanisms across **300+ external market participants** in Belgium and Germany, anchored in NIS2 / DORA / eIDAS 2.0. Vision ratified at the Architecture Review Board with C-level visibility; multi-year roadmap currently in delivery.
+        Took ownership of **group-level IAM tracks** at Belgium's national TSO. Authored the DIF / IAM Architecture Vision unifying 3 fragmented identity stacks and 5 authorization mechanisms across **300+ external market participants** in Belgium and Germany, anchored in NIS2 / DORA / eIDAS 2.0. Vision ratified at the Architecture Review Board (Business, CIO, CISO, Business Architecture, Group Architecture). Multi-year roadmap in delivery.
     - bullet: |
-        Established **group-wide API and messaging standards** affecting ~100 engineering teams, ~50 applications, and ~70 data products. Adopted formally through the IT4IT library and informally by 10+ teams ahead of mandate.
+        Established **group-wide governance practice** at Belgium's national TSO. API and messaging standards across ~100 engineering teams, ~50 applications, and ~70 data products, plus organizational **fitness functions** defining minimum architecture-quality thresholds.
     - bullet: |
-        **Unblocked 2 development teams from a quarter-long delay** by delivering 3 intermediate solution designs in parallel with the strategic POC track.
+        Authored the **long-term organizational vision for the Customer Centricity Platform** at Belgium's national TSO. Translated cross-cutting platform architecture into product-line strategy across **multiple business units, 20+ product lines, and 10 scrum teams**. Defended at the Architecture Review Board to Business, CIO, CISO, and Group Architecture stakeholders.
     - bullet: |
-        **Architecture lead for a 12-person team at Nike**. KAPPA-based platform redesign on Snowflake / Databricks / AWS supporting Nike's largest European fulfillment site (Laakdal), with **multi-million daily events at peak**.
+        **Architecture lead for the most senior team at Nike** (12 people, Outbound Transportation Execution). Anchored at Nike's EMEA distribution hub (Laakdal, multi-million daily events at peak). Deconstructed a 15-year-old monolith and migrated to Centiro then Blue Yonder as next-gen TMS. Daily delivery with on-call accountability.
     - bullet: |
-        Backend platform contributor at **Philips HealthSuite Digital Platform**, on the Data Broker, IoT Gateway, and Firmware services supporting **1B+ device connections per year**.
+        Backend platform contributor at **Philips HealthSuite Digital Platform**, among the first medically-compliant cloud platforms in healthcare, supporting **1B+ device connections per year**. FHIR and HIPAA compliant, with FMEA as the quality and continuous-improvement framework.
+    - bullet: |
+        **Multi-year practitioner of agentic AI in engineering work**: authored AI-augmented development guidelines across personal projects (15+ CLAUDE.md configurations spanning multiple domains); currently incubating an articulated operating-model framework for AI-native engineering. Most recent applied artifact: `/resume-review`, a multi-agent system with isolated reviewer subagents, anti-flattery enforcement, and sycophancy audit.
 
 sector_experience:
   display: true

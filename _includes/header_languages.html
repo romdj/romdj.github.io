@@ -1,0 +1,7 @@
+{% assign languages = data.languages %}
+{% if languages and languages.display %}
+<p class="header-languages">
+    {% assign grouped = languages.items | group_by: "level" %}
+    {% for group in grouped %}{{ group.name }}: {% for item in group.items %}{{ item.idiom }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% unless forloop.last %}  ·  {% endunless %}{% endfor %}
+</p>
+{% endif %}

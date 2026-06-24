@@ -1,0 +1,8 @@
+{% assign contact = data.contact %}
+{% if contact.address.display or contact.github.display %}
+<p class="header-meta">
+    {% if contact.address.display %}{{ contact.address.title }}{% endif %}
+    {% if contact.address.display and contact.github.display %}  ·  {% endif %}
+    {% if contact.github.display %}<a href="https://github.com/{{ contact.github.title }}" target="_blank">github.com/{{ contact.github.title }}</a>{% endif %}
+</p>
+{% endif %}

@@ -22,9 +22,8 @@
         </div>
         {% endif %}
 
-        <div class="contact">
-            {% include contact.html %}
-        </div>
+        {% include header_meta.html %}
+        {% include header_languages.html %}
     </div>
 
     {% else %}
@@ -42,11 +41,8 @@
         </div>
         {% endif %}
 
-        <div class="contact">
-
-            {% include contact.html %}
-
-        </div>
+        {% include header_meta.html %}
+        {% include header_languages.html %}
     </div>
     {% endif %}
 

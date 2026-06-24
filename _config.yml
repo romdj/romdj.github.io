@@ -11,7 +11,7 @@ sass:
 # Custom
 lang: en                    # html lang
 open: true                  # open or close your site
-date_format: "%D-%M-%Y"     # date format
+date_format: "%B %Y"        # date format (e.g. "June 2026")
 google_analytics:           # your google analytics
 theme_color: "#1f2937"      # quiet slate-ink — accent for links
 plugins:

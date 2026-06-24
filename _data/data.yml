@@ -1,6 +1,7 @@
 intro:
   name: Romain Lussier
-  title: "Engineering Leader: Architecture, Direction-setting, Operating Model for AI-native engineering"
+  title: "Engineering Leader"
+  tagline: "Architecture  ·  Direction-setting  ·  Operating Model for an AI-native organization"
   # availability: 'June 1st, 2024'
   contractType: freelance
   vatNumber: BE1003780744
@@ -59,11 +60,9 @@ languages:
     - idiom: English
       level: Native
     - idiom: Dutch
-      level: Professional literacy (B1.2)
+      level: Professional
     - idiom: Spanish
-      level: Conversation (B2)
-    - idiom: German
-      level: Notions (A2)
+      level: Professional
 
 interests:
   display: true
@@ -81,28 +80,29 @@ profile:
   display: true
   title: Profile
   details: |
-    I lead engineering direction at group level, setting the technical principles and governance that steer organizations toward shared business outcomes, bridging enterprise-grade rigor with AI-native practice. Track record covers Belgium's national TSO (ARB-ratified visions across 300+ regulated participants and multi-BU platforms), Nike (architecture lead for the most senior team in Outbound Transportation Execution), and Philips HSDP (among the first medically-compliant cloud platforms, 1B+ device connections per year).
+    M-shaped engineering leader at group level: deep architecture, deep engineering, broad business.
 
-    Most engineering leaders are either deep technologists who have never run an AI-native org, or AI-hype operators with no governance spine. I bring both. AI-augmented engineering is my daily driver, not my reading list.
+    Agentic AI practitioner, with a focus on operating-model design for an AI-native organization.
 
-    I work close to the business and lead through initiative and competence rather than positional authority. Strongest in regulated, high-stakes environments where business proximity, technical depth, and architectural governance must coexist.
+    Solver mindset, Scaler ambition: 0→1 by instinct, 1→N by design; built on enterprise rigor.
+
 
 selected_impact:
   display: true
   title: Selected Impact
   items:
     - bullet: |
-        Took ownership of **group-level IAM tracks** at Belgium's national TSO. Authored the DIF / IAM Architecture Vision unifying 3 fragmented identity stacks and 5 authorization mechanisms across **300+ external market participants** in Belgium and Germany, anchored in NIS2 / DORA / eIDAS 2.0. Vision ratified at the Architecture Review Board (Business, CIO, CISO, Business Architecture, Group Architecture). Multi-year roadmap in delivery.
+        Authored the **group-level IAM Architecture Vision** at Belgium's national TSO. Unified 3 fragmented identity stacks and 5 authorization mechanisms for **300+ external market participants** across Belgium and Germany, anchored in NIS2, DORA, and eIDAS 2.0. Ratified at the Architecture Review Board (Business, CIO, CISO, Group Architecture); multi-year roadmap now in delivery.
     - bullet: |
-        Established **group-wide governance practice** at Belgium's national TSO. API and messaging standards across ~100 engineering teams, ~50 applications, and ~70 data products, plus organizational **fitness functions** defining minimum architecture-quality thresholds.
+        Set **group-wide architecture governance** at Belgium's national TSO: API and messaging standards in force across **~100 engineering teams, ~50 applications, ~70 data products**, plus **fitness functions** defining minimum architecture-quality thresholds.
     - bullet: |
-        Authored the **long-term organizational vision for the Customer Centricity Platform** at Belgium's national TSO. Translated cross-cutting platform architecture into product-line strategy across **multiple business units, 20+ product lines, and 10 scrum teams**. Defended at the Architecture Review Board to Business, CIO, CISO, and Group Architecture stakeholders.
+        Authored the **long-term vision for Belgium's national TSO Customer Centricity Platform**. Translated cross-cutting platform architecture into product-line strategy across **multiple business units, 20+ product lines, 10 scrum teams**. Ratified at the Architecture Review Board.
     - bullet: |
-        **Architecture lead for the most senior team at Nike** (12 people, Outbound Transportation Execution). Anchored at Nike's EMEA distribution hub (Laakdal, multi-million daily events at peak). Deconstructed a 15-year-old monolith and migrated to Centiro then Blue Yonder as next-gen TMS. Daily delivery with on-call accountability.
+        **Architecture lead for a 12-person Nike team** at the EMEA distribution hub (Laakdal, multi-million daily events at peak). Deconstructed a 15-year-old monolith; migrated to Centiro and then Blue Yonder. Daily delivery with on-call accountability.
     - bullet: |
-        Backend platform contributor at **Philips HealthSuite Digital Platform**, among the first medically-compliant cloud platforms in healthcare, supporting **1B+ device connections per year**. FHIR and HIPAA compliant, with FMEA as the quality and continuous-improvement framework.
+        Backend platform contributor at **Philips HealthSuite Digital Platform**, one of the first medically-compliant cloud platforms (FHIR, HIPAA, FMEA-governed), **1B+ device connections per year**.
     - bullet: |
-        **Multi-year practitioner of agentic AI in engineering work**: authored AI-augmented development guidelines across personal projects (15+ CLAUDE.md configurations spanning multiple domains); currently incubating an articulated operating-model framework for AI-native engineering. Most recent applied artifact: `/resume-review`, a multi-agent system with isolated reviewer subagents, anti-flattery enforcement, and sycophancy audit.
+        **Multi-year practitioner of agentic AI in engineering work**: **15+ CLAUDE.md configurations** across personal projects; an operating-model framework for AI-native engineering currently in development. Most recent artifact: `/resume-review`, a multi-agent system with isolated reviewer subagents and a sycophancy audit.
 
 sector_experience:
   display: true
@@ -167,16 +167,16 @@ experiences:
         **Initiative 1 - Enterprise IAM Architecture:**
 
           Group-level security architecture study for 1000+ external market organizations interfacing with safety-critical energy systems across Belgium and Germany
-          - Identity & federation: Applied ATAM with organisation-defined quality attributes to evaluate authentication architectures and B2B federation models (human and machine) - sensitivity-analysed ADR-backed decision record                                                                                                                                                        
+          - Identity & federation: Applied ATAM with organization-defined quality attributes to evaluate authentication architectures and B2B federation models (human and machine) - sensitivity-analyzed ADR-backed decision record                                                                                                                                                        
           - Authorization & compliance: Assessed authorization federation and consolidation models, entitlement lifecycle, and regulatory posture (NIS2/DORA/REMIT) - evaluated EU IAM vendors against CLOUD Act exposure, audit trail requirements, and blackout-resilient IAM
-          - Integration & governance: Produced B2B pattern catalog (35 patterns), API access framework with explicit revocation SLAs, EU hosting sovereignty recommendation, and programme capability model 
+          - Integration & governance: Produced B2B pattern catalog (35 patterns), API access framework with explicit revocation SLAs, EU hosting sovereignty recommendation, and program capability model 
 
         **Initiative 2 - Market Party Integration Architecture:**
 
-        _Modernization of Elia's external connectivity layer for 1000+ regulated market organisations across Europe_
+        _Modernization of Elia's external connectivity layer for 1000+ regulated market organizations across Europe_
           - Designed unified and consolidated access patterns for each use case - leading to SLA improvements and introduced governance across all external integrations
           - Defined authentication and authorization standards for all external access patterns, driving a wide security practice transition
-          - Produced **ADR-backed** architecture building blocks and roadmap in accordance with the organisation's identified quality attributes
+          - Produced **ADR-backed** architecture building blocks and roadmap in accordance with the organization's identified quality attributes
           - Aligned and validated the vision with impacted stakeholders, presented that vision to C-Level leadership
 
         

@@ -92,11 +92,11 @@ selected_impact:
   title: Selected Impact
   items:
     - bullet: |
-        Authored the **group-level IAM Architecture Vision** at Belgium's national TSO. Unified 3 fragmented identity stacks and 5 authorization mechanisms for **300+ external market participants** across Belgium and Germany, anchored in NIS2, DORA, and eIDAS 2.0. Ratified at the Architecture Review Board (Business, CIO, CISO, Group Architecture); multi-year roadmap now in delivery.
+        Authored the **group-level IAM Architecture Vision** at **Elia** (Belgium's national grid operator). Unified 3 fragmented identity stacks and 5 authorization mechanisms for **300+ external market participants** across Belgium and Germany, anchored in NIS2, DORA, and eIDAS 2.0. Ratified at the Architecture Review Board (Business, CIO, CISO, Group Architecture); multi-year roadmap now in delivery.
     - bullet: |
-        Set **group-wide architecture governance** at Belgium's national TSO: API and messaging standards in force across **~100 engineering teams, ~50 applications, ~70 data products**, plus **fitness functions** defining minimum architecture-quality thresholds.
+        Set **group-wide architecture governance** at Elia: API and messaging standards in force across **~100 engineering teams, ~50 applications, ~70 data products**, plus **fitness functions** defining minimum architecture-quality thresholds.
     - bullet: |
-        Authored the **long-term vision for Belgium's national TSO Customer Centricity Platform**. Translated cross-cutting platform architecture into product-line strategy across **multiple business units, 20+ product lines, 10 scrum teams**. Ratified at the Architecture Review Board.
+        Authored the **long-term vision for Elia's customer-centricity platform**. Translated cross-cutting platform architecture into product-line strategy across **multiple business units, 20+ product lines, 10 scrum teams**. Ratified at the Architecture Review Board.
     - bullet: |
         **Architecture lead for a 12-person Nike team** at the EMEA distribution hub (Laakdal, multi-million daily events at peak). Deconstructed a 15-year-old monolith; migrated to Centiro and then Blue Yonder. Daily delivery with on-call accountability.
     - bullet: |
@@ -115,7 +115,7 @@ sector_experience:
     - sector: Energy &amp; public sector
       roles: Elia (current), ABVV-FGTB, Engie
       impact: |
-        **DIF / IAM Architecture Vision** for **300+ market participants** at Belgium's national TSO (Elia), anchored in NIS2 / DORA / eIDAS 2.0. **AS400 → microservices + IAM rework** at the General Federation of Belgian Labour (ABVV-FGTB).
+        **Identity & access vision** for **300+ market participants** at Elia, Belgium's national grid operator, anchored in NIS2 / DORA / eIDAS 2.0. **AS400 mainframe to microservices + IAM rework** at the General Federation of Belgian Labour (ABVV-FGTB).
     - sector: Sports tech
       roles: Nike
       impact: |
@@ -544,7 +544,7 @@ skills:
   groups:
     - name: Leadership &amp; direction
       detail: |
-        **Architecture Review Board defense and presentation.** Direct alignment with **CIO / CTO** levels and business leadership (Director, VP, EVP) across group and program initiatives, including **ADEMAR** and **CCP** at Elia. Translating company direction and business strategy into technical roadmaps, and connecting architecture decisions back to commercial and regulatory outcomes. Cross-team initiative leadership across functions; coaching and technical mentoring.
+        **Architecture Review Board defense and presentation.** Direct alignment with **CIO / CTO** levels and business leadership (Director, VP, EVP) across group and program initiatives, including the **capacity-remuneration** and **customer-centricity** platforms at Elia. Translating company direction and business strategy into technical roadmaps, and connecting architecture decisions back to commercial and regulatory outcomes. Cross-team initiative leadership across functions; coaching and technical mentoring.
     - name: Architecture &amp; governance
       detail: |
         Enterprise, solution, and domain architecture. TOGAF / ATAM / ADR-driven decision-making. Sparx EA, Archimate. API and messaging governance. Reference-architecture authorship across regulated environments.

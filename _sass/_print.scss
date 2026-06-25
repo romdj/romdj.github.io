@@ -31,19 +31,32 @@
 
     .wrapper .section {
         margin-bottom: 12px !important;
-        page-break-inside: avoid;
     }
 
     .wrapper .section-title {
         font-size: 12pt !important;
+        page-break-after: avoid;
     }
 
     .selected-impact-list li {
         margin-bottom: 6px !important;
+        page-break-inside: avoid;
     }
 
     .sector-experience-table {
         page-break-inside: avoid;
+    }
+
+    .sector-experience-table tr {
+        page-break-inside: avoid;
+    }
+
+    .capabilities-list dt {
+        page-break-after: avoid;
+    }
+
+    .capabilities-list dt + dd {
+        page-break-before: avoid;
     }
 
     .detail-link {

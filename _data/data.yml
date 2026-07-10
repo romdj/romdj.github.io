@@ -1,12 +1,12 @@
 intro:
   name: Romain Lussier
-  title: "Engineering Leader"
-  tagline: "Architecture  ·  Direction-setting  ·  Operating Model for an AI-native organization"
+  title: "Technology & Engineering Leader"
+  tagline: "Technology as competitive advantage  ·  AI-native ways of working  ·  connected products at scale"
   # availability: 'June 1st, 2024'
   contractType: freelance
   vatNumber: BE1003780744
   avatar:
-    display: true
+    display: false
     path: 2025_10.jpg
 
 contact:
@@ -80,11 +80,11 @@ profile:
   display: true
   title: Profile
   details: |
-    Pragmatic, M-shaped engineering leader at group level: deep architecture, deep engineering, broad business.
+    Engineering leader who treats technology as leverage for business outcomes, not craft for its own sake.
 
-    Agentic AI practitioner, with a focus on operating-model design for an AI-native organization.
+    Consistent pattern of spotting technology inflections early and building working prototypes adopted internally before the market catches up — connected-app MVPs, micro-frontend architectures, agentic-AI workflows.
 
-    Solver mindset, Scaler ambition: 0→1 by instinct, 1→N by design; built on enterprise rigor.
+    Founder-led pragmatism and startup velocity, hardened by delivery inside high-scale, regulated environments. Deep engineering and architecture, backed by strong product and business instincts.
 
 
 selected_impact:
@@ -92,17 +92,15 @@ selected_impact:
   title: Selected Impact
   items:
     - bullet: |
-        Authored the **group-level IAM Architecture Vision** at **Elia** (Belgium's national grid operator). Unified 3 fragmented identity stacks and 5 authorization mechanisms for **300+ external market participants** across Belgium and Germany, anchored in NIS2, DORA, and eIDAS 2.0. Ratified at the Architecture Review Board (Business, CIO, CISO, Group Architecture); multi-year roadmap now in delivery.
+        **Architecture lead for a 12-person Nike team** at the EMEA distribution hub (Laakdal) — **multi-million events/day at peak**. Set technical direction and owned delivery under load, integrating logistics partners (Centiro, Blue Yonder) to keep physical product moving.
     - bullet: |
-        Set **group-wide architecture governance** at Elia: API and messaging standards in force across **~100 engineering teams, ~50 applications, ~70 data products**, plus **fitness functions** defining minimum architecture-quality thresholds.
+        Authored the **long-term architecture for Elia's customer-centricity platform** — translating cross-cutting platform strategy across **20+ product lines and 10 delivery teams**.
     - bullet: |
-        Authored the **long-term vision for Elia's customer-centricity platform**. Translated cross-cutting platform architecture into product-line strategy across **multiple business units, 20+ product lines, 10 scrum teams**. Ratified at the Architecture Review Board.
+        **Multi-year agentic-AI practitioner** — **15+ AI agents embedded in daily engineering work** — developing the governance, quality controls, and operating-model thinking for AI-native organizations.
     - bullet: |
-        **Architecture lead for a 12-person Nike team** at the EMEA distribution hub (Laakdal, multi-million daily events at peak). Deconstructed a 15-year-old monolith; migrated to Centiro and then Blue Yonder. Daily delivery with on-call accountability.
+        Built the **connected-device backend at Philips HealthSuite** — device identity, telemetry, firmware distribution, and fleet operations at **1B+ device connections per year**.
     - bullet: |
-        Backend platform contributor at **Philips HealthSuite Digital Platform**, one of the first medically-compliant cloud platforms (FHIR, HIPAA, FMEA-governed), **1B+ device connections per year**.
-    - bullet: |
-        **Multi-year practitioner of agentic AI in engineering work**: **15+ CLAUDE.md configurations** across personal projects; an operating-model framework for AI-native engineering currently in development. Most recent artifact: `/resume-review`, a multi-agent system with isolated reviewer subagents and a sycophancy audit.
+        Initiated and drove **Elia's group identity & access strategy** — consolidating fragmented identity and authorization for **300+ external partners** into one scalable model across Belgium and Germany.
 
 sector_experience:
   display: true
@@ -544,7 +542,7 @@ skills:
   groups:
     - name: Leadership &amp; direction
       detail: |
-        **Architecture Review Board defense and presentation.** Direct alignment with **CIO / CTO** levels and business leadership (Director, VP, EVP) across group and program initiatives, including the **capacity-remuneration** and **customer-centricity** platforms at Elia. Translating company direction and business strategy into technical roadmaps, and connecting architecture decisions back to commercial and regulatory outcomes. Cross-team initiative leadership across functions; coaching and technical mentoring.
+        **Direct alignment with CIO / CTO and business leadership (Director, VP, EVP)** across group and program initiatives — translating business strategy into technical roadmaps and connecting decisions back to commercial outcomes. Org and team design informed by **Team Topologies** and design-thinking principles; active reflection on how engineering teams scale. Cross-team initiative leadership, coaching, and technical mentoring.
     - name: Architecture &amp; governance
       detail: |
         Enterprise, solution, and domain architecture. TOGAF / ATAM / ADR-driven decision-making. Sparx EA, Archimate. API and messaging governance. Reference-architecture authorship across regulated environments.

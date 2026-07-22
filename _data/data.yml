@@ -76,6 +76,17 @@ interests:
     - item: Hackathons & Startup weekends
     - item: Entrepreneurship & Personal Growth
 
+leadership_community:
+  display: true
+  title: Leadership &amp; Community
+  items:
+    - role: Advisor, Roller Soccer International Federation
+      detail: Rulebook governance and global adoption strategy.
+    - role: Captain, interclub tennis team
+      detail: Training, selection, and tournament logistics.
+    - role: Elected board member, 3 residential co-ownerships
+      detail: Budget oversight, contractor and dispute governance.
+
 profile:
   display: true
   title: Profile

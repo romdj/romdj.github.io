@@ -1,0 +1,13 @@
+{% assign leadership_community = data.leadership_community %}
+{% if leadership_community and leadership_community.display %}
+<section class="section leadership-community-section">
+    <div class="section-title">
+        {{ leadership_community.title }}
+    </div>
+    <ul>
+        {% for item in leadership_community.items %}
+            <li><strong>{{ item.role }}</strong>{% if item.detail %} — {{ item.detail }}{% endif %}</li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}

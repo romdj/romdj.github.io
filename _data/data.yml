@@ -12,7 +12,7 @@ intro:
 contact:
   address:
     display: true
-    title: Uccle (Brussels), Belgium
+    title: Av. de Florimont 24, 1006 Lausanne, Switzerland
   birthdate:
     display: false
     title: 25/06/1991
@@ -28,10 +28,10 @@ contact:
   #   url: https://calendly.com/romain-lussier/30min
   phone:
     display: true
-    title: (+32)491598181
+    title: +41 79 593 59 00
   whatsapp:
     display: false
-    title: (+32)491598181
+    title: +41 79 593 59 00
   website:
     display: false
     title: romdj.xyz
@@ -59,8 +59,10 @@ languages:
       level: Native
     - idiom: English
       level: Native
-    - idiom: Dutch
-      level: Professional
+    - idiom: German
+      level: B1
+    - idiom: Italian
+      level: B1
     - idiom: Spanish
       level: Professional
 
@@ -68,7 +70,7 @@ interests:
   display: true
   title: Interests
   items:
-    - item: "Sports: Triathlon, Ski, Cycling, Ice Hockey, Tennis"
+    - item: "Sports: Ice Hockey, Nordic Skiing, Cycling, Triathlon, Tennis"
     - item: Barista & Coffee tasting, roasting
     - item: Cooking
     - item: Photography 

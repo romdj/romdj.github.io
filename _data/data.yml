@@ -178,7 +178,7 @@ experiences:
           Group-level security architecture study for 1000+ external market organizations interfacing with safety-critical energy systems across Belgium and Germany
           - Identity & federation: Applied ATAM with organization-defined quality attributes to evaluate authentication architectures and B2B federation models (human and machine) - sensitivity-analyzed ADR-backed decision record                                                                                                                                                        
           - Authorization & compliance: Assessed authorization federation and consolidation models, entitlement lifecycle, and regulatory posture (NIS2/DORA/REMIT) - evaluated EU IAM vendors against CLOUD Act exposure, audit trail requirements, and blackout-resilient IAM
-          - Integration & governance: Produced B2B pattern catalog (35 patterns), API access framework with explicit revocation SLAs, EU hosting sovereignty recommendation, and program capability model 
+          - Integration & governance: Produced the B2B pattern catalog, API access framework with explicit revocation SLAs, EU hosting sovereignty recommendation, and program capability model
 
         **Initiative 2 - Market Party Integration Architecture:**
 

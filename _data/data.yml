@@ -12,7 +12,7 @@ intro:
 contact:
   address:
     display: true
-    title: Av. de Florimont 24, 1006 Lausanne, Switzerland
+    title: 1006 Lausanne, Switzerland
   birthdate:
     display: false
     title: 25/06/1991

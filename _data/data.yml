@@ -1,7 +1,7 @@
 intro:
   name: Romain Lussier
   title: "Technology & Engineering Leader"
-  tagline: "Technology as competitive advantage  ·  AI-native ways of working  ·  connected products at scale"
+  tagline: "Technology as competitive advantage  ·  direction-setting at group scale in regulated environments  ·  leads through vision and people"
   # availability: 'June 1st, 2024'
   contractType: freelance
   vatNumber: BE1003780744
@@ -105,15 +105,15 @@ selected_impact:
   title: Selected Impact
   items:
     - bullet: |
-        **Architecture lead for a 12-person Nike team** at the EMEA distribution hub (Laakdal) — **multi-million events/day at peak**. Set technical direction and owned delivery under load, integrating logistics partners (Centiro, Blue Yonder) to keep physical product moving.
+        Drove the **long-term architecture for Elia's customer-centricity platform** — translating cross-cutting platform strategy across **20+ product lines and 10 delivery teams**, sustained through multi-year delivery.
     - bullet: |
-        Authored the **long-term architecture for Elia's customer-centricity platform** — translating cross-cutting platform strategy across **20+ product lines and 10 delivery teams**.
-    - bullet: |
-        **Multi-year agentic-AI practitioner** — **15+ AI agents embedded in daily engineering work** — developing the governance, quality controls, and operating-model thinking for AI-native organizations.
+        Initiated and drove **Elia's group identity & access strategy** — consolidating fragmented identity and authorization for **300+ external partners** into one scalable model across Belgium and Germany.
     - bullet: |
         Built the **connected-device backend at Philips HealthSuite** — device identity, telemetry, firmware distribution, and fleet operations at **1B+ device connections per year**.
     - bullet: |
-        Initiated and drove **Elia's group identity & access strategy** — consolidating fragmented identity and authorization for **300+ external partners** into one scalable model across Belgium and Germany.
+        Designed the integration architecture behind **Nike's largest European fulfillment hub** (Laakdal, **multi-million events/day at peak**) — deconstructing a 15-year-old monolith and architecting the data flows for its migration to modern logistics platforms (Centiro, Blue Yonder).
+    - bullet: |
+        **Multi-year agentic-AI practitioner** — **15+ AI agents embedded in daily engineering work** — developing the governance, quality controls, and operating-model thinking for AI-native organizations.
 
 sector_experience:
   display: true

@@ -1,0 +1,109 @@
+{% assign advisory = site.data.advisory %}
+
+<div class="wrapper advisory">
+
+    <section class="section advisory-hero">
+        <h2 class="name">{{ advisory.intro.name }}</h2>
+        <h3 class="title">{{ advisory.intro.tagline }}</h3>
+        <p class="tagline">{{ advisory.intro.subtitle }}</p>
+        <div class="contact-list advisory-contact">
+            <a href="mailto:{{ advisory.intro.contact.email }}">{{ advisory.intro.contact.email }}</a>
+            <span class="advisory-location">{{ advisory.intro.contact.location }}</span>
+        </div>
+    </section>
+
+    <br/>
+
+    {% if advisory.problem.display %}
+    <section class="section">
+        <div class="section-title">{{ advisory.problem.title }}</div>
+        <div class="details">{{ advisory.problem.body | markdownify }}</div>
+    </section>
+    <br/>
+    {% endif %}
+
+    {% if advisory.mechanism.display %}
+    <section class="section">
+        <div class="section-title">{{ advisory.mechanism.title }}</div>
+        <div class="details">{{ advisory.mechanism.body | markdownify }}</div>
+    </section>
+    <br/>
+    {% endif %}
+
+    {% if advisory.why_now.display %}
+    <section class="section">
+        <div class="section-title">{{ advisory.why_now.title }}</div>
+        <ul class="why-now-list">
+            {% for item in advisory.why_now.items %}
+            <li>
+                <strong>{{ item.point }}</strong>
+                <p>{{ item.body }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    <br/>
+    {% endif %}
+
+    {% if advisory.proof.display %}
+    <section class="section">
+        <div class="section-title">{{ advisory.proof.title }}</div>
+        <ul class="selected-impact-list">
+            {% for item in advisory.proof.items %}
+            <li>{{ item.bullet | markdownify }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    <br/>
+    {% endif %}
+
+    {% if advisory.who_its_for.display %}
+    <section class="section">
+        <div class="section-title">{{ advisory.who_its_for.title }}</div>
+        <div class="fit-columns">
+            <div class="fit-column">
+                <div class="fit-column-title">A fit if</div>
+                <ul>
+                    {% for point in advisory.who_its_for.fit %}
+                    <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="fit-column">
+                <div class="fit-column-title">Not a fit if</div>
+                <ul>
+                    {% for point in advisory.who_its_for.not_for %}
+                    <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+    <br/>
+    {% endif %}
+
+    {% if advisory.offer.display %}
+    <section class="section">
+        <div class="section-title">{{ advisory.offer.title }}</div>
+        <p class="offer-note"><em>{{ advisory.offer.note }}</em></p>
+        <div class="offer-cards">
+            {% for item in advisory.offer.items %}
+            <div class="offer-card">
+                <div class="offer-card-name">{{ item.name }}</div>
+                <div class="offer-card-detail">{{ item.detail }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    <br/>
+    {% endif %}
+
+    {% if advisory.cta.display %}
+    <section class="section advisory-cta">
+        <div class="section-title">{{ advisory.cta.title }}</div>
+        <p>{{ advisory.cta.body }}</p>
+        <a class="cta-button" href="mailto:{{ advisory.intro.contact.email }}">{{ advisory.intro.contact.email }}</a>
+    </section>
+    {% endif %}
+
+</div>

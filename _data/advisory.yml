@@ -1,0 +1,125 @@
+intro:
+  name: Romain Lussier
+  tagline: AI-Native Organization Architecture
+  subtitle: >-
+    The governance function large enterprises built in — brought to
+    organizations that haven't built it yet.
+  contact:
+    email: lussier.romain@gmail.com
+    location: Brussels, Belgium
+
+problem:
+  display: true
+  title: The problem
+  body: |
+    Small and mid-size companies are making consequential bets on how they
+    adopt AI — which workflows to automate, how much autonomy to hand to
+    agents, how to keep a fast-moving team's output legible to the rest of
+    the organization — without the mechanism that would catch a bad bet
+    before it compounds.
+
+    Large enterprises have that mechanism. It's called architecture
+    governance, and it exists precisely because technology decisions at
+    scale carry direct consequences for strategy, risk, and capital
+    allocation. Most companies below a certain size have never needed to
+    build it — until now.
+
+mechanism:
+  display: true
+  title: Why this is a governance function, not a technical one
+  body: |
+    In large, mature organizations, Solution and Enterprise Architecture
+    isn't a technical execution role — it's a governance function. It
+    exists because technology decisions at scale carry direct consequences
+    for business strategy, risk, and capital allocation, and enterprises
+    have learned — often expensively — that those decisions need a formal
+    seat at the table, not just a team executing what's already been
+    decided elsewhere. That's why the function sits inside or beside
+    Architecture Review Boards and steering committees whose membership
+    includes the CIO, CISO, and deputy CTO — people who engage the board
+    directly. Structurally, it's a strategic function, even when the job
+    title reads as technical.
+
+    Most small and mid-size companies don't have this function at all —
+    not because they don't need it, but because they haven't yet hit the
+    scale-driven pain that forced large enterprises to build it in. The
+    gap shows up hardest at moments of technology inflection, and the
+    current one is the shift to AI-native operating models.
+
+why_now:
+  display: true
+  title: Why AI-native adoption makes this urgent
+  items:
+    - point: The bottleneck has moved from production to verification.
+      body: >-
+        The old constraint was how fast a team could build. The new one is
+        how fast anyone — including leadership — can trust what got built.
+        That's a governance question, not an engineering one, and most
+        organizations don't have anyone assigned to answer it.
+    - point: Small teams with agents diverge fast, not just move fast.
+      body: >-
+        Three people with AI agents can produce ten times the output — and
+        drift ten times further from each other and from the org's actual
+        direction. Without upfront interfaces and guardrails, speed and
+        coherence trade off directly.
+    - point: Big scope, small teams creates a legibility problem.
+      body: >-
+        A four-person team owning what used to take twenty people is a
+        velocity win and a visibility loss. Someone has to be able to
+        explain what the system does — to the board, to the next hire, to
+        the auditor — or the organization loses track of its own
+        technology.
+
+proof:
+  display: true
+  title: Where this comes from
+  items:
+    - bullet: |
+        **Currently operating inside that governance function at Axa**, reporting into the deputy CTO, who engages the board directly. Early days — the value here is direct proximity to how a modern financial-services organization actually governs technology decisions at the top.
+    - bullet: |
+        **Authored the DIF / IAM Architecture Vision at Belgium's national grid operator (Elia)**, unifying 3 fragmented identity stacks across 300+ external market participants in Belgium and Germany, anchored in NIS2 / DORA / eIDAS 2.0. Vision ratified by the Architecture Review Board — Business, CIO, CISO, Business Architecture, and Group Architecture in the room.
+    - bullet: |
+        **Established group-wide architecture governance practice at Elia** — standards and fitness functions applied across ~100 engineering teams, ~50 applications, and ~70 data products — the same discipline this offering brings to organizations too small to have built it natively.
+    - bullet: |
+        **Multi-year practitioner of agentic AI in real engineering work**, not just its theory — 15+ specialized agent configurations across personal projects, and a small applied artifact (a multi-agent review system with isolated subagents, anti-flattery enforcement, and a built-in sycophancy audit) demonstrating the verification-first design this offering is built around.
+
+who_its_for:
+  display: true
+  title: Who this is for
+  fit:
+    - Founders and leadership teams making architecture or AI-adoption bets without anyone in the room whose job is to catch the bad ones early.
+    - Organizations past the "just ship it" stage, where technology decisions are starting to have real, compounding consequences.
+    - Teams adopting agentic AI workflows who want the speed without losing legibility or control.
+  not_for:
+    - Organizations that already have a mature architecture or platform-engineering function in place.
+    - Anyone looking for hands-on software delivery rather than direction-setting and governance design.
+
+offer:
+  display: true
+  title: How this works
+  note: >-
+    Engagement shapes below are illustrative, not fixed — the right format
+    depends on where an organization actually is.
+  items:
+    - name: Architecture governance assessment
+      detail: >-
+        A short, focused engagement to map where technology decisions are
+        currently being made without a governance seat, and what that's
+        already costing.
+    - name: Embedded fractional architecture function
+      detail: >-
+        Ongoing, part-time presence — standing up the governance function
+        itself: review cadence, decision records, interfaces and
+        guardrails, board-legible reporting.
+    - name: AI-native operating model design
+      detail: >-
+        Working sessions to translate the verification-over-production
+        shift into a concrete operating model for one specific
+        organization — not a framework off a slide.
+
+cta:
+  display: true
+  title: Start a conversation
+  body: >-
+    If technology decisions at your organization are outrunning the
+    ability to govern them, that's the conversation worth having.

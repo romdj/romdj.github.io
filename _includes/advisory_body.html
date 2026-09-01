@@ -6,10 +6,6 @@
         <h2 class="name">{{ advisory.intro.name }}</h2>
         <h3 class="title">{{ advisory.intro.tagline }}</h3>
         <p class="tagline">{{ advisory.intro.subtitle }}</p>
-        <div class="contact-list advisory-contact">
-            <a href="mailto:{{ advisory.intro.contact.email }}">{{ advisory.intro.contact.email }}</a>
-            <span class="advisory-location">{{ advisory.intro.contact.location }}</span>
-        </div>
     </section>
 
     <br/>
@@ -26,6 +22,14 @@
     <section class="section">
         <div class="section-title">{{ advisory.mechanism.title }}</div>
         <div class="details">{{ advisory.mechanism.body | markdownify }}</div>
+    </section>
+    <br/>
+    {% endif %}
+
+    {% if advisory.what_this_isnt.display %}
+    <section class="section">
+        <div class="section-title">{{ advisory.what_this_isnt.title }}</div>
+        <div class="details">{{ advisory.what_this_isnt.body | markdownify }}</div>
     </section>
     <br/>
     {% endif %}

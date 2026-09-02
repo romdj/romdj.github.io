@@ -179,7 +179,11 @@ experiences:
   display: true
   title: Professional Experience
   items:
+    # Pinned to /ch/ only. One month in, there is no delivered outcome to
+    # claim yet, so it earns its place solely where AXA carries strong
+    # local brand recognition and showing a current engagement helps.
     - role: Solution Architect
+      variant_only: ch
       technologies:
         - 'Architecture governance'
         - ' / Solution design'

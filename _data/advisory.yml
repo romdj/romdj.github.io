@@ -104,8 +104,6 @@ proof:
   title: Where this comes from
   items:
     - bullet: |
-        **Currently operating inside that governance function at Axa**, reporting into the deputy CTO, who engages the board directly. Early days. The value here is direct proximity to how a modern financial-services organization actually governs technology decisions at the top.
-    - bullet: |
         **Authored the DIF / IAM Architecture Vision at Belgium's national grid operator (Elia)**, unifying 3 fragmented identity stacks across 300+ external market participants in Belgium and Germany, anchored in NIS2 / DORA / eIDAS 2.0. Vision ratified by the Architecture Review Board: Business, CIO, CISO, Business Architecture, and Group Architecture in the room.
     - bullet: |
         **Established group-wide architecture governance practice at Elia**: standards and fitness functions applied across ~100 engineering teams, ~50 applications, and ~70 data products. The same discipline this offering brings to organizations too small to have built it natively.

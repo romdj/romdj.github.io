@@ -13,8 +13,13 @@
     <br/>
     {% include skills.html %}
     <br/>
+    {% if page.variant == 'ch' %}
+      {% assign detail_path = '/ch/detail/' %}
+    {% else %}
+      {% assign detail_path = '/detail/' %}
+    {% endif %}
     <div class="detail-link">
-        For the full chronological CV, see <a href="{{ '/detail/' | relative_url }}">/detail/</a>.<br/>
+        For the full chronological CV, see <a href="{{ detail_path | relative_url }}">{{ detail_path }}</a>.<br/>
         For advisory work on AI-native organization architecture, see <a href="{{ '/advisory/' | relative_url }}">/advisory/</a>.
     </div>
 </div>

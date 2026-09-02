@@ -1,2 +1,6 @@
 _site/
 .jekyll-cache/
+tmp/
+.claude/settings.local.json
+assets/exports/
+.vscode/

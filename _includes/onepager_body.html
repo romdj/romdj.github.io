@@ -1,0 +1,33 @@
+{% assign data = site.data.data %}
+
+{% if site.open %}
+
+<div class="wrapper onepager">
+    {% include header.html %}
+    <br/>
+    {% include profile.html %}
+    <br/>
+    {% include selected_impact.html %}
+    <br/>
+    {% include sector_experience.html %}
+    <br/>
+    {% include skills.html %}
+    <br/>
+    {% if page.variant == 'ch' %}
+      {% assign detail_path = '/ch/detail/' %}
+    {% else %}
+      {% assign detail_path = '/be/detail/' %}
+    {% endif %}
+    <div class="detail-link">
+        For the full chronological CV, see <a href="{{ detail_path | relative_url }}">{{ detail_path }}</a>.<br/>
+        For advisory work on AI-native organization architecture, see <a href="{{ '/advisory/' | relative_url }}">/advisory/</a>.
+    </div>
+</div>
+
+{% include footer.html %}
+
+{% else %}
+
+{% include close.html %}
+
+{% endif %}

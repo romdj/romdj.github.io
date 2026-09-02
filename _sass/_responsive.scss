@@ -42,6 +42,13 @@
             margin-bottom: 0;
         }
     }
+
+    .wrapper.advisory {
+        .fit-columns,
+        .offer-cards {
+            grid-template-columns: 1fr;
+        }
+    }
 }
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {

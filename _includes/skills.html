@@ -6,34 +6,12 @@
         {{ skills.title }}
     </div>
 
-    <div class="details">
-        <table>
-            <thead>
-                <tr>
-                    <th colspan="1">Technology</th>
-                    <th colspan="1">Level estimate (/5)</th>
-                </tr>
-            </thead>
-            {% for tech in skills.techs %}
-            <tbody>
-                <tr>
-                    <td>{{ tech.name }}</td>
-                    <td>{{ tech.level }}</td>
-                </tr>
-            </tbody>
-            {% endfor %}
-        </table>
-        {% if skills.details %}
-            {{ skills.details | markdownify }}
-        {% endif %}
-    </div>
-    {% if skills.comment %}
-    <div class="details">
-        <i>
-            {{ skills.comment }}
-        </i>
-    </div>
-    {% endif %}
+    <dl class="capabilities-list">
+        {% for group in skills.groups %}
+        <dt class="capability-name">{{ group.name }}</dt>
+        <dd class="capability-detail">{{ group.detail | markdownify }}</dd>
+        {% endfor %}
+    </dl>
 
 </section>
 {% endif %}

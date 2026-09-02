@@ -6,11 +6,21 @@
     </div>
 
     {% for experience in experiences.items %}
+    {% comment %}
+      variant_only pins an entry to a single market page. An entry marked
+      variant_only: ch renders on /ch/ and nowhere else. Entries without
+      the field render everywhere.
+    {% endcomment %}
+    {% if experience.variant_only and experience.variant_only != page.variant %}
+      {% continue %}
+    {% endif %}
     <div class="item">
         <div class="upper-row">
             <div class="company">
+                {% if experience.logo %}
                 <img src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}"
                     alt="{{ experience.company }}"/>
+                {% endif %}
                     {{ experience.company }}
                 <small>
                     {% if experience.tag %}

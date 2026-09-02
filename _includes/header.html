@@ -13,15 +13,17 @@
             {% if intro.title %}
             <h3 class="title">{{ intro.title }}</h3>
             {% endif %}
+            {% if intro.tagline %}
+            <p class="tagline">{{ intro.tagline }}</p>
+            {% endif %}
             {% if intro.availability %}
             <h3 class="title">Availability: {{ intro.availability }}</h3>
             {% endif %}
         </div>
         {% endif %}
 
-        <div class="contact">
-            {% include contact.html %}
-        </div>
+        {% include header_meta.html %}
+        {% include header_languages.html %}
     </div>
 
     {% else %}
@@ -33,14 +35,14 @@
             {% if intro.title %}
             <h3 class="title">{{ intro.title }}</h3>
             {% endif %}
+            {% if intro.tagline %}
+            <p class="tagline">{{ intro.tagline }}</p>
+            {% endif %}
         </div>
         {% endif %}
 
-        <div class="contact">
-
-            {% include contact.html %}
-
-        </div>
+        {% include header_meta.html %}
+        {% include header_languages.html %}
     </div>
     {% endif %}
 

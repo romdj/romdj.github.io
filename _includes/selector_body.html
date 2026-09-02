@@ -1,0 +1,36 @@
+{% assign data = site.data.data %}
+
+{% if site.open %}
+
+<div class="wrapper selector">
+
+    <section class="section selector-hero">
+        <h2 class="name">{{ data.intro.name }}</h2>
+        <h3 class="title">{{ data.intro.title }}</h3>
+        <p class="tagline">{{ data.intro.tagline }}</p>
+    </section>
+
+    <nav class="selector-options">
+        <a class="selector-option" href="{{ '/be/' | relative_url }}">
+            <span class="selector-option-name">Profile</span>
+            <span class="selector-option-detail">Brussels, Belgium</span>
+        </a>
+        <a class="selector-option" href="{{ '/ch/' | relative_url }}">
+            <span class="selector-option-name">Profile</span>
+            <span class="selector-option-detail">Lausanne, Switzerland</span>
+        </a>
+        <a class="selector-option" href="{{ '/advisory/' | relative_url }}">
+            <span class="selector-option-name">Advisory</span>
+            <span class="selector-option-detail">AI-native organization architecture</span>
+        </a>
+    </nav>
+
+</div>
+
+{% include footer.html %}
+
+{% else %}
+
+{% include close.html %}
+
+{% endif %}

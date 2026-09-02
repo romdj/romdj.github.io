@@ -1,0 +1,16 @@
+{% assign selected_impact = data.selected_impact %}
+{% if selected_impact and selected_impact.display %}
+<section class="section selected-impact-section">
+
+    <div class="section-title">
+        {{ selected_impact.title }}
+    </div>
+
+    <ul class="selected-impact-list">
+        {% for item in selected_impact.items %}
+        <li>{{ item.bullet | markdownify }}</li>
+        {% endfor %}
+    </ul>
+
+</section>
+{% endif %}

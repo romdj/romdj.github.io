@@ -1,22 +1,26 @@
 intro:
   name: Romain Lussier
-  title: Solution Architect
+  title: "Technology & Engineering Leader"
+  tagline: "Technology as competitive advantage  ·  direction-setting at group scale in regulated environments  ·  leads through vision and people"
   # availability: 'June 1st, 2024'
   contractType: freelance
   vatNumber: BE1003780744
   avatar:
-    display: true
+    display: false
     path: 2025_10.jpg
 
 contact:
+  # title_ch is the Swiss-market override, rendered on /ch/ only.
+  # Everything else on the page stays identical between the two.
   address:
     display: true
     title: Uccle (Brussels), Belgium
+    title_ch: 1006 Lausanne, Switzerland
   birthdate:
-    display: true
+    display: false
     title: 25/06/1991
   driverLicense:
-    display: true
+    display: false
     title: B
   email:
     display: true
@@ -28,9 +32,11 @@ contact:
   phone:
     display: true
     title: (+32)491598181
+    title_ch: +41 79 593 59 00
   whatsapp:
     display: false
     title: (+32)491598181
+    title_ch: +41 79 593 59 00
   website:
     display: false
     title: romdj.xyz
@@ -53,41 +59,107 @@ contact:
 languages:
   display: true
   title: Languages
+  # items = Belgian market (Dutch matters, Italian does not).
+  # items_ch = Swiss market, rendered on /ch/ only.
   items:
     - idiom: French
       level: Native
     - idiom: English
       level: Native
     - idiom: Dutch
-      level: Professional literacy (B1.2)
-    - idiom: Spanish
-      level: Conversation (B2)
+      level: Professional
     - idiom: German
-      level: Notions (A2)
+      level: B1
+    - idiom: Spanish
+      level: Professional
+  items_ch:
+    - idiom: French
+      level: Native
+    - idiom: English
+      level: Native
+    - idiom: German
+      level: B1
+    - idiom: Italian
+      level: B1
+    - idiom: Spanish
+      level: Professional
 
 interests:
   display: true
   title: Interests
+  # Sports line is ordered per market: ice hockey and nordic skiing lead
+  # in Switzerland, triathlon and skiing lead in Belgium. Same genuine
+  # interests either way, just weighted for the reader.
   items:
     - item: "Sports: Triathlon, Ski, Cycling, Ice Hockey, Tennis"
     - item: Barista & Coffee tasting, roasting
     - item: Cooking
-    - item: Photography 
-    - item: Aviation, sailing, aerodynamics 
+    - item: Photography
+    - item: Aviation, sailing, aerodynamics
     - item: Hackathons & Startup weekends
     - item: Entrepreneurship & Personal Growth
+  items_ch:
+    - item: "Sports: Ice Hockey, Nordic Skiing, Cycling, Triathlon, Tennis"
+    - item: Barista & Coffee tasting, roasting
+    - item: Cooking
+    - item: Photography
+    - item: Aviation, sailing, aerodynamics
+    - item: Hackathons & Startup weekends
+    - item: Entrepreneurship & Personal Growth
+
+leadership_community:
+  display: true
+  title: Leadership &amp; Governance
+  items:
+    - role: Advisor, Roller Soccer International Federation
+      detail: Rulebook governance and global adoption strategy.
+    - role: Captain, interclub tennis team
+      detail: Training, selection, and tournament logistics.
+    - role: Elected board member, 3 residential co-ownerships
+      detail: Budget oversight, contractor and dispute governance.
 
 profile:
   display: true
   title: Profile
   details: |
-    Enterprise Level Solution Architect with extensive experience bridging business strategy and technical implementation across complex organizational landscapes and domains.
+    Engineering leader who treats technology as leverage for business outcomes, not craft for its own sake.
 
-    Proven track record of collaborating with IT and business stakeholders to translate IT problems into strategic business opportunities.
-    
-    Specialized in establishing architectural governance frameworks and leading cross-functional architecture teams to drive digital transformation initiatives.
-    
-    Cross-functional expertise in modern development practices, from on-prem to cloud, full-stack development to DevOps, and Data Engineering, with a strong emphasis on aligning IT initiatives with overarching business goals.
+    Consistent pattern of spotting technology inflections early and building working prototypes adopted internally before the market catches up: connected-app MVPs, micro-frontend architectures, agentic-AI workflows.
+
+    Founder-led pragmatism and startup velocity, hardened by delivery inside high-scale, regulated environments. Deep engineering and architecture, backed by strong product and business instincts.
+
+
+selected_impact:
+  display: true
+  title: Selected Impact
+  items:
+    - bullet: |
+        Drove the **long-term architecture for Elia's customer-centricity platform**, translating cross-cutting platform strategy across **20+ product lines and 10 delivery teams**, sustained through multi-year delivery.
+    - bullet: |
+        Initiated and drove **Elia's group identity & access strategy**, consolidating fragmented identity and authorization for **300+ external partners** into one scalable model across Belgium and Germany.
+    - bullet: |
+        Built the **connected-device backend at Philips HealthSuite**: device identity, telemetry, firmware distribution, and fleet operations at **1B+ device connections per year**.
+    - bullet: |
+        Designed the integration architecture behind **Nike's largest European fulfillment hub** (Laakdal, **multi-million events/day at peak**), deconstructing a 15-year-old monolith and architecting the data flows for its migration to modern logistics platforms (Centiro, Blue Yonder).
+    - bullet: |
+        **Multi-year agentic-AI practitioner**: **15+ AI agents embedded in daily engineering work**, developing the governance, quality controls, and operating-model thinking for AI-native organizations.
+
+sector_experience:
+  display: true
+  title: Sector Experience
+  rows:
+    - sector: Medtech
+      roles: Philips, Extra Horizon, FibriCheck
+      impact: |
+        HSDP backend at **1B+ device connections / year**. Medically-compliant Backend-as-a-Service shipped for digital health clients; familiar with the regulatory and quality-cycle expectations of the space.
+    - sector: Energy &amp; public sector
+      roles: Elia, ABVV-FGTB, Engie
+      impact: |
+        **Identity & access vision** for **300+ market participants** at Elia, Belgium's national grid operator, anchored in NIS2 / DORA / eIDAS 2.0. **AS400 mainframe to microservices + IAM rework** at the General Federation of Belgian Labour (ABVV-FGTB).
+    - sector: Sports tech
+      roles: Nike
+      impact: |
+        **Architecture lead for a 12-person team at Nike**, the sports industry's largest brand. Designed the integration platform supporting Nike's largest European fulfillment site (Laakdal), with **multi-million daily events at peak**.
 
 education:
   display: true
@@ -107,6 +179,23 @@ experiences:
   display: true
   title: Professional Experience
   items:
+    # Pinned to /ch/ only. One month in, there is no delivered outcome to
+    # claim yet, so it earns its place solely where AXA carries strong
+    # local brand recognition and showing a current engagement helps.
+    - role: Solution Architect
+      variant_only: ch
+      technologies:
+        - 'Architecture governance'
+        - ' / Solution design'
+        - ' / Stakeholder alignment <br/><br/>'
+      time: 2026.08 - Present
+      company: Axa
+      logo: axa-logo.png
+      tag: freelance
+      rdescription: Solution architecture reporting into the deputy CTO, who engages the board directly.
+      cdescription: AXA is a global insurance and asset management group.
+      location: Brussels, Belgium
+
     - role: Solution Architect (Enterprise Level)
       technologies:
         - ' EA Sparx'
@@ -120,9 +209,9 @@ experiences:
         - ' / Design Thinking'
         - ' / IT Principles, Guidelines and Governance <br/><br/>'
       management: SCRUM and Waterfall
-      time: 2024.07 - Present
+      time: 2024.07 - 2026.07
       company: Elia
-      logo: Elia-logo.svg
+      logo: ELIA-logo.svg
       tag: via Yuma Group
       rdescription: As a Solution Architect, establishing architectural principles and practices within the organization, ensuring technology strategy aligns with business architecture, and designing technical solutions aligned with core architectural principles while leading cross-functional architecture teams.
       cdescription: ELIA is the Transmission System Operator for high-voltage electricity in Belgium.
@@ -134,17 +223,17 @@ experiences:
 
         **Initiative 1 - Enterprise IAM Architecture:**
 
-          Group-level security architecture study for 1000+ external market organizations interfacing with safety-critical energy systems across Belgium and Germany
-          - Identity & federation: Applied ATAM with organisation-defined quality attributes to evaluate authentication architectures and B2B federation models (human and machine) - sensitivity-analysed ADR-backed decision record                                                                                                                                                        
+          Group-level security architecture study for 300+ external market organizations interfacing with safety-critical energy systems across Belgium and Germany
+          - Identity & federation: Applied ATAM with organization-defined quality attributes to evaluate authentication architectures and B2B federation models (human and machine) - sensitivity-analyzed ADR-backed decision record                                                                                                                                                        
           - Authorization & compliance: Assessed authorization federation and consolidation models, entitlement lifecycle, and regulatory posture (NIS2/DORA/REMIT) - evaluated EU IAM vendors against CLOUD Act exposure, audit trail requirements, and blackout-resilient IAM
-          - Integration & governance: Produced B2B pattern catalog (35 patterns), API access framework with explicit revocation SLAs, EU hosting sovereignty recommendation, and programme capability model 
+          - Integration & governance: Produced the B2B pattern catalog, API access framework with explicit revocation SLAs, EU hosting sovereignty recommendation, and program capability model
 
         **Initiative 2 - Market Party Integration Architecture:**
 
-        _Modernization of Elia's external connectivity layer for 1000+ regulated market organisations across Europe_
+        _Modernization of Elia's external connectivity layer for 300+ regulated market organizations across Europe_
           - Designed unified and consolidated access patterns for each use case - leading to SLA improvements and introduced governance across all external integrations
           - Defined authentication and authorization standards for all external access patterns, driving a wide security practice transition
-          - Produced **ADR-backed** architecture building blocks and roadmap in accordance with the organisation's identified quality attributes
+          - Produced **ADR-backed** architecture building blocks and roadmap in accordance with the organization's identified quality attributes
           - Aligned and validated the vision with impacted stakeholders, presented that vision to C-Level leadership
 
         
@@ -327,7 +416,7 @@ experiences:
         - ' / Git'
       management: Kanban
       time: 2020.09 - 2020.12
-      company: Levi Strauss
+      company: Levi's
       logo: levis.jpg
       rdescription: Part of a team aiming to assist Data Scientists in their daily tasks
       cdescription: The Data Engineering team aims to help the Data Scientist team to streamline their data flows.
@@ -381,7 +470,7 @@ experiences:
 
       management: Waterfall
       time: 2017.03 - 2018.06
-      company: Engie Fabricom Airport Systems
+      company: Engie Airport Systems
       logo: engie_fas.png
       rdescription: Development integrating PLC systems with the airport's baggage handling system
       cdescription: Airports Baggage handling solution
@@ -508,30 +597,23 @@ publications:
 
 skills:
   display: true
-  title: Experience Level
-  techs:
-    - name: Archimate
-      level: 4
-    - name: Sparx Systems Enterprise Architect
-      level: 4
-    - name: 'Public Clouds: AWS, Azure, GCP, + self-hosted (Openshift)'
-      level: 4.5
-    - name: TOGAF Methodologies
-      level: 3
-    - name: Agile Project Management and Practices (Scrum, Kanban, SAFe)
-      level: 4.5
-    - name: Node.js (JavaScript, TypeScript)
-      level: 4
-    - name: Scala/Java/Kotlin
-      level: 4
-    - name: Project Management (Prince2, ITIL Processes)
-      level: 3
-    - name: .NET/Blazor/C#/.NET Core
-      level: 4
-    - name: Spark/DataBricks/PySpark/JuPyteR/Python
-      level: 4
-    - name: LucidChart/CloudCraft.co/Draw.io/Miro/Visio
-      level: 4.5
+  title: Capabilities
+  groups:
+    - name: Leadership &amp; direction
+      detail: |
+        **Direct alignment with CIO / CTO and business leadership (Director, VP, EVP)** across group and program initiatives, translating business strategy into technical roadmaps and connecting decisions back to commercial outcomes. Org and team design informed by **Team Topologies** and design-thinking principles; active reflection on how engineering teams scale. Cross-team initiative leadership, coaching, and technical mentoring.
+    - name: Architecture &amp; governance
+      detail: |
+        Enterprise, solution, and domain architecture. TOGAF / ATAM / ADR-driven decision-making. Sparx EA, Archimate. API and messaging governance. Reference-architecture authorship across regulated environments.
+    - name: Engineering &amp; platform
+      detail: |
+        Cloud (AWS, Azure, GCP, self-hosted OpenShift). Software (Node.js / TypeScript, Python, Scala / Java, .NET). DevOps and platform engineering. Full-stack across modern stacks.
+    - name: Security &amp; identity
+      detail: |
+        IAM strategy (OAuth2, OIDC, SAML, Keycloak, AD/LDAP). Authorization federation and B2B integration patterns. Regulated-environment posture (NIS2, DORA, eIDAS 2.0, IEC 62304, FHIR).
+    - name: AI &amp; data
+      detail: |
+        Hands-on agentic AI as a daily collaborator; historical ML / CV with TensorFlow; reinforcement-learning work (AWS DeepRacer). Data engineering across Spark, Databricks, Snowflake, Airflow.
 
 footer:
   display: true

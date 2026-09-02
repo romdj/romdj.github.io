@@ -3,6 +3,8 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 
 # Allow the deploy job to publish to Pages
@@ -42,6 +44,9 @@ jobs:
 
   deploy:
     needs: build
+    # Only publish on an actual push to main. Pull requests build and upload
+    # an artifact as a pre-merge check, but never deploy unmerged content.
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

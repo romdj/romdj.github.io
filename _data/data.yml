@@ -10,9 +10,12 @@ intro:
     path: 2025_10.jpg
 
 contact:
+  # title_ch is the Swiss-market override, rendered on /ch/ only.
+  # Everything else on the page stays identical between the two.
   address:
     display: true
-    title: 1006 Lausanne, Switzerland
+    title: Uccle (Brussels), Belgium
+    title_ch: 1006 Lausanne, Switzerland
   birthdate:
     display: false
     title: 25/06/1991
@@ -28,10 +31,12 @@ contact:
   #   url: https://calendly.com/romain-lussier/30min
   phone:
     display: true
-    title: +41 79 593 59 00
+    title: (+32)491598181
+    title_ch: +41 79 593 59 00
   whatsapp:
     display: false
-    title: +41 79 593 59 00
+    title: (+32)491598181
+    title_ch: +41 79 593 59 00
   website:
     display: false
     title: romdj.xyz

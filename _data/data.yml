@@ -59,7 +59,20 @@ contact:
 languages:
   display: true
   title: Languages
+  # items = Belgian market (Dutch matters, Italian does not).
+  # items_ch = Swiss market, rendered on /ch/ only.
   items:
+    - idiom: French
+      level: Native
+    - idiom: English
+      level: Native
+    - idiom: Dutch
+      level: Professional
+    - idiom: German
+      level: B1
+    - idiom: Spanish
+      level: Professional
+  items_ch:
     - idiom: French
       level: Native
     - idiom: English
@@ -74,12 +87,23 @@ languages:
 interests:
   display: true
   title: Interests
+  # Sports line is ordered per market: ice hockey and nordic skiing lead
+  # in Switzerland, triathlon and skiing lead in Belgium. Same genuine
+  # interests either way, just weighted for the reader.
   items:
+    - item: "Sports: Triathlon, Ski, Cycling, Ice Hockey, Tennis"
+    - item: Barista & Coffee tasting, roasting
+    - item: Cooking
+    - item: Photography
+    - item: Aviation, sailing, aerodynamics
+    - item: Hackathons & Startup weekends
+    - item: Entrepreneurship & Personal Growth
+  items_ch:
     - item: "Sports: Ice Hockey, Nordic Skiing, Cycling, Triathlon, Tennis"
     - item: Barista & Coffee tasting, roasting
     - item: Cooking
-    - item: Photography 
-    - item: Aviation, sailing, aerodynamics 
+    - item: Photography
+    - item: Aviation, sailing, aerodynamics
     - item: Hackathons & Startup weekends
     - item: Entrepreneurship & Personal Growth
 

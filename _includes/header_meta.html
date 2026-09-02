@@ -1,5 +1,5 @@
 {% assign contact = data.contact %}
-{% if page.contact_variant == 'ch' and contact.address.title_ch %}
+{% if page.variant == 'ch' and contact.address.title_ch %}
   {% assign address = contact.address.title_ch %}
 {% else %}
   {% assign address = contact.address.title %}

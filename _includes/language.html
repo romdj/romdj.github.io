@@ -1,4 +1,9 @@
 {% assign languages = data.languages %}
+{% if page.variant == 'ch' and languages.items_ch %}
+  {% assign language_items = languages.items_ch %}
+{% else %}
+  {% assign language_items = languages.items %}
+{% endif %}
 {% if languages and languages.display %}
 <section class="section languages-section">
     <div class="section-title">
@@ -13,7 +18,7 @@
                     <th colspan="1">Level</th>
                 </tr>
             </thead>
-            {% for language in languages.items %}
+            {% for language in language_items %}
             <tbody>
                 <tr>
                     <td>{{ language.idiom }}</td>

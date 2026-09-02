@@ -1,7 +1,12 @@
 {% assign languages = data.languages %}
+{% if page.variant == 'ch' and languages.items_ch %}
+  {% assign language_items = languages.items_ch %}
+{% else %}
+  {% assign language_items = languages.items %}
+{% endif %}
 {% if languages and languages.display %}
 <p class="header-languages">
-    {% assign grouped = languages.items | group_by: "level" %}
+    {% assign grouped = language_items | group_by: "level" %}
     {% for group in grouped %}{{ group.name }}: {% for item in group.items %}{{ item.idiom }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% unless forloop.last %}  ·  {% endunless %}{% endfor %}
 </p>
 {% endif %}

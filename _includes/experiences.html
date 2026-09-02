@@ -17,8 +17,10 @@
     <div class="item">
         <div class="upper-row">
             <div class="company">
+                {% if experience.logo %}
                 <img src="{{ site.baseurl }}/assets/images/companies/{{ experience.logo }}"
                     alt="{{ experience.company }}"/>
+                {% endif %}
                     {{ experience.company }}
                 <small>
                     {% if experience.tag %}

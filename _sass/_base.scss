@@ -480,3 +480,44 @@ td {
     }
   }
 }
+
+/* ======= Root selector page ======= */
+.wrapper.selector {
+
+  .selector-hero {
+    border-bottom: 1px solid $rule-color;
+    padding-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit;
+  }
+
+  .selector-options {
+    display: grid;
+    gap: calc(#{$spacing-unit} / 2);
+  }
+
+  .selector-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: $spacing-unit;
+    padding: $spacing-unit;
+    border: 1px solid $rule-color;
+    border-radius: 4px;
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+      border-color: $text-color;
+    }
+  }
+
+  .selector-option-name {
+    font-weight: 600;
+  }
+
+  .selector-option-detail {
+    color: $text-color-secondary;
+    font-size: $small-font-size;
+    text-align: right;
+  }
+}

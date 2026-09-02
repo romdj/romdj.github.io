@@ -20,19 +20,35 @@ Fixed by moving to a native arm64 toolchain:
 
 ---
 
-## [ ] 1. Commit the local toolchain fix
+## [x] 1. Commit the local toolchain fix
 
-Uncommitted on branch `track/leadership`:
-- `.ruby-version` (new) → `3.3.11`
-- `Gemfile.lock` (modified) → added `arm64-darwin` platform + native arm64 gem variants
-
-**Why parked:** wanted to keep it out of the current content branch's scope.
-**Action:** stage and commit these on the appropriate branch (likely `main` / a small
-infra branch) so the arm64 platform + Ruby pin are shared and reproducible.
+Done, on a later branch than originally parked here. The toolchain ended up moving
+further than this note anticipated: instead of rbenv + Ruby 3.3.11, a second local
+breakage (Homebrew `gmp` path gone after the Intel/Apple Silicon migration finally bit
+the last `rvm` install) led to Homebrew Ruby 4.0.6 directly, no rbenv. `.ruby-version`
+and `Gemfile.lock` are both committed and reflect that.
 
 ---
 
-## [ ] 2. Modernize the GitHub Actions workflow
+## [x] 2. Modernize the GitHub Actions workflow
+
+Done. `.github/workflows/jekyll.yml` (the `jekyll/builder:latest` container build
+described below) is deleted. `.github/workflows/deploy-pages.yml` is the sole
+workflow now: `ruby/setup-ruby` reading `ruby-version: .ruby-version` (not a hardcoded
+`"3.3"` — kept in sync with the local toolchain automatically), `bundle exec jekyll
+build`, `configure-pages` → `upload-pages-artifact` → `deploy-pages`. Triggers on push
+to `main` plus `workflow_dispatch`.
+
+Confirmed as predicted: the old container workflow's problems were exactly as
+diagnosed below, and it started hard-failing (`Bundler::GemNotFound`) the moment the
+Ruby 4.0.6 lockfile regeneration landed, since the container's cached gems never
+matched a Gemfile.lock they weren't built against.
+
+**Still open, not yet confirmed:** the repo's Pages source setting (Settings → Pages
+→ "GitHub Actions" vs "Deploy from a branch"). If it's still set to branch deploy,
+this workflow builds and uploads an artifact that nothing consumes.
+
+**Original diagnosis, kept for reference:**
 
 Current `.github/workflows/jekyll.yml` builds inside the `jekyll/builder:latest`
 Docker container.
@@ -43,19 +59,6 @@ Docker container.
 - The job only builds to `_site` — there is **no deploy step**, so it's just a build
   check, not what publishes the site.
 - CI does not use the repo's actual Gemfile/Ruby, so local and CI can drift.
-
-**Note:** This is independent of the local Ruby fix above — CI runs in a container and
-was not affected by the local breakage.
-
-**Proposed replacement:** the official GitHub Pages flow, which uses this repo's real
-Gemfile (same Jekyll 4.3.4 as local) and actually deploys:
-- `ruby/setup-ruby` (with `bundler-cache: true`, Ruby `3.3`)
-- `bundle exec jekyll build`
-- `actions/configure-pages` → `actions/upload-pages-artifact` → `actions/deploy-pages`
-
-Also confirm the repo's **Pages source setting** (Settings → Pages): "GitHub Actions"
-vs "Deploy from a branch" — the native branch build only supports Jekyll 3.x via the
-`github-pages` gem and would conflict with the pinned Jekyll 4.3.4.
 
 ---
 

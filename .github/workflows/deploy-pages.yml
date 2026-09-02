@@ -25,7 +25,10 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3"
+          # Read from .ruby-version so CI and local cannot drift. Gemfile.lock
+          # is resolved against that same version, and a mismatch surfaces as
+          # gem-dependency conflicts rather than an obvious version error.
+          ruby-version: .ruby-version
           bundler-cache: true
       - name: Setup Pages
         id: pages

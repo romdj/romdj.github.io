@@ -17,7 +17,7 @@ the rigor that intent deserves.
 
 Read in parallel:
 
-- `agents/target_profile.md` — what the candidate is targeting
+- `tmp/private/target_profile.md` — what the candidate is targeting
 - `assets/context/management-evolution-and-ai-native-org.md` — the
   candidate's strategic edge (the "review-over-creation" thesis, the
   AI-native operating model wedge). Reviewers must factor this in.

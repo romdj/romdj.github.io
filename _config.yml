@@ -19,6 +19,6 @@ plugins:
 
 exclude:
   - agents
-  - role-persona.md
   - tmp
-  - assets/leads
+  - assets/context
+  - TODO_CICD.md

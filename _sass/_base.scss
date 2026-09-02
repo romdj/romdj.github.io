@@ -384,18 +384,6 @@ td {
     }
   }
 
-  .advisory-contact {
-    font-size: $small-font-size;
-
-    a {
-      margin-right: calc(#{$spacing-unit} / 2);
-    }
-
-    .advisory-location {
-      color: $text-grey;
-    }
-  }
-
   .why-now-list {
     list-style: none;
     padding-left: 0;

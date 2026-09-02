@@ -8,7 +8,7 @@ perspectives.
 
 | File | Lens |
 |---|---|
-| `target_profile.md` | What the candidate is targeting. Shared anchor. |
+| `tmp/private/target_profile.md` | What the candidate is targeting. Shared anchor. Kept out of version control (comp expectations, honest gaps). |
 | `scaleup_ceo.md` | "Would I take the call?" — a scale-up CEO hiring for Head of Eng / CTO. |
 | `beangels_investor.md` | "Would I back this person?" — a Belgian angel investor. |
 | `takingturns_recruiter.md` | "Is this placeable?" — a Belgian executive search recruiter. |
@@ -18,7 +18,7 @@ perspectives.
 For each reviewer:
 
 1. Open Claude or ChatGPT in a fresh conversation.
-2. Paste `target_profile.md` as the first message.
+2. Paste `tmp/private/target_profile.md` as the first message.
 3. Paste the reviewer file (e.g., `scaleup_ceo.md`) as the second
    message.
 4. Paste the rendered resume content as the third message. Easiest

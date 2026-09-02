@@ -129,7 +129,7 @@ sector_experience:
       impact: |
         HSDP backend at **1B+ device connections / year**. Medically-compliant Backend-as-a-Service shipped for digital health clients; familiar with the regulatory and quality-cycle expectations of the space.
     - sector: Energy &amp; public sector
-      roles: Elia (current), ABVV-FGTB, Engie
+      roles: Elia, ABVV-FGTB, Engie
       impact: |
         **Identity & access vision** for **300+ market participants** at Elia, Belgium's national grid operator, anchored in NIS2 / DORA / eIDAS 2.0. **AS400 mainframe to microservices + IAM rework** at the General Federation of Belgian Labour (ABVV-FGTB).
     - sector: Sports tech
@@ -155,6 +155,18 @@ experiences:
   display: true
   title: Professional Experience
   items:
+    - role: Solution Architect
+      technologies:
+        - 'Architecture governance'
+        - ' / Solution design'
+        - ' / Stakeholder alignment <br/><br/>'
+      time: 2026.08 - Present
+      company: Axa
+      tag: freelance
+      rdescription: Solution architecture reporting into the deputy CTO, who engages the board directly.
+      cdescription: AXA is a global insurance and asset management group.
+      location: Brussels, Belgium
+
     - role: Solution Architect (Enterprise Level)
       technologies:
         - ' EA Sparx'
@@ -168,7 +180,7 @@ experiences:
         - ' / Design Thinking'
         - ' / IT Principles, Guidelines and Governance <br/><br/>'
       management: SCRUM and Waterfall
-      time: 2024.07 - Present
+      time: 2024.07 - 2026.07
       company: Elia
       logo: ELIA-logo.svg
       tag: via Yuma Group
@@ -182,14 +194,14 @@ experiences:
 
         **Initiative 1 - Enterprise IAM Architecture:**
 
-          Group-level security architecture study for 1000+ external market organizations interfacing with safety-critical energy systems across Belgium and Germany
+          Group-level security architecture study for 300+ external market organizations interfacing with safety-critical energy systems across Belgium and Germany
           - Identity & federation: Applied ATAM with organization-defined quality attributes to evaluate authentication architectures and B2B federation models (human and machine) - sensitivity-analyzed ADR-backed decision record                                                                                                                                                        
           - Authorization & compliance: Assessed authorization federation and consolidation models, entitlement lifecycle, and regulatory posture (NIS2/DORA/REMIT) - evaluated EU IAM vendors against CLOUD Act exposure, audit trail requirements, and blackout-resilient IAM
           - Integration & governance: Produced the B2B pattern catalog, API access framework with explicit revocation SLAs, EU hosting sovereignty recommendation, and program capability model
 
         **Initiative 2 - Market Party Integration Architecture:**
 
-        _Modernization of Elia's external connectivity layer for 1000+ regulated market organizations across Europe_
+        _Modernization of Elia's external connectivity layer for 300+ regulated market organizations across Europe_
           - Designed unified and consolidated access patterns for each use case - leading to SLA improvements and introduced governance across all external integrations
           - Defined authentication and authorization standards for all external access patterns, driving a wide security practice transition
           - Produced **ADR-backed** architecture building blocks and roadmap in accordance with the organization's identified quality attributes

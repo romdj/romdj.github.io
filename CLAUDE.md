@@ -42,5 +42,6 @@ Editing content means editing the relevant data file. Note that name, contact em
 - `_includes/` — one HTML partial per section
 - `assets/images/` — profile photo and tech/education logos
 - `tmp/` — gitignored. Holds private working material (reviewer output, target profile, recruiter leads) that must not ship publicly.
+- `tmp/context/` — gitignored. Working narrative: `decision-log.md` (why the site pivoted the way it did, not just what changed), `open-threads.md` (what's genuinely unresolved), `positioning-standards.md` (copy and claims discipline earned the hard way, e.g. no em-dashes, the 15-minute-grilling test for any claim). Read before making a positioning or copy change to this site; update after making one.
 
 **Visibility toggles**: Most contact/section items in `data.yml` have a `display: true/false` flag to show or hide them without deleting content.
